@@ -50,15 +50,6 @@ async function loadData() {
 
 function populateFocusOptions() {
   focusEl.innerHTML = "";
-  const anyOpt = document.createElement("option");
-  anyOpt.value = "__any__";
-  anyOpt.textContent = "Anyone has it";
-  focusEl.appendChild(anyOpt);
-
-  const allOpt = document.createElement("option");
-  allOpt.value = "__all__";
-  allOpt.textContent = "Everyone has it";
-  focusEl.appendChild(allOpt);
 
   for (const player of players) {
     const opt = document.createElement("option");
@@ -99,8 +90,6 @@ function championIconUrl(id) {
 }
 
 function isChampionDoneForFocus(champId, focus) {
-  if (focus === "__any__") return players.some((p) => p.championsById.get(champId));
-  if (focus === "__all__") return players.every((p) => p.championsById.get(champId));
   const player = players.find((p) => p.summoner === focus);
   return player ? !!player.championsById.get(champId) : false;
 }
