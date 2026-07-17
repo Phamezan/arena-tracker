@@ -147,6 +147,16 @@ main {
   gap: 12px;
 }
 
+.grid-section-heading {
+  margin: 24px 0 12px;
+  font-size: 1em;
+  color: var(--muted);
+}
+
+.grid-section-heading:first-child {
+  margin-top: 0;
+}
+
 .champ-card {
   position: relative;
   background: var(--panel);

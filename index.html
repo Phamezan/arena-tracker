@@ -22,13 +22,7 @@
     <div id="controls" class="hidden">
       <input id="search" type="search" placeholder="Search champion..." />
       <label>Greyed based on: <select id="focusPlayer"></select></label>
-      <label>Filter by wins:
-        <select id="winFilter">
-          <option value="all">All champions</option>
-          <option value="wins">Only wins</option>
-          <option value="missing">Only missing</option>
-        </select>
-      </label>
+      <label><input id="groupByWins" type="checkbox" /> Group by wins</label>
       <label><input id="hideDone" type="checkbox" /> Hide champions everyone has</label>
       <label><input id="onlyMissing" type="checkbox" /> Only show champions nobody has</label>
     </div>
@@ -36,7 +30,7 @@
     <div id="summary" class="hidden"></div>
 
     <div id="gridWrap" class="hidden">
-      <div id="grid" class="champ-grid"></div>
+      <div id="grid"></div>
     </div>
   </main>
 

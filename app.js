@@ -10,10 +10,10 @@ const searchEl = document.getElementById("search");
 const hideDoneEl = document.getElementById("hideDone");
 const onlyMissingEl = document.getElementById("onlyMissing");
 const focusEl = document.getElementById("focusPlayer");
-const winFilterEl = document.getElementById("winFilter");
+const groupByWinsEl = document.getElementById("groupByWins");
 
 const FOCUS_STORAGE_KEY = "arena-tracker-focus-player";
-const WIN_FILTER_STORAGE_KEY = "arena-tracker-win-filter";
+const GROUP_BY_WINS_STORAGE_KEY = "arena-tracker-group-by-wins";
 
 let players = []; // [{ summoner, championsById: Map<id, done> }]
 let champions = []; // [{ id, name }]
@@ -68,9 +68,9 @@ function populateFocusOptions() {
     focusEl.value = savedFocus;
   }
 
-  const savedWinFilter = localStorage.getItem(WIN_FILTER_STORAGE_KEY);
-  if (savedWinFilter) {
-    winFilterEl.value = savedWinFilter;
+  const savedGroupByWins = localStorage.getItem(GROUP_BY_WINS_STORAGE_KEY);
+  if (savedGroupByWins !== null) {
+    groupByWinsEl.checked = savedGroupByWins === "true";
   }
 }
 
@@ -132,6 +132,52 @@ function isChampionDoneForFocus(champId, focus) {
   return player ? !!player.championsById.get(champId) : false;
 }
 
+function buildChampCard(champ, done) {
+  const card = document.createElement("div");
+  card.className = "champ-card";
+
+  const img = document.createElement("img");
+  img.src = championIconUrl(champ.id);
+  img.alt = champ.name;
+  img.loading = "lazy";
+  if (!done) img.classList.add("greyed");
+  card.appendChild(img);
+
+  if (done) {
+    const check = document.createElement("div");
+    check.className = "check-mark";
+    check.textContent = "✓";
+    card.appendChild(check);
+  }
+
+  const name = document.createElement("div");
+  name.className = "champ-name";
+  name.textContent = champ.name;
+  card.appendChild(name);
+
+  const dots = document.createElement("div");
+  dots.className = "player-dots";
+  for (const player of players) {
+    const dot = document.createElement("span");
+    const has = !!player.championsById.get(champ.id);
+    dot.className = `dot ${has ? "dot-done" : "dot-missing"}`;
+    dot.title = `${player.summoner}: ${has ? "done" : "missing"}`;
+    dots.appendChild(dot);
+  }
+  card.appendChild(dots);
+
+  return card;
+}
+
+function buildGridSection(champsWithDone) {
+  const section = document.createElement("div");
+  section.className = "champ-grid";
+  for (const { champ, done } of champsWithDone) {
+    section.appendChild(buildChampCard(champ, done));
+  }
+  return section;
+}
+
 function renderGrid() {
   gridEl.innerHTML = "";
 
@@ -139,8 +185,9 @@ function renderGrid() {
   const hideDone = hideDoneEl.checked;
   const onlyMissing = onlyMissingEl.checked;
   const focus = focusEl.value;
-  const winFilter = winFilterEl.value;
+  const groupByWins = groupByWinsEl.checked;
 
+  const filtered = [];
   for (const champ of champions) {
     if (query && !champ.name.toLowerCase().includes(query)) continue;
 
@@ -150,46 +197,28 @@ function renderGrid() {
     if (hideDone && everyoneHas) continue;
     if (onlyMissing && !nobodyHas) continue;
 
-    const done = isChampionDoneForFocus(champ.id, focus);
-
-    if (winFilter === "wins" && !done) continue;
-    if (winFilter === "missing" && done) continue;
-
-    const card = document.createElement("div");
-    card.className = "champ-card";
-
-    const img = document.createElement("img");
-    img.src = championIconUrl(champ.id);
-    img.alt = champ.name;
-    img.loading = "lazy";
-    if (!done) img.classList.add("greyed");
-    card.appendChild(img);
-
-    if (done) {
-      const check = document.createElement("div");
-      check.className = "check-mark";
-      check.textContent = "✓";
-      card.appendChild(check);
-    }
-
-    const name = document.createElement("div");
-    name.className = "champ-name";
-    name.textContent = champ.name;
-    card.appendChild(name);
-
-    const dots = document.createElement("div");
-    dots.className = "player-dots";
-    for (const player of players) {
-      const dot = document.createElement("span");
-      const has = !!player.championsById.get(champ.id);
-      dot.className = `dot ${has ? "dot-done" : "dot-missing"}`;
-      dot.title = `${player.summoner}: ${has ? "done" : "missing"}`;
-      dots.appendChild(dot);
-    }
-    card.appendChild(dots);
-
-    gridEl.appendChild(card);
+    filtered.push({ champ, done: isChampionDoneForFocus(champ.id, focus) });
   }
+
+  if (!groupByWins) {
+    gridEl.appendChild(buildGridSection(filtered));
+    return;
+  }
+
+  const wins = filtered.filter((c) => c.done);
+  const missing = filtered.filter((c) => !c.done);
+
+  const winsHeading = document.createElement("h3");
+  winsHeading.className = "grid-section-heading";
+  winsHeading.textContent = `Wins (${wins.length})`;
+  gridEl.appendChild(winsHeading);
+  gridEl.appendChild(buildGridSection(wins));
+
+  const missingHeading = document.createElement("h3");
+  missingHeading.className = "grid-section-heading";
+  missingHeading.textContent = `Missing (${missing.length})`;
+  gridEl.appendChild(missingHeading);
+  gridEl.appendChild(buildGridSection(missing));
 }
 
 function renderAll() {
@@ -198,7 +227,7 @@ function renderAll() {
   renderGrid();
 }
 
-[searchEl, hideDoneEl, onlyMissingEl, focusEl, winFilterEl].forEach((el) =>
+[searchEl, hideDoneEl, onlyMissingEl, focusEl, groupByWinsEl].forEach((el) =>
   el.addEventListener("input", renderGrid)
 );
 
@@ -206,8 +235,8 @@ focusEl.addEventListener("input", () => {
   localStorage.setItem(FOCUS_STORAGE_KEY, focusEl.value);
 });
 
-winFilterEl.addEventListener("input", () => {
-  localStorage.setItem(WIN_FILTER_STORAGE_KEY, winFilterEl.value);
+groupByWinsEl.addEventListener("input", () => {
+  localStorage.setItem(GROUP_BY_WINS_STORAGE_KEY, String(groupByWinsEl.checked));
 });
 
 async function init() {
