@@ -1,0 +1,13 @@
+{
+  "summoner": "Smoke Test",
+  "updatedAt": "2026-07-17T00:00:00Z",
+  "completedCount": 1,
+  "totalChampions": 1,
+  "champions": [
+    {
+      "id": 1,
+      "name": "Annie",
+      "done": true
+    }
+  ]
+}
