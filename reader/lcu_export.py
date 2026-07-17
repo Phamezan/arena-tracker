@@ -28,12 +28,16 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 ARENA_GOD_CHALLENGE_ID = "602002"
 
-# Filled in by the repo owner before building the friend-facing .exe.
-# When set, the script POSTs progress to this Worker instead of writing
-# files locally + requiring git. Leave blank to keep the old local-file /
+# WEBHOOK_URL/SYNC_KEY come from reader/local_config.py (gitignored, not
+# committed) so real values never land in the public repo. Copy
+# local_config.example.py to local_config.py and fill it in before building
+# the friend-facing .exe. When unset, falls back to the old local-file /
 # git workflow (useful for the repo owner's own testing).
-WEBHOOK_URL = ""
-SYNC_KEY = ""
+try:
+    from local_config import SYNC_KEY, WEBHOOK_URL
+except ImportError:
+    WEBHOOK_URL = ""
+    SYNC_KEY = ""
 
 COMMON_LOCKFILE_PATHS = [
     r"C:\Riot Games\League of Legends\lockfile",

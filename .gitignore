@@ -7,3 +7,4 @@ worker/dist/
 reader/build/
 reader/dist/
 *.spec
+reader/local_config.py
