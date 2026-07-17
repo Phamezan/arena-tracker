@@ -1,7 +1,7 @@
 {
   "summoner": "Phamezan#DKK",
-  "updatedAt": "2026-07-17T17:54:14.102801+00:00",
-  "completedCount": 120,
+  "updatedAt": "2026-07-17T19:25:32.117Z",
+  "completedCount": 121,
   "totalChampions": 173,
   "champions": [
     {
@@ -112,7 +112,7 @@
     {
       "id": 164,
       "name": "Camille",
-      "done": false
+      "done": true
     },
     {
       "id": 69,
