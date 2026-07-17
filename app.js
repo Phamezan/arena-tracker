@@ -96,12 +96,17 @@ function renderLeaderboard() {
     }))
     .sort((a, b) => b.wins - a.wins);
 
-  for (const entry of ranked) {
+  const rankClasses = ["rank-gold", "rank-silver", "rank-bronze"];
+
+  ranked.forEach((entry, index) => {
     const item = document.createElement("div");
     item.className = "leaderboard-item";
-    item.innerHTML = `<span class="leaderboard-name">${entry.summoner}</span><span class="leaderboard-wins">${entry.wins}</span>`;
+    if (rankClasses[index]) item.classList.add(rankClasses[index]);
+
+    const crown = index === 0 ? `<span class="leaderboard-crown">👑</span>` : "";
+    item.innerHTML = `${crown}<span class="leaderboard-name">${entry.summoner}</span><span class="leaderboard-wins">${entry.wins}</span>`;
     leaderboardEl.appendChild(item);
-  }
+  });
 }
 
 function championIconUrl(id) {

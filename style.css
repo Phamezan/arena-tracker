@@ -87,8 +87,23 @@ main {
   padding: 10px 16px;
 }
 
-.leaderboard-item:first-child {
-  border-color: var(--accent);
+.leaderboard-item.rank-gold {
+  border-color: #d4af37;
+  background: linear-gradient(180deg, rgba(212, 175, 55, 0.15), var(--panel));
+}
+
+.leaderboard-item.rank-silver {
+  border-color: #b0b8c1;
+  background: linear-gradient(180deg, rgba(176, 184, 193, 0.15), var(--panel));
+}
+
+.leaderboard-item.rank-bronze {
+  border-color: #cd7f32;
+  background: linear-gradient(180deg, rgba(205, 127, 50, 0.15), var(--panel));
+}
+
+.leaderboard-crown {
+  font-size: 1em;
 }
 
 .leaderboard-name {
