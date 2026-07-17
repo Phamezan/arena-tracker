@@ -1,14 +1,18 @@
 """
-Reads your local League client's Arena God challenge progress (which champions
-you've won an Arena game with) via the LCU (League Client Update) local API,
-and writes it to a JSON file in ../data/ for the shared dashboard to pick up.
+One-time backfill tool. Reads your local League client's Arena God challenge
+progress (every champion you've ever won an Arena game with) via the LCU
+(League Client Update) local API and syncs it to the shared dashboard.
+
+Only needed once per player: it seeds full historical progress that the
+ArenaWatcher bot has no way to reconstruct (the public Riot API doesn't
+expose a per-champion "ever won with" aggregate, only recent match history).
+After this runs once, ArenaWatcher keeps the dashboard updated automatically
+as new Arena wins happen — no need to re-run this.
 
 Usage:
     python lcu_export.py [--league-path "C:\\Path\\To\\League of Legends"]
 
 Requires the League client to be running and logged in.
-After running, commit + push the generated file in ../data/ so the shared
-dashboard picks up your progress.
 """
 
 import argparse
