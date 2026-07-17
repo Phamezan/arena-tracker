@@ -174,13 +174,13 @@ main {
   filter: brightness(1.2);
 }
 
-.champ-card img {
+.champ-icon {
   width: 64px;
   height: 64px;
   border-radius: 6px;
 }
 
-.champ-card img.greyed {
+.champ-icon.greyed {
   filter: brightness(35%) saturate(0.4);
 }
 

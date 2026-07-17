@@ -137,6 +137,7 @@ function buildChampCard(champ, done) {
   card.className = "champ-card";
 
   const img = document.createElement("img");
+  img.className = "champ-icon";
   img.src = championIconUrl(champ.id);
   img.alt = champ.name;
   img.loading = "lazy";
