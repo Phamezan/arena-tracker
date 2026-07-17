@@ -233,10 +233,6 @@ main {
   background: #ffffff;
 }
 
-.orb-missing {
-  filter: brightness(35%) saturate(0.4);
-}
-
 #status {
   color: var(--muted);
   padding: 20px 0;

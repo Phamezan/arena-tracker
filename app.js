@@ -162,9 +162,9 @@ function buildChampCard(champ, done) {
     const has = !!player.championsById.get(champ.id);
     const title = `${player.summoner}: ${has ? "done" : "missing"}`;
 
-    if (player.avatar) {
+    if (player.avatar && has) {
       const orb = document.createElement("img");
-      orb.className = `orb ${has ? "orb-done" : "orb-missing"}`;
+      orb.className = "orb orb-done";
       orb.src = `assets/orbs/${player.avatar}`;
       orb.alt = player.summoner;
       orb.title = title;
