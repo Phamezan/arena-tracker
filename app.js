@@ -10,6 +10,10 @@ const searchEl = document.getElementById("search");
 const hideDoneEl = document.getElementById("hideDone");
 const onlyMissingEl = document.getElementById("onlyMissing");
 const focusEl = document.getElementById("focusPlayer");
+const winFilterEl = document.getElementById("winFilter");
+
+const FOCUS_STORAGE_KEY = "arena-tracker-focus-player";
+const WIN_FILTER_STORAGE_KEY = "arena-tracker-win-filter";
 
 let players = []; // [{ summoner, championsById: Map<id, done> }]
 let champions = []; // [{ id, name }]
@@ -57,6 +61,16 @@ function populateFocusOptions() {
     opt.value = player.summoner;
     opt.textContent = player.summoner;
     focusEl.appendChild(opt);
+  }
+
+  const savedFocus = localStorage.getItem(FOCUS_STORAGE_KEY);
+  if (savedFocus && players.some((p) => p.summoner === savedFocus)) {
+    focusEl.value = savedFocus;
+  }
+
+  const savedWinFilter = localStorage.getItem(WIN_FILTER_STORAGE_KEY);
+  if (savedWinFilter) {
+    winFilterEl.value = savedWinFilter;
   }
 }
 
@@ -125,6 +139,7 @@ function renderGrid() {
   const hideDone = hideDoneEl.checked;
   const onlyMissing = onlyMissingEl.checked;
   const focus = focusEl.value;
+  const winFilter = winFilterEl.value;
 
   for (const champ of champions) {
     if (query && !champ.name.toLowerCase().includes(query)) continue;
@@ -136,6 +151,9 @@ function renderGrid() {
     if (onlyMissing && !nobodyHas) continue;
 
     const done = isChampionDoneForFocus(champ.id, focus);
+
+    if (winFilter === "wins" && !done) continue;
+    if (winFilter === "missing" && done) continue;
 
     const card = document.createElement("div");
     card.className = "champ-card";
@@ -180,9 +198,17 @@ function renderAll() {
   renderGrid();
 }
 
-[searchEl, hideDoneEl, onlyMissingEl, focusEl].forEach((el) =>
+[searchEl, hideDoneEl, onlyMissingEl, focusEl, winFilterEl].forEach((el) =>
   el.addEventListener("input", renderGrid)
 );
+
+focusEl.addEventListener("input", () => {
+  localStorage.setItem(FOCUS_STORAGE_KEY, focusEl.value);
+});
+
+winFilterEl.addEventListener("input", () => {
+  localStorage.setItem(WIN_FILTER_STORAGE_KEY, winFilterEl.value);
+});
 
 async function init() {
   try {
