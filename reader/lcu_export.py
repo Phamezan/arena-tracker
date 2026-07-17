@@ -162,11 +162,7 @@ def main():
 
     creds = find_credentials(args.league_path)
     if not creds:
-        print(
-            "Could not find a running League client. Make sure the client is "
-            "open and logged in, then try again. If installed to a custom "
-            "location, pass --league-path."
-        )
+        print("League client not running. Open it dumbass.")
         pause_and_exit(1)
 
     port = creds["port"]
