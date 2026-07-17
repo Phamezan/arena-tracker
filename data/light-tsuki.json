@@ -1,7 +1,7 @@
 {
   "summoner": "Light#Tsuki",
-  "updatedAt": "2026-07-17T18:26:23.249201+00:00",
-  "completedCount": 8,
+  "updatedAt": "2026-07-17T19:25:33.151Z",
+  "completedCount": 9,
   "totalChampions": 173,
   "champions": [
     {
@@ -287,7 +287,7 @@
     {
       "id": 145,
       "name": "Kai'Sa",
-      "done": false
+      "done": true
     },
     {
       "id": 429,
