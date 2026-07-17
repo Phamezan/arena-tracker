@@ -1,0 +1,179 @@
+:root {
+  color-scheme: dark;
+  --bg: #0b0e14;
+  --panel: #161b26;
+  --border: #2a2f3a;
+  --text: #e6e6e6;
+  --muted: #8b93a3;
+  --accent: #0ac8b9;
+  --miss: #c9506a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  padding: 24px 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+header h1 {
+  margin: 0 0 4px 0;
+  font-size: 1.6em;
+}
+
+#subtitle {
+  margin: 0;
+  color: var(--muted);
+}
+
+main {
+  padding: 24px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hidden { display: none; }
+
+#controls {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+#controls input[type="search"],
+#controls select {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+#controls input[type="search"] {
+  min-width: 220px;
+}
+
+#controls label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.9em;
+}
+
+#summary {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 16px;
+  min-width: 140px;
+}
+
+.summary-card .value {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.summary-card .label {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.champ-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 12px;
+}
+
+.champ-card {
+  position: relative;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: filter 0.15s ease;
+}
+
+.champ-card:hover {
+  filter: brightness(1.2);
+}
+
+.champ-card img {
+  width: 64px;
+  height: 64px;
+  border-radius: 6px;
+}
+
+.champ-card img.greyed {
+  filter: brightness(35%) saturate(0.4);
+}
+
+.champ-name {
+  margin-top: 6px;
+  font-size: 0.78em;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+.check-mark {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: var(--accent);
+  color: #0b0e14;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.player-dots {
+  display: flex;
+  gap: 4px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-done { background: var(--accent); }
+.dot-missing { background: var(--border); }
+
+#status {
+  color: var(--muted);
+  padding: 20px 0;
+}
+
+#status.error {
+  color: var(--miss);
+}
