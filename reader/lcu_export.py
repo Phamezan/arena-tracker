@@ -143,6 +143,14 @@ def update_manifest(data_dir: Path, filename: str) -> None:
     )
 
 
+def pause_and_exit(code: int) -> None:
+    """Double-clicking the built exe spawns a console window that closes the
+    instant the process exits — without this, success/error output flashes
+    and vanishes before anyone can read it."""
+    input("\nPress Enter to close this window...")
+    sys.exit(code)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -159,7 +167,7 @@ def main():
             "open and logged in, then try again. If installed to a custom "
             "location, pass --league-path."
         )
-        sys.exit(1)
+        pause_and_exit(1)
 
     port = creds["port"]
     session = make_session(creds["password"])
@@ -184,7 +192,7 @@ def main():
             f"Challenge {ARENA_GOD_CHALLENGE_ID} (Arena God) was not returned by "
             "the client. It may have been renumbered by Riot in a later patch."
         )
-        sys.exit(1)
+        pause_and_exit(1)
 
     completed_ids = {str(cid) for cid in arena_challenge.get("completedIds", [])}
 
@@ -218,7 +226,7 @@ def main():
             print("Synced. The shared dashboard will update in a few seconds.")
         else:
             print(f"Sync failed ({resp.status_code}): {resp.text}")
-            sys.exit(1)
+            pause_and_exit(1)
     else:
         data_dir = Path(__file__).resolve().parent.parent / "data"
         data_dir.mkdir(exist_ok=True)
@@ -231,6 +239,9 @@ def main():
             "\nNext: commit + push this file (git add, commit, push) so the shared "
             "dashboard picks up your progress."
         )
+
+    print("\nhehe im in")
+    pause_and_exit(0)
 
 
 if __name__ == "__main__":
