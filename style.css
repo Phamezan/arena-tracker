@@ -226,8 +226,8 @@ main {
 .dot-missing { background: var(--border); }
 
 .orb {
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   object-fit: cover;
 }
