@@ -45,7 +45,7 @@ async function loadData() {
         championMap.set(champ.id, champ.name);
       }
     }
-    return { summoner: doc.summoner, updatedAt: doc.updatedAt, championsById };
+    return { summoner: doc.summoner, updatedAt: doc.updatedAt, avatar: doc.avatar || null, championsById };
   });
 
   champions = [...championMap.entries()]
@@ -158,11 +158,23 @@ function buildChampCard(champ, done) {
   const dots = document.createElement("div");
   dots.className = "player-dots";
   for (const player of players) {
-    const dot = document.createElement("span");
     const has = !!player.championsById.get(champ.id);
-    dot.className = `dot ${has ? "dot-done" : "dot-missing"}`;
-    dot.title = `${player.summoner}: ${has ? "done" : "missing"}`;
-    dots.appendChild(dot);
+    const title = `${player.summoner}: ${has ? "done" : "missing"}`;
+
+    if (player.avatar) {
+      const orb = document.createElement("img");
+      orb.className = `orb ${has ? "orb-done" : "orb-missing"}`;
+      orb.src = `assets/orbs/${player.avatar}`;
+      orb.alt = player.summoner;
+      orb.title = title;
+      orb.loading = "lazy";
+      dots.appendChild(orb);
+    } else {
+      const dot = document.createElement("span");
+      dot.className = `dot ${has ? "dot-done" : "dot-missing"}`;
+      dot.title = title;
+      dots.appendChild(dot);
+    }
   }
   card.appendChild(dots);
 

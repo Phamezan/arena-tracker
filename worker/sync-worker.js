@@ -140,11 +140,17 @@ async function handleSnapshot(body, env) {
   const dataPath = `data/${filename}`;
 
   const existingFile = await getFile(env, dataPath, branch);
+  const existingDoc = existingFile ? JSON.parse(base64ToUtf8(existingFile.content)) : null;
+
+  // Manually-set fields (e.g. avatar) aren't sent by the reader script — carry
+  // them over instead of letting a re-sync silently wipe them.
+  const doc = existingDoc?.avatar && !body.avatar ? { ...body, avatar: existingDoc.avatar } : body;
+
   await putFile(
     env,
     dataPath,
     branch,
-    JSON.stringify(body, null, 2),
+    JSON.stringify(doc, null, 2),
     existingFile?.sha,
     `sync: update ${filename} via reader (full snapshot)`
   );
