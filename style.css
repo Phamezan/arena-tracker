@@ -230,6 +230,7 @@ main {
   height: 24px;
   border-radius: 50%;
   object-fit: cover;
+  background: #ffffff;
 }
 
 .orb-missing {
