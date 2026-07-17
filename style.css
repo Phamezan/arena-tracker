@@ -70,6 +70,37 @@ main {
   font-size: 0.9em;
 }
 
+#leaderboard {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+
+.leaderboard-item:first-child {
+  border-color: var(--accent);
+}
+
+.leaderboard-name {
+  font-weight: 600;
+}
+
+.leaderboard-wins {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
 #summary {
   display: flex;
   gap: 16px;

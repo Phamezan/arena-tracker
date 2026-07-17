@@ -1,6 +1,7 @@
 const DATA_DIR = "data";
 
 const statusEl = document.getElementById("status");
+const leaderboardEl = document.getElementById("leaderboard");
 const controlsEl = document.getElementById("controls");
 const summaryEl = document.getElementById("summary");
 const gridWrapEl = document.getElementById("gridWrap");
@@ -85,6 +86,24 @@ function renderSummary() {
   }
 }
 
+function renderLeaderboard() {
+  leaderboardEl.innerHTML = "";
+
+  const ranked = players
+    .map((p) => ({
+      summoner: p.summoner,
+      wins: [...p.championsById.values()].filter(Boolean).length,
+    }))
+    .sort((a, b) => b.wins - a.wins);
+
+  for (const entry of ranked) {
+    const item = document.createElement("div");
+    item.className = "leaderboard-item";
+    item.innerHTML = `<span class="leaderboard-name">${entry.summoner}</span><span class="leaderboard-wins">${entry.wins}</span>`;
+    leaderboardEl.appendChild(item);
+  }
+}
+
 function championIconUrl(id) {
   return `https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/${id}.png`;
 }
@@ -151,6 +170,7 @@ function renderGrid() {
 }
 
 function renderAll() {
+  renderLeaderboard();
   renderSummary();
   renderGrid();
 }
@@ -163,6 +183,7 @@ async function init() {
   try {
     await loadData();
     statusEl.classList.add("hidden");
+    leaderboardEl.classList.remove("hidden");
     controlsEl.classList.remove("hidden");
     summaryEl.classList.remove("hidden");
     gridWrapEl.classList.remove("hidden");
