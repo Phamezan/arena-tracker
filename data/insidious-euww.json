@@ -1,7 +1,7 @@
 {
   "summoner": "Insidious#EUWW",
   "avatar": "oli.png",
-  "completedCount": 1,
+  "completedCount": 2,
   "totalChampions": 173,
   "champions": [
     {
@@ -302,7 +302,7 @@
     {
       "id": 30,
       "name": "Karthus",
-      "done": false
+      "done": true
     },
     {
       "id": 38,
@@ -870,5 +870,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-18T00:48:36.190Z"
+  "updatedAt": "2026-07-18T16:03:35.086Z"
 }
