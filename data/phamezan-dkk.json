@@ -1,8 +1,8 @@
 {
   "summoner": "Phamezan#DKK",
   "avatar": "michael.png",
-  "updatedAt": "2026-07-17T19:25:32.117Z",
-  "completedCount": 121,
+  "updatedAt": "2026-07-18T00:48:35.187Z",
+  "completedCount": 122,
   "totalChampions": 173,
   "champions": [
     {
@@ -338,7 +338,7 @@
     {
       "id": 203,
       "name": "Kindred",
-      "done": false
+      "done": true
     },
     {
       "id": 240,
