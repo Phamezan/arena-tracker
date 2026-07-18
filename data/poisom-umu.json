@@ -1,12 +1,13 @@
 {
   "summoner": "Poisom#UmU",
-  "completedCount": 1,
+  "updatedAt": "2026-07-18T15:06:42.223101+00:00",
+  "completedCount": 45,
   "totalChampions": 173,
   "champions": [
     {
       "id": 266,
       "name": "Aatrox",
-      "done": false
+      "done": true
     },
     {
       "id": 103,
@@ -46,7 +47,7 @@
     {
       "id": 1,
       "name": "Annie",
-      "done": false
+      "done": true
     },
     {
       "id": 523,
@@ -131,7 +132,7 @@
     {
       "id": 122,
       "name": "Darius",
-      "done": false
+      "done": true
     },
     {
       "id": 131,
@@ -171,7 +172,7 @@
     {
       "id": 9,
       "name": "Fiddlesticks",
-      "done": false
+      "done": true
     },
     {
       "id": 114,
@@ -181,7 +182,7 @@
     {
       "id": 105,
       "name": "Fizz",
-      "done": false
+      "done": true
     },
     {
       "id": 3,
@@ -196,7 +197,7 @@
     {
       "id": 86,
       "name": "Garen",
-      "done": false
+      "done": true
     },
     {
       "id": 150,
@@ -206,7 +207,7 @@
     {
       "id": 79,
       "name": "Gragas",
-      "done": false
+      "done": true
     },
     {
       "id": 104,
@@ -261,7 +262,7 @@
     {
       "id": 24,
       "name": "Jax",
-      "done": false
+      "done": true
     },
     {
       "id": 126,
@@ -286,7 +287,7 @@
     {
       "id": 145,
       "name": "Kai'Sa",
-      "done": false
+      "done": true
     },
     {
       "id": 429,
@@ -296,7 +297,7 @@
     {
       "id": 43,
       "name": "Karma",
-      "done": false
+      "done": true
     },
     {
       "id": 30,
@@ -321,17 +322,17 @@
     {
       "id": 141,
       "name": "Kayn",
-      "done": false
+      "done": true
     },
     {
       "id": 85,
       "name": "Kennen",
-      "done": false
+      "done": true
     },
     {
       "id": 121,
       "name": "Kha'Zix",
-      "done": false
+      "done": true
     },
     {
       "id": 203,
@@ -346,7 +347,7 @@
     {
       "id": 96,
       "name": "Kog'Maw",
-      "done": false
+      "done": true
     },
     {
       "id": 7,
@@ -356,7 +357,7 @@
     {
       "id": 64,
       "name": "Lee Sin",
-      "done": false
+      "done": true
     },
     {
       "id": 89,
@@ -396,7 +397,7 @@
     {
       "id": 54,
       "name": "Malphite",
-      "done": false
+      "done": true
     },
     {
       "id": 90,
@@ -411,7 +412,7 @@
     {
       "id": 11,
       "name": "Master Yi",
-      "done": false
+      "done": true
     },
     {
       "id": 800,
@@ -421,7 +422,7 @@
     {
       "id": 902,
       "name": "Milio",
-      "done": false
+      "done": true
     },
     {
       "id": 21,
@@ -431,7 +432,7 @@
     {
       "id": 82,
       "name": "Mordekaiser",
-      "done": false
+      "done": true
     },
     {
       "id": 25,
@@ -446,12 +447,12 @@
     {
       "id": 267,
       "name": "Nami",
-      "done": false
+      "done": true
     },
     {
       "id": 75,
       "name": "Nasus",
-      "done": false
+      "done": true
     },
     {
       "id": 111,
@@ -481,7 +482,7 @@
     {
       "id": 20,
       "name": "Nunu & Willump",
-      "done": false
+      "done": true
     },
     {
       "id": 2,
@@ -496,12 +497,12 @@
     {
       "id": 516,
       "name": "Ornn",
-      "done": false
+      "done": true
     },
     {
       "id": 80,
       "name": "Pantheon",
-      "done": false
+      "done": true
     },
     {
       "id": 78,
@@ -511,7 +512,7 @@
     {
       "id": 555,
       "name": "Pyke",
-      "done": false
+      "done": true
     },
     {
       "id": 246,
@@ -526,7 +527,7 @@
     {
       "id": 497,
       "name": "Rakan",
-      "done": false
+      "done": true
     },
     {
       "id": 33,
@@ -551,7 +552,7 @@
     {
       "id": 58,
       "name": "Renekton",
-      "done": false
+      "done": true
     },
     {
       "id": 107,
@@ -596,7 +597,7 @@
     {
       "id": 875,
       "name": "Sett",
-      "done": false
+      "done": true
     },
     {
       "id": 35,
@@ -616,12 +617,12 @@
     {
       "id": 27,
       "name": "Singed",
-      "done": false
+      "done": true
     },
     {
       "id": 14,
       "name": "Sion",
-      "done": false
+      "done": true
     },
     {
       "id": 15,
@@ -631,17 +632,17 @@
     {
       "id": 72,
       "name": "Skarner",
-      "done": false
+      "done": true
     },
     {
       "id": 901,
       "name": "Smolder",
-      "done": false
+      "done": true
     },
     {
       "id": 37,
       "name": "Sona",
-      "done": false
+      "done": true
     },
     {
       "id": 16,
@@ -701,12 +702,12 @@
     {
       "id": 48,
       "name": "Trundle",
-      "done": false
+      "done": true
     },
     {
       "id": 23,
       "name": "Tryndamere",
-      "done": false
+      "done": true
     },
     {
       "id": 4,
@@ -721,12 +722,12 @@
     {
       "id": 77,
       "name": "Udyr",
-      "done": false
+      "done": true
     },
     {
       "id": 6,
       "name": "Urgot",
-      "done": false
+      "done": true
     },
     {
       "id": 110,
@@ -771,17 +772,17 @@
     {
       "id": 8,
       "name": "Vladimir",
-      "done": false
+      "done": true
     },
     {
       "id": 106,
       "name": "Volibear",
-      "done": false
+      "done": true
     },
     {
       "id": 19,
       "name": "Warwick",
-      "done": false
+      "done": true
     },
     {
       "id": 62,
@@ -821,17 +822,17 @@
     {
       "id": 804,
       "name": "Yunara",
-      "done": false
+      "done": true
     },
     {
       "id": 350,
       "name": "Yuumi",
-      "done": false
+      "done": true
     },
     {
       "id": 904,
       "name": "Zaahen",
-      "done": false
+      "done": true
     },
     {
       "id": 154,
@@ -866,8 +867,7 @@
     {
       "id": 143,
       "name": "Zyra",
-      "done": false
+      "done": true
     }
-  ],
-  "updatedAt": "2026-07-18T00:48:37.911Z"
+  ]
 }
