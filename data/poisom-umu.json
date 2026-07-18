@@ -1,8 +1,8 @@
 {
   "summoner": "Poisom#UmU",
   "avatar": "umu.png",
-  "updatedAt": "2026-07-18T16:03:35.979Z",
-  "completedCount": 45,
+  "updatedAt": "2026-07-18T16:31:30.102Z",
+  "completedCount": 46,
   "totalChampions": 173,
   "champions": [
     {
@@ -718,7 +718,7 @@
     {
       "id": 29,
       "name": "Twitch",
-      "done": false
+      "done": true
     },
     {
       "id": 77,
