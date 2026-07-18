@@ -1,8 +1,8 @@
 {
   "summoner": "Phamezan#DKK",
   "avatar": "michael.png",
-  "updatedAt": "2026-07-18T16:03:33.878Z",
-  "completedCount": 123,
+  "updatedAt": "2026-07-18T16:31:28.187Z",
+  "completedCount": 124,
   "totalChampions": 173,
   "champions": [
     {
@@ -573,7 +573,7 @@
     {
       "id": 13,
       "name": "Ryze",
-      "done": false
+      "done": true
     },
     {
       "id": 360,
