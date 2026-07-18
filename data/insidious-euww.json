@@ -1,7 +1,7 @@
 {
   "summoner": "Insidious#EUWW",
   "avatar": "oli.png",
-  "completedCount": 3,
+  "completedCount": 4,
   "totalChampions": 173,
   "champions": [
     {
@@ -317,7 +317,7 @@
     {
       "id": 10,
       "name": "Kayle",
-      "done": false
+      "done": true
     },
     {
       "id": 141,
@@ -870,5 +870,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-18T16:31:29.190Z"
+  "updatedAt": "2026-07-18T16:57:18.326Z"
 }
