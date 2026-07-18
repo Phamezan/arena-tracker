@@ -1,7 +1,7 @@
 {
   "summoner": "Insidious#EUWW",
   "avatar": "oli.png",
-  "completedCount": 4,
+  "completedCount": 5,
   "totalChampions": 173,
   "champions": [
     {
@@ -837,7 +837,7 @@
     {
       "id": 154,
       "name": "Zac",
-      "done": false
+      "done": true
     },
     {
       "id": 238,
@@ -870,5 +870,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-18T16:57:18.326Z"
+  "updatedAt": "2026-07-18T21:49:39.655Z"
 }
