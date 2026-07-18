@@ -1,7 +1,7 @@
 {
   "summoner": "Insidious#EUWW",
   "avatar": "oli.png",
-  "completedCount": 2,
+  "completedCount": 3,
   "totalChampions": 173,
   "champions": [
     {
@@ -117,7 +117,7 @@
     {
       "id": 69,
       "name": "Cassiopeia",
-      "done": false
+      "done": true
     },
     {
       "id": 31,
@@ -870,5 +870,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-18T16:03:35.086Z"
+  "updatedAt": "2026-07-18T16:31:29.190Z"
 }
