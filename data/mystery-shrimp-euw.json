@@ -1,7 +1,7 @@
 {
   "summoner": "Mystery Shrimp#EUW",
   "avatar": "jacob.png",
-  "completedCount": 1,
+  "completedCount": 2,
   "totalChampions": 173,
   "champions": [
     {
@@ -102,7 +102,7 @@
     {
       "id": 233,
       "name": "Briar",
-      "done": false
+      "done": true
     },
     {
       "id": 51,
@@ -870,5 +870,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-18T12:07:25.583Z"
+  "updatedAt": "2026-07-18T22:27:45.675Z"
 }
