@@ -1,6 +1,6 @@
 {
   "summoner": "Cifera#Swift",
-  "completedCount": 1,
+  "completedCount": 2,
   "totalChampions": 173,
   "champions": [
     {
@@ -556,7 +556,7 @@
     {
       "id": 107,
       "name": "Rengar",
-      "done": false
+      "done": true
     },
     {
       "id": 92,
@@ -869,5 +869,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-19T22:11:47.977Z"
+  "updatedAt": "2026-07-19T22:38:36.423Z"
 }
