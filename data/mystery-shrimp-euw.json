@@ -1,7 +1,7 @@
 {
   "summoner": "Mystery Shrimp#EUW",
   "avatar": "jacob.png",
-  "completedCount": 2,
+  "completedCount": 3,
   "totalChampions": 173,
   "champions": [
     {
@@ -572,7 +572,7 @@
     {
       "id": 13,
       "name": "Ryze",
-      "done": false
+      "done": true
     },
     {
       "id": 360,
@@ -870,5 +870,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-18T22:27:45.675Z"
+  "updatedAt": "2026-07-19T22:11:46.619Z"
 }
