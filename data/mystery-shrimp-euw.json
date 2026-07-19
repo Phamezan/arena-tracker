@@ -1,7 +1,7 @@
 {
   "summoner": "Mystery Shrimp#EUW",
   "avatar": "jacob.png",
-  "completedCount": 3,
+  "completedCount": 4,
   "totalChampions": 173,
   "champions": [
     {
@@ -497,7 +497,7 @@
     {
       "id": 516,
       "name": "Ornn",
-      "done": false
+      "done": true
     },
     {
       "id": 80,
@@ -870,5 +870,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-19T22:11:46.619Z"
+  "updatedAt": "2026-07-19T22:38:35.565Z"
 }
