@@ -1,6 +1,6 @@
 {
   "summoner": "Nevermore#YBHG",
-  "completedCount": 1,
+  "completedCount": 2,
   "totalChampions": 173,
   "champions": [
     {
@@ -721,7 +721,7 @@
     {
       "id": 77,
       "name": "Udyr",
-      "done": false
+      "done": true
     },
     {
       "id": 6,
@@ -869,5 +869,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-18T21:49:38.078Z"
+  "updatedAt": "2026-07-19T22:38:34.578Z"
 }
