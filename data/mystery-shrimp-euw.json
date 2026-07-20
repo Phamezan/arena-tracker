@@ -1,7 +1,7 @@
 {
   "summoner": "Mystery Shrimp#EUW",
   "avatar": "jacob.png",
-  "completedCount": 4,
+  "completedCount": 5,
   "totalChampions": 173,
   "champions": [
     {
@@ -577,7 +577,7 @@
     {
       "id": 360,
       "name": "Samira",
-      "done": false
+      "done": true
     },
     {
       "id": 113,
@@ -870,5 +870,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-19T22:38:35.565Z"
+  "updatedAt": "2026-07-20T15:57:41.956Z"
 }
