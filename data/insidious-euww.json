@@ -1,7 +1,7 @@
 {
   "summoner": "Insidious#EUWW",
   "avatar": "oli.png",
-  "completedCount": 5,
+  "completedCount": 6,
   "totalChampions": 173,
   "champions": [
     {
@@ -832,7 +832,7 @@
     {
       "id": 904,
       "name": "Zaahen",
-      "done": false
+      "done": true
     },
     {
       "id": 154,
@@ -870,5 +870,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-18T21:49:39.655Z"
+  "updatedAt": "2026-07-20T15:57:40.760Z"
 }
