@@ -1,4 +1,4 @@
-ArenaSync 1.0.0
+ArenaSync 1.0.1
 ===============
 
 What this is
@@ -60,4 +60,4 @@ Checksum
 The SHA256 of the installer .exe is published alongside the download on the
 GitHub release page. Verify with PowerShell:
 
-    Get-FileHash .\ArenaSyncSetup-1.0.0.exe -Algorithm SHA256
+    Get-FileHash .\ArenaSyncSetup-1.0.1.exe -Algorithm SHA256

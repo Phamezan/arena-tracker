@@ -3,16 +3,16 @@
 ; Build with Inno Setup 6:  https://jrsoftware.org/isdl.php
 ;   iscc reader\installer\ArenaSync.iss
 ;
-; Produces:  reader\installer\Output\ArenaSyncSetup-1.0.0.exe
+; Produces:  reader\installer\Output\ArenaSyncSetup-1.0.1.exe
 ;
 ; Expects dist\ArenaSync.exe to already be built (see SETUP.md step 3a).
 ;
 ; The installer .exe inherits the version metadata below, so even before
-; code signing Windows properties show "ArenaSync 1.0.0.0 / Phamezan"
+; code signing Windows properties show "ArenaSync 1.0.1.0 / Phamezan"
 ; instead of "Unknown" - one of the cheapest SmartScreen / Chrome trust
 ; signals available for unsigned freeware.
 
-#define ArenaSyncVersion "1.0.0"
+#define ArenaSyncVersion "1.0.1"
 #define ArenaSyncPublisher "Phamezan"
 #define ArenaSyncURL "https://github.com/Phamezan/arena-tracker"
 
