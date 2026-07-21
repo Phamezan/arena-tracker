@@ -2,7 +2,7 @@
   "summoner": "Nevermore#YBHG",
   "avatar": "linus.png",
   "tag": "LINUS",
-  "completedCount": 2,
+  "completedCount": 3,
   "totalChampions": 173,
   "champions": [
     {
@@ -563,7 +563,7 @@
     {
       "id": 92,
       "name": "Riven",
-      "done": false
+      "done": true
     },
     {
       "id": 68,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-19T22:38:34.578Z"
+  "updatedAt": "2026-07-21T23:43:52.831Z"
 }
