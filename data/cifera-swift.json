@@ -1,7 +1,6 @@
 {
-  "summoner": "Insidious#EUWW",
-  "avatar": "oli.png",
-  "completedCount": 6,
+  "summoner": "Cifera#Swift",
+  "completedCount": 2,
   "totalChampions": 173,
   "champions": [
     {
@@ -72,7 +71,7 @@
     {
       "id": 268,
       "name": "Azir",
-      "done": false
+      "done": true
     },
     {
       "id": 432,
@@ -117,7 +116,7 @@
     {
       "id": 69,
       "name": "Cassiopeia",
-      "done": true
+      "done": false
     },
     {
       "id": 31,
@@ -302,7 +301,7 @@
     {
       "id": 30,
       "name": "Karthus",
-      "done": true
+      "done": false
     },
     {
       "id": 38,
@@ -317,7 +316,7 @@
     {
       "id": 10,
       "name": "Kayle",
-      "done": true
+      "done": false
     },
     {
       "id": 141,
@@ -557,7 +556,7 @@
     {
       "id": 107,
       "name": "Rengar",
-      "done": false
+      "done": true
     },
     {
       "id": 92,
@@ -787,7 +786,7 @@
     {
       "id": 62,
       "name": "Wukong",
-      "done": true
+      "done": false
     },
     {
       "id": 498,
@@ -832,12 +831,12 @@
     {
       "id": 904,
       "name": "Zaahen",
-      "done": true
+      "done": false
     },
     {
       "id": 154,
       "name": "Zac",
-      "done": true
+      "done": false
     },
     {
       "id": 238,
@@ -870,5 +869,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-20T15:57:40.760Z"
+  "updatedAt": "2026-07-19T22:38:36.423Z"
 }

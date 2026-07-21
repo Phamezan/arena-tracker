@@ -1,8 +1,8 @@
 {
   "summoner": "Phamezan#DKK",
   "avatar": "michael.png",
-  "updatedAt": "2026-07-18T00:48:35.187Z",
-  "completedCount": 122,
+  "updatedAt": "2026-07-20T15:57:38.763Z",
+  "completedCount": 126,
   "totalChampions": 173,
   "champions": [
     {
@@ -193,7 +193,7 @@
     {
       "id": 41,
       "name": "Gangplank",
-      "done": false
+      "done": true
     },
     {
       "id": 86,
@@ -573,7 +573,7 @@
     {
       "id": 13,
       "name": "Ryze",
-      "done": false
+      "done": true
     },
     {
       "id": 360,
@@ -723,7 +723,7 @@
     {
       "id": 77,
       "name": "Udyr",
-      "done": false
+      "done": true
     },
     {
       "id": 6,
@@ -848,7 +848,7 @@
     {
       "id": 221,
       "name": "Zeri",
-      "done": false
+      "done": true
     },
     {
       "id": 115,

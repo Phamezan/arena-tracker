@@ -1,8 +1,8 @@
 {
   "summoner": "Poisom#UmU",
   "avatar": "umu.png",
-  "updatedAt": "2026-07-18T15:06:42.223101+00:00",
-  "completedCount": 45,
+  "updatedAt": "2026-07-18T21:49:40.556Z",
+  "completedCount": 48,
   "totalChampions": 173,
   "champions": [
     {
@@ -148,7 +148,7 @@
     {
       "id": 119,
       "name": "Draven",
-      "done": false
+      "done": true
     },
     {
       "id": 245,
@@ -378,7 +378,7 @@
     {
       "id": 805,
       "name": "Locke",
-      "done": false
+      "done": true
     },
     {
       "id": 236,
@@ -718,7 +718,7 @@
     {
       "id": 29,
       "name": "Twitch",
-      "done": false
+      "done": true
     },
     {
       "id": 77,

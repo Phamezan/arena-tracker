@@ -1,7 +1,6 @@
 {
-  "summoner": "Insidious#EUWW",
-  "avatar": "oli.png",
-  "completedCount": 6,
+  "summoner": "Nevermore#YBHG",
+  "completedCount": 2,
   "totalChampions": 173,
   "champions": [
     {
@@ -117,7 +116,7 @@
     {
       "id": 69,
       "name": "Cassiopeia",
-      "done": true
+      "done": false
     },
     {
       "id": 31,
@@ -302,7 +301,7 @@
     {
       "id": 30,
       "name": "Karthus",
-      "done": true
+      "done": false
     },
     {
       "id": 38,
@@ -317,7 +316,7 @@
     {
       "id": 10,
       "name": "Kayle",
-      "done": true
+      "done": false
     },
     {
       "id": 141,
@@ -597,7 +596,7 @@
     {
       "id": 875,
       "name": "Sett",
-      "done": false
+      "done": true
     },
     {
       "id": 35,
@@ -722,7 +721,7 @@
     {
       "id": 77,
       "name": "Udyr",
-      "done": false
+      "done": true
     },
     {
       "id": 6,
@@ -787,7 +786,7 @@
     {
       "id": 62,
       "name": "Wukong",
-      "done": true
+      "done": false
     },
     {
       "id": 498,
@@ -832,12 +831,12 @@
     {
       "id": 904,
       "name": "Zaahen",
-      "done": true
+      "done": false
     },
     {
       "id": 154,
       "name": "Zac",
-      "done": true
+      "done": false
     },
     {
       "id": 238,
@@ -870,5 +869,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-20T15:57:40.760Z"
+  "updatedAt": "2026-07-19T22:38:34.578Z"
 }
