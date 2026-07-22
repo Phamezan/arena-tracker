@@ -2,7 +2,7 @@
   "summoner": "Insidious#EUWW",
   "avatar": "oli.png",
   "tag": "OLI",
-  "completedCount": 6,
+  "completedCount": 7,
   "totalChampions": 173,
   "champions": [
     {
@@ -48,7 +48,7 @@
     {
       "id": 1,
       "name": "Annie",
-      "done": false
+      "done": true
     },
     {
       "id": 523,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-20T15:57:40.760Z"
+  "updatedAt": "2026-07-22T20:53:10.087Z"
 }
