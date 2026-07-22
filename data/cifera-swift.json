@@ -2,7 +2,7 @@
   "summoner": "Cifera#Swift",
   "avatar": "jeso.png",
   "tag": "JESO",
-  "completedCount": 2,
+  "completedCount": 3,
   "totalChampions": 173,
   "champions": [
     {
@@ -503,7 +503,7 @@
     {
       "id": 80,
       "name": "Pantheon",
-      "done": false
+      "done": true
     },
     {
       "id": 78,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-19T22:38:36.423Z"
+  "updatedAt": "2026-07-22T20:53:11.207Z"
 }
