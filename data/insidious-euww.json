@@ -2,7 +2,7 @@
   "summoner": "Insidious#EUWW",
   "avatar": "oli.png",
   "tag": "OLI",
-  "completedCount": 8,
+  "completedCount": 9,
   "totalChampions": 173,
   "champions": [
     {
@@ -538,7 +538,7 @@
     {
       "id": 421,
       "name": "Rek'Sai",
-      "done": false
+      "done": true
     },
     {
       "id": 526,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-22T21:25:14.335Z"
+  "updatedAt": "2026-07-22T21:55:09.534Z"
 }
