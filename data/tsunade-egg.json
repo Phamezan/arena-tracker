@@ -1,6 +1,6 @@
 {
   "summoner": "Tsunade#egg",
-  "completedCount": 1,
+  "completedCount": 2,
   "totalChampions": 173,
   "champions": [
     {
@@ -11,7 +11,7 @@
     {
       "id": 103,
       "name": "Ahri",
-      "done": false
+      "done": true
     },
     {
       "id": 84,
@@ -869,5 +869,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-22T21:25:12.552Z"
+  "updatedAt": "2026-07-22T21:55:08.434Z"
 }
