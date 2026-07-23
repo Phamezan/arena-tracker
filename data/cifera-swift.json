@@ -2,7 +2,7 @@
   "summoner": "Cifera#Swift",
   "avatar": "jeso.png",
   "tag": "JESO",
-  "completedCount": 4,
+  "completedCount": 5,
   "totalChampions": 173,
   "champions": [
     {
@@ -193,7 +193,7 @@
     {
       "id": 41,
       "name": "Gangplank",
-      "done": false
+      "done": true
     },
     {
       "id": 86,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-23T22:12:28.996Z"
+  "updatedAt": "2026-07-23T23:40:46.330Z"
 }
