@@ -2,7 +2,7 @@
   "summoner": "Cifera#Swift",
   "avatar": "jeso.png",
   "tag": "JESO",
-  "completedCount": 3,
+  "completedCount": 4,
   "totalChampions": 173,
   "champions": [
     {
@@ -478,7 +478,7 @@
     {
       "id": 56,
       "name": "Nocturne",
-      "done": false
+      "done": true
     },
     {
       "id": 20,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-22T20:53:11.207Z"
+  "updatedAt": "2026-07-23T22:12:28.996Z"
 }
