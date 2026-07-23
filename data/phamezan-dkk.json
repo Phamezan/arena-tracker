@@ -2,8 +2,8 @@
   "summoner": "Phamezan#DKK",
   "avatar": "michael.png",
   "tag": "PHAM",
-  "updatedAt": "2026-07-22T21:55:07.199Z",
-  "completedCount": 127,
+  "updatedAt": "2026-07-23T15:06:41.896Z",
+  "completedCount": 128,
   "totalChampions": 173,
   "champions": [
     {
@@ -704,7 +704,7 @@
     {
       "id": 48,
       "name": "Trundle",
-      "done": false
+      "done": true
     },
     {
       "id": 23,
