@@ -2,7 +2,7 @@
   "summoner": "Nevermore#YBHG",
   "avatar": "linus.png",
   "tag": "LINUS",
-  "completedCount": 4,
+  "completedCount": 5,
   "totalChampions": 173,
   "champions": [
     {
@@ -688,7 +688,7 @@
     {
       "id": 17,
       "name": "Teemo",
-      "done": false
+      "done": true
     },
     {
       "id": 412,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-23T22:12:26.882Z"
+  "updatedAt": "2026-07-23T23:40:44.093Z"
 }
