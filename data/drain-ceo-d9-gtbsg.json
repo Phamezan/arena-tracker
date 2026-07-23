@@ -1,6 +1,6 @@
 {
   "summoner": "Drain CEO D9#GTBSG",
-  "completedCount": 1,
+  "completedCount": 2,
   "totalChampions": 173,
   "champions": [
     {
@@ -811,7 +811,7 @@
     {
       "id": 777,
       "name": "Yone",
-      "done": false
+      "done": true
     },
     {
       "id": 83,
@@ -869,5 +869,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-21T23:43:53.997Z"
+  "updatedAt": "2026-07-23T23:40:45.294Z"
 }
