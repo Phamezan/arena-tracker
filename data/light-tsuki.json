@@ -2,8 +2,8 @@
   "summoner": "Light#Tsuki",
   "avatar": "light.png",
   "tag": "LIGHT",
-  "updatedAt": "2026-07-17T19:25:33.151Z",
-  "completedCount": 9,
+  "updatedAt": "2026-07-23T15:06:43.421Z",
+  "completedCount": 10,
   "totalChampions": 173,
   "champions": [
     {
@@ -654,7 +654,7 @@
     {
       "id": 50,
       "name": "Swain",
-      "done": false
+      "done": true
     },
     {
       "id": 517,
