@@ -2,7 +2,7 @@
   "summoner": "Cifera#Swift",
   "avatar": "jeso.png",
   "tag": "JESO",
-  "completedCount": 6,
+  "completedCount": 7,
   "totalChampions": 173,
   "champions": [
     {
@@ -433,7 +433,7 @@
     {
       "id": 82,
       "name": "Mordekaiser",
-      "done": false
+      "done": true
     },
     {
       "id": 25,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-24T17:11:02.220Z"
+  "updatedAt": "2026-07-24T17:39:00.557Z"
 }
