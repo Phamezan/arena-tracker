@@ -2,8 +2,8 @@
   "summoner": "Phamezan#DKK",
   "avatar": "michael.png",
   "tag": "PHAM",
-  "updatedAt": "2026-07-24T17:38:58.467Z",
-  "completedCount": 131,
+  "updatedAt": "2026-07-24T22:29:54.841Z",
+  "completedCount": 132,
   "totalChampions": 173,
   "champions": [
     {
@@ -134,7 +134,7 @@
     {
       "id": 122,
       "name": "Darius",
-      "done": false
+      "done": true
     },
     {
       "id": 131,
