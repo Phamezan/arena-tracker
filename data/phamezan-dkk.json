@@ -2,8 +2,8 @@
   "summoner": "Phamezan#DKK",
   "avatar": "michael.png",
   "tag": "PHAM",
-  "updatedAt": "2026-07-24T17:10:59.884Z",
-  "completedCount": 130,
+  "updatedAt": "2026-07-24T17:38:58.467Z",
+  "completedCount": 131,
   "totalChampions": 173,
   "champions": [
     {
@@ -559,7 +559,7 @@
     {
       "id": 107,
       "name": "Rengar",
-      "done": false
+      "done": true
     },
     {
       "id": 92,
