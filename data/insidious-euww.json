@@ -2,13 +2,13 @@
   "summoner": "Insidious#EUWW",
   "avatar": "oli.png",
   "tag": "OLI",
-  "completedCount": 11,
+  "completedCount": 12,
   "totalChampions": 173,
   "champions": [
     {
       "id": 266,
       "name": "Aatrox",
-      "done": false
+      "done": true
     },
     {
       "id": 103,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-24T17:11:01.155Z"
+  "updatedAt": "2026-07-24T17:38:59.521Z"
 }
