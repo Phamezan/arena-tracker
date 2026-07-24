@@ -2,7 +2,7 @@
   "summoner": "Cifera#Swift",
   "avatar": "jeso.png",
   "tag": "JESO",
-  "completedCount": 7,
+  "completedCount": 8,
   "totalChampions": 173,
   "champions": [
     {
@@ -743,7 +743,7 @@
     {
       "id": 45,
       "name": "Veigar",
-      "done": false
+      "done": true
     },
     {
       "id": 161,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-24T17:39:00.557Z"
+  "updatedAt": "2026-07-24T22:29:56.057Z"
 }
