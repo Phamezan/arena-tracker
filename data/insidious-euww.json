@@ -2,7 +2,7 @@
   "summoner": "Insidious#EUWW",
   "avatar": "oli.png",
   "tag": "OLI",
-  "completedCount": 10,
+  "completedCount": 11,
   "totalChampions": 173,
   "champions": [
     {
@@ -523,7 +523,7 @@
     {
       "id": 133,
       "name": "Quinn",
-      "done": false
+      "done": true
     },
     {
       "id": 497,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-24T16:15:08.239Z"
+  "updatedAt": "2026-07-24T17:11:01.155Z"
 }
