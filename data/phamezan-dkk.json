@@ -2,8 +2,8 @@
   "summoner": "Phamezan#DKK",
   "avatar": "michael.png",
   "tag": "PHAM",
-  "updatedAt": "2026-07-23T15:06:41.896Z",
-  "completedCount": 128,
+  "updatedAt": "2026-07-24T15:22:37.594Z",
+  "completedCount": 129,
   "totalChampions": 173,
   "champions": [
     {
@@ -494,7 +494,7 @@
     {
       "id": 61,
       "name": "Orianna",
-      "done": false
+      "done": true
     },
     {
       "id": 516,
