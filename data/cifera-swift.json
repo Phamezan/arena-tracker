@@ -2,7 +2,7 @@
   "summoner": "Cifera#Swift",
   "avatar": "jeso.png",
   "tag": "JESO",
-  "completedCount": 5,
+  "completedCount": 6,
   "totalChampions": 173,
   "champions": [
     {
@@ -168,7 +168,7 @@
     {
       "id": 81,
       "name": "Ezreal",
-      "done": false
+      "done": true
     },
     {
       "id": 9,
@@ -871,5 +871,5 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-23T23:40:46.330Z"
+  "updatedAt": "2026-07-24T17:11:02.220Z"
 }
