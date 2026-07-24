@@ -1,8 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "avatar": "jacob.png",
-  "tag": "JACOB",
-  "completedCount": 5,
+  "updatedAt": "2026-07-24T21:42:39.245735+00:00",
+  "seasonStart": "2026-01-08T00:00:00.000Z",
+  "source": "match-v5-season",
+  "completedCount": 7,
   "totalChampions": 173,
   "champions": [
     {
@@ -413,7 +414,7 @@
     {
       "id": 11,
       "name": "Master Yi",
-      "done": false
+      "done": true
     },
     {
       "id": 800,
@@ -668,7 +669,7 @@
     {
       "id": 223,
       "name": "Tahm Kench",
-      "done": false
+      "done": true
     },
     {
       "id": 163,
@@ -871,5 +872,6 @@
       "done": false
     }
   ],
-  "updatedAt": "2026-07-20T15:57:41.956Z"
+  "avatar": "jacob.png",
+  "tag": "JACOB"
 }

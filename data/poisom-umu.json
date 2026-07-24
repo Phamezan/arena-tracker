@@ -1,9 +1,9 @@
 {
   "summoner": "Poisom#UmU",
-  "avatar": "umu.png",
-  "tag": "UMU",
-  "updatedAt": "2026-07-23T22:12:28.004Z",
-  "completedCount": 48,
+  "updatedAt": "2026-07-24T21:42:39.430462+00:00",
+  "seasonStart": "2026-01-08T00:00:00.000Z",
+  "source": "match-v5-season",
+  "completedCount": 32,
   "totalChampions": 173,
   "champions": [
     {
@@ -49,7 +49,7 @@
     {
       "id": 1,
       "name": "Annie",
-      "done": true
+      "done": false
     },
     {
       "id": 523,
@@ -209,7 +209,7 @@
     {
       "id": 79,
       "name": "Gragas",
-      "done": true
+      "done": false
     },
     {
       "id": 104,
@@ -264,7 +264,7 @@
     {
       "id": 24,
       "name": "Jax",
-      "done": true
+      "done": false
     },
     {
       "id": 126,
@@ -289,7 +289,7 @@
     {
       "id": 145,
       "name": "Kai'Sa",
-      "done": true
+      "done": false
     },
     {
       "id": 429,
@@ -334,7 +334,7 @@
     {
       "id": 121,
       "name": "Kha'Zix",
-      "done": true
+      "done": false
     },
     {
       "id": 203,
@@ -359,7 +359,7 @@
     {
       "id": 64,
       "name": "Lee Sin",
-      "done": true
+      "done": false
     },
     {
       "id": 89,
@@ -424,7 +424,7 @@
     {
       "id": 902,
       "name": "Milio",
-      "done": true
+      "done": false
     },
     {
       "id": 21,
@@ -434,7 +434,7 @@
     {
       "id": 82,
       "name": "Mordekaiser",
-      "done": true
+      "done": false
     },
     {
       "id": 25,
@@ -514,7 +514,7 @@
     {
       "id": 555,
       "name": "Pyke",
-      "done": true
+      "done": false
     },
     {
       "id": 246,
@@ -529,7 +529,7 @@
     {
       "id": 497,
       "name": "Rakan",
-      "done": true
+      "done": false
     },
     {
       "id": 33,
@@ -619,12 +619,12 @@
     {
       "id": 27,
       "name": "Singed",
-      "done": true
+      "done": false
     },
     {
       "id": 14,
       "name": "Sion",
-      "done": true
+      "done": false
     },
     {
       "id": 15,
@@ -709,7 +709,7 @@
     {
       "id": 23,
       "name": "Tryndamere",
-      "done": true
+      "done": false
     },
     {
       "id": 4,
@@ -779,12 +779,12 @@
     {
       "id": 106,
       "name": "Volibear",
-      "done": true
+      "done": false
     },
     {
       "id": 19,
       "name": "Warwick",
-      "done": true
+      "done": false
     },
     {
       "id": 62,
@@ -834,7 +834,7 @@
     {
       "id": 904,
       "name": "Zaahen",
-      "done": true
+      "done": false
     },
     {
       "id": 154,
@@ -871,5 +871,7 @@
       "name": "Zyra",
       "done": true
     }
-  ]
+  ],
+  "avatar": "umu.png",
+  "tag": "UMU"
 }

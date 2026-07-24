@@ -18,23 +18,22 @@ everyone already has."
 
 ## How it stays up to date
 
-Progress updates automatically, with nothing for players to install or run
-day-to-day:
+Progress updates automatically, with nothing for players to install or run:
 
-- **[ArenaWatcher](https://github.com/Phamezan/ArenaWatcher)** polls the
-  Riot API for each tracked player and detects new Arena wins as they
-  happen, posting results to Discord and syncing them here.
-- A small **Cloudflare Worker** (`worker/`) receives that sync and commits
-  the update straight into this repo's `data/` folder.
-- The dashboard (`index.html` / `app.js`) is a static site hosted on GitHub
+- A **Cloudflare Worker** (`worker/`) polls the Riot match API on a
+  schedule for every player in `data/players.json`, detects new Arena
+  first-place finishes, and commits updates straight into this repo's
+  `data/` folder. It tracks the current Arena season and resets when a
+  new season starts, matching the client's Season Journey.
+- The dashboard (`index.html` / `js/`) is a static site hosted on GitHub
   Pages that reads `data/` and renders the grid. No backend on the read
   side — it's just files.
+- **[ArenaWatcher](https://github.com/Phamezan/ArenaWatcher)** (optional)
+  posts Arena results to Discord; it reads the same `data/players.json`
+  roster.
 
-One exception: a player's *historical* Arena wins (from before they were
-being tracked) can't be reconstructed from the public Riot API — that data
-only exists in the League client itself. `reader/` is a small one-time tool
-a player can run locally to backfill that history; after that, everything
-is automatic.
+See [`Docs/SPEC.md`](Docs/SPEC.md) for the full architecture and how the seasonal
+count works.
 
 ## Running your own
 
@@ -46,7 +45,7 @@ need:
 3. An [ArenaWatcher](https://github.com/Phamezan/ArenaWatcher) instance
    somewhere always-on, configured to point at your Worker.
 
-Full setup walkthrough in [`SETUP.md`](SETUP.md).
+Full setup walkthrough in [`Docs/SETUP.md`](Docs/SETUP.md).
 
 ## Notes
 

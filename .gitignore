@@ -4,6 +4,3 @@ __pycache__/
 node_modules/
 .wrangler/
 worker/dist/
-reader/build/
-reader/dist/
-reader/local_config.py

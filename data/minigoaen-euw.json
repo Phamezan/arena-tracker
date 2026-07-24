@@ -1,12 +1,15 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "completedCount": 1,
+  "updatedAt": "2026-07-24T21:42:39.189543+00:00",
+  "seasonStart": "2026-01-08T00:00:00.000Z",
+  "source": "match-v5-season",
+  "completedCount": 46,
   "totalChampions": 173,
   "champions": [
     {
       "id": 266,
       "name": "Aatrox",
-      "done": false
+      "done": true
     },
     {
       "id": 103,
@@ -21,12 +24,12 @@
     {
       "id": 166,
       "name": "Akshan",
-      "done": false
+      "done": true
     },
     {
       "id": 12,
       "name": "Alistar",
-      "done": false
+      "done": true
     },
     {
       "id": 799,
@@ -46,7 +49,7 @@
     {
       "id": 1,
       "name": "Annie",
-      "done": false
+      "done": true
     },
     {
       "id": 523,
@@ -56,12 +59,12 @@
     {
       "id": 22,
       "name": "Ashe",
-      "done": false
+      "done": true
     },
     {
       "id": 136,
       "name": "Aurelion Sol",
-      "done": false
+      "done": true
     },
     {
       "id": 893,
@@ -91,7 +94,7 @@
     {
       "id": 63,
       "name": "Brand",
-      "done": false
+      "done": true
     },
     {
       "id": 201,
@@ -126,7 +129,7 @@
     {
       "id": 42,
       "name": "Corki",
-      "done": false
+      "done": true
     },
     {
       "id": 122,
@@ -141,7 +144,7 @@
     {
       "id": 36,
       "name": "Dr. Mundo",
-      "done": false
+      "done": true
     },
     {
       "id": 119,
@@ -151,7 +154,7 @@
     {
       "id": 245,
       "name": "Ekko",
-      "done": false
+      "done": true
     },
     {
       "id": 60,
@@ -186,7 +189,7 @@
     {
       "id": 3,
       "name": "Galio",
-      "done": false
+      "done": true
     },
     {
       "id": 41,
@@ -216,12 +219,12 @@
     {
       "id": 887,
       "name": "Gwen",
-      "done": false
+      "done": true
     },
     {
       "id": 120,
       "name": "Hecarim",
-      "done": false
+      "done": true
     },
     {
       "id": 74,
@@ -276,7 +279,7 @@
     {
       "id": 222,
       "name": "Jinx",
-      "done": false
+      "done": true
     },
     {
       "id": 897,
@@ -286,7 +289,7 @@
     {
       "id": 145,
       "name": "Kai'Sa",
-      "done": false
+      "done": true
     },
     {
       "id": 429,
@@ -321,7 +324,7 @@
     {
       "id": 141,
       "name": "Kayn",
-      "done": false
+      "done": true
     },
     {
       "id": 85,
@@ -336,12 +339,12 @@
     {
       "id": 203,
       "name": "Kindred",
-      "done": false
+      "done": true
     },
     {
       "id": 240,
       "name": "Kled",
-      "done": false
+      "done": true
     },
     {
       "id": 96,
@@ -351,7 +354,7 @@
     {
       "id": 7,
       "name": "LeBlanc",
-      "done": false
+      "done": true
     },
     {
       "id": 64,
@@ -371,7 +374,7 @@
     {
       "id": 127,
       "name": "Lissandra",
-      "done": false
+      "done": true
     },
     {
       "id": 805,
@@ -391,7 +394,7 @@
     {
       "id": 99,
       "name": "Lux",
-      "done": false
+      "done": true
     },
     {
       "id": 54,
@@ -426,7 +429,7 @@
     {
       "id": 21,
       "name": "Miss Fortune",
-      "done": false
+      "done": true
     },
     {
       "id": 82,
@@ -441,7 +444,7 @@
     {
       "id": 950,
       "name": "Naafiri",
-      "done": false
+      "done": true
     },
     {
       "id": 267,
@@ -461,7 +464,7 @@
     {
       "id": 518,
       "name": "Neeko",
-      "done": false
+      "done": true
     },
     {
       "id": 76,
@@ -481,7 +484,7 @@
     {
       "id": 20,
       "name": "Nunu & Willump",
-      "done": false
+      "done": true
     },
     {
       "id": 2,
@@ -511,7 +514,7 @@
     {
       "id": 555,
       "name": "Pyke",
-      "done": false
+      "done": true
     },
     {
       "id": 246,
@@ -551,7 +554,7 @@
     {
       "id": 58,
       "name": "Renekton",
-      "done": false
+      "done": true
     },
     {
       "id": 107,
@@ -576,7 +579,7 @@
     {
       "id": 360,
       "name": "Samira",
-      "done": false
+      "done": true
     },
     {
       "id": 113,
@@ -596,7 +599,7 @@
     {
       "id": 875,
       "name": "Sett",
-      "done": false
+      "done": true
     },
     {
       "id": 35,
@@ -611,7 +614,7 @@
     {
       "id": 102,
       "name": "Shyvana",
-      "done": false
+      "done": true
     },
     {
       "id": 27,
@@ -626,7 +629,7 @@
     {
       "id": 15,
       "name": "Sivir",
-      "done": false
+      "done": true
     },
     {
       "id": 72,
@@ -636,7 +639,7 @@
     {
       "id": 901,
       "name": "Smolder",
-      "done": false
+      "done": true
     },
     {
       "id": 37,
@@ -651,7 +654,7 @@
     {
       "id": 50,
       "name": "Swain",
-      "done": false
+      "done": true
     },
     {
       "id": 517,
@@ -661,12 +664,12 @@
     {
       "id": 134,
       "name": "Syndra",
-      "done": false
+      "done": true
     },
     {
       "id": 223,
       "name": "Tahm Kench",
-      "done": false
+      "done": true
     },
     {
       "id": 163,
@@ -696,7 +699,7 @@
     {
       "id": 18,
       "name": "Tristana",
-      "done": false
+      "done": true
     },
     {
       "id": 48,
@@ -711,12 +714,12 @@
     {
       "id": 4,
       "name": "Twisted Fate",
-      "done": false
+      "done": true
     },
     {
       "id": 29,
       "name": "Twitch",
-      "done": false
+      "done": true
     },
     {
       "id": 77,
@@ -741,7 +744,7 @@
     {
       "id": 45,
       "name": "Veigar",
-      "done": false
+      "done": true
     },
     {
       "id": 161,
@@ -771,7 +774,7 @@
     {
       "id": 8,
       "name": "Vladimir",
-      "done": false
+      "done": true
     },
     {
       "id": 106,
@@ -781,7 +784,7 @@
     {
       "id": 19,
       "name": "Warwick",
-      "done": false
+      "done": true
     },
     {
       "id": 62,
@@ -791,7 +794,7 @@
     {
       "id": 498,
       "name": "Xayah",
-      "done": false
+      "done": true
     },
     {
       "id": 101,
@@ -806,7 +809,7 @@
     {
       "id": 157,
       "name": "Yasuo",
-      "done": false
+      "done": true
     },
     {
       "id": 777,
@@ -831,12 +834,12 @@
     {
       "id": 904,
       "name": "Zaahen",
-      "done": false
+      "done": true
     },
     {
       "id": 154,
       "name": "Zac",
-      "done": false
+      "done": true
     },
     {
       "id": 238,
@@ -868,6 +871,5 @@
       "name": "Zyra",
       "done": false
     }
-  ],
-  "updatedAt": "2026-07-24T19:18:06.064Z"
+  ]
 }

@@ -28,6 +28,11 @@
  *   GITHUB_OWNER   - your GitHub username.
  *   GITHUB_REPO    - repo name, e.g. "arena-tracker".
  *   GITHUB_BRANCH  - defaults to "main" if unset.
+ *
+ * Win events are gated on data/players.json in the repo (a plain JSON
+ * array of "Name#Tag" Riot IDs): events from anyone else are rejected
+ * with 403 so lobby randoms can't get data files bootstrapped for them.
+ * Full snapshots are unaffected — they're run manually, one per player.
  */
 
 const GITHUB_API = "https://api.github.com";
@@ -171,6 +176,17 @@ function validateWinPayload(body) {
 async function handleWin(body, env) {
   const validationError = validateWinPayload(body);
   if (validationError) return new Response(validationError, { status: 400 });
+
+  // Gate win events on the roster in data/players.json — the watcher can
+  // see lobby randoms and we don't want data files bootstrapped for them.
+  // Adding a friend = one edit to that file; snapshots stay unrestricted.
+  const rosterFile = await getFile(env, "data/players.json", env.GITHUB_BRANCH || "main");
+  if (rosterFile) {
+    const roster = JSON.parse(base64ToUtf8(rosterFile.content));
+    if (!roster.includes(body.summoner)) {
+      return new Response(`Summoner "${body.summoner}" is not on the roster`, { status: 403 });
+    }
+  }
 
   const championMap = await fetchChampionMap();
   const champion = championMap.get(body.championName);

@@ -1,9 +1,9 @@
 {
   "summoner": "Light#Tsuki",
-  "avatar": "light.png",
-  "tag": "LIGHT",
-  "updatedAt": "2026-07-23T15:06:43.421Z",
-  "completedCount": 10,
+  "updatedAt": "2026-07-24T21:42:39.140624+00:00",
+  "seasonStart": "2026-01-08T00:00:00.000Z",
+  "source": "match-v5-season",
+  "completedCount": 8,
   "totalChampions": 173,
   "champions": [
     {
@@ -34,7 +34,7 @@
     {
       "id": 799,
       "name": "Ambessa",
-      "done": true
+      "done": false
     },
     {
       "id": 32,
@@ -504,7 +504,7 @@
     {
       "id": 80,
       "name": "Pantheon",
-      "done": true
+      "done": false
     },
     {
       "id": 78,
@@ -871,5 +871,7 @@
       "name": "Zyra",
       "done": false
     }
-  ]
+  ],
+  "avatar": "light.png",
+  "tag": "LIGHT"
 }
