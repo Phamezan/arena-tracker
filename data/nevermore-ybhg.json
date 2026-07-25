@@ -1,6 +1,6 @@
 {
   "summoner": "Nevermore#YBHG",
-  "updatedAt": "2026-07-24T21:42:39.301008+00:00",
+  "updatedAt": "2026-07-25T01:44:38.213Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
   "completedCount": 57,
@@ -872,6 +872,5 @@
       "done": false
     }
   ],
-  "avatar": "linus.png",
-  "tag": "LINUS"
+  "avatar": "linus.png"
 }
