@@ -1,6 +1,6 @@
 {
   "summoner": "Light#Tsuki",
-  "updatedAt": "2026-07-24T21:42:39.140624+00:00",
+  "updatedAt": "2026-07-25T01:29:58.481Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
   "completedCount": 8,
@@ -872,6 +872,5 @@
       "done": false
     }
   ],
-  "avatar": "light.png",
-  "tag": "LIGHT"
+  "avatar": "light.png"
 }
