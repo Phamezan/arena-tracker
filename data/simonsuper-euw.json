@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-07-25T15:35:36.432Z",
+  "updatedAt": "2026-07-26T14:39:44.946Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 24,
+  "completedCount": 25,
   "totalChampions": 173,
   "champions": [
     {
@@ -589,7 +589,7 @@
     {
       "id": 235,
       "name": "Senna",
-      "done": false
+      "done": true
     },
     {
       "id": 147,
