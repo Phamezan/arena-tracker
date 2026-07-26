@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-07-26T17:42:43.710Z",
+  "updatedAt": "2026-07-26T18:09:29.451Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 51,
+  "completedCount": 52,
   "totalChampions": 173,
   "champions": [
     {
@@ -274,7 +274,7 @@
     {
       "id": 202,
       "name": "Jhin",
-      "done": false
+      "done": true
     },
     {
       "id": 222,
