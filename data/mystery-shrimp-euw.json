@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-07-26T20:45:59.961Z",
+  "updatedAt": "2026-07-27T08:39:31.794Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 9,
+  "completedCount": 10,
   "totalChampions": 173,
   "champions": [
     {
@@ -144,7 +144,7 @@
     {
       "id": 36,
       "name": "Dr. Mundo",
-      "done": false
+      "done": true
     },
     {
       "id": 119,
