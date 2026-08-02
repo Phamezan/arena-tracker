@@ -101,7 +101,10 @@ async function fetchChampionMap() {
 
   const map = new Map();
   for (const champ of Object.values(championData.data)) {
-    map.set(champ.id, { id: Number(champ.key), name: champ.name });
+    const numericId = Number(champ.key);
+    // Skip the "classic" champions (ids offset by 60000) — Arena only uses the modern set.
+    if (numericId >= CLASSIC_ID_OFFSET) continue;
+    map.set(champ.id, { id: numericId, name: champ.name });
   }
   return map;
 }
@@ -136,9 +139,26 @@ function validateSnapshotPayload(body) {
   return null;
 }
 
+// Data Dragon also ships the original "classic" champions with ids offset by
+// 60000 (e.g. Ahri 103 vs classic 60103). They duplicate the modern entries on
+// the board, so snapshots must never include them.
+const CLASSIC_ID_OFFSET = 60000;
+
+function stripClassicChampions(body) {
+  const champions = body.champions.filter((c) => c.id < CLASSIC_ID_OFFSET);
+  return {
+    ...body,
+    champions,
+    totalChampions: champions.length,
+    completedCount: champions.filter((c) => c.done).length,
+  };
+}
+
 async function handleSnapshot(body, env) {
   const validationError = validateSnapshotPayload(body);
   if (validationError) return new Response(validationError, { status: 400 });
+
+  body = stripClassicChampions(body);
 
   const branch = env.GITHUB_BRANCH || "main";
   const filename = `${slugify(body.summoner)}.json`;
