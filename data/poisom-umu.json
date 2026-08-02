@@ -1,10 +1,10 @@
 {
   "summoner": "Poisom#UmU",
-  "updatedAt": "2026-07-25T01:12:53.753Z",
+  "updatedAt": "2026-08-02T11:32:09.532Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
   "completedCount": 32,
-  "totalChampions": 173,
+  "totalChampions": 233,
   "champions": [
     {
       "id": 266,
@@ -13,6 +13,11 @@
     },
     {
       "id": 103,
+      "name": "Ahri",
+      "done": false
+    },
+    {
+      "id": 60103,
       "name": "Ahri",
       "done": false
     },
@@ -32,6 +37,11 @@
       "done": false
     },
     {
+      "id": 60012,
+      "name": "Alistar",
+      "done": false
+    },
+    {
       "id": 799,
       "name": "Ambessa",
       "done": false
@@ -42,12 +52,27 @@
       "done": false
     },
     {
+      "id": 60032,
+      "name": "Amumu",
+      "done": false
+    },
+    {
       "id": 34,
       "name": "Anivia",
       "done": false
     },
     {
+      "id": 60034,
+      "name": "Anivia",
+      "done": false
+    },
+    {
       "id": 1,
+      "name": "Annie",
+      "done": false
+    },
+    {
+      "id": 60001,
       "name": "Annie",
       "done": false
     },
@@ -58,6 +83,11 @@
     },
     {
       "id": 22,
+      "name": "Ashe",
+      "done": false
+    },
+    {
+      "id": 60022,
       "name": "Ashe",
       "done": false
     },
@@ -92,7 +122,17 @@
       "done": true
     },
     {
+      "id": 60053,
+      "name": "Blitzcrank",
+      "done": false
+    },
+    {
       "id": 63,
+      "name": "Brand",
+      "done": false
+    },
+    {
+      "id": 60063,
       "name": "Brand",
       "done": false
     },
@@ -127,7 +167,17 @@
       "done": false
     },
     {
+      "id": 60031,
+      "name": "Cho'Gath",
+      "done": false
+    },
+    {
       "id": 42,
+      "name": "Corki",
+      "done": false
+    },
+    {
+      "id": 60042,
       "name": "Corki",
       "done": false
     },
@@ -143,6 +193,11 @@
     },
     {
       "id": 36,
+      "name": "Dr. Mundo",
+      "done": false
+    },
+    {
+      "id": 60036,
       "name": "Dr. Mundo",
       "done": false
     },
@@ -167,7 +222,17 @@
       "done": false
     },
     {
+      "id": 60028,
+      "name": "Evelynn",
+      "done": false
+    },
+    {
       "id": 81,
+      "name": "Ezreal",
+      "done": false
+    },
+    {
+      "id": 60081,
       "name": "Ezreal",
       "done": false
     },
@@ -175,6 +240,11 @@
       "id": 9,
       "name": "Fiddlesticks",
       "done": true
+    },
+    {
+      "id": 60009,
+      "name": "Fiddlesticks",
+      "done": false
     },
     {
       "id": 114,
@@ -197,9 +267,19 @@
       "done": false
     },
     {
+      "id": 60041,
+      "name": "Gangplank",
+      "done": false
+    },
+    {
       "id": 86,
       "name": "Garen",
       "done": true
+    },
+    {
+      "id": 60086,
+      "name": "Garen",
+      "done": false
     },
     {
       "id": 150,
@@ -208,6 +288,11 @@
     },
     {
       "id": 79,
+      "name": "Gragas",
+      "done": false
+    },
+    {
+      "id": 60079,
       "name": "Gragas",
       "done": false
     },
@@ -232,6 +317,11 @@
       "done": false
     },
     {
+      "id": 60074,
+      "name": "Heimerdinger",
+      "done": false
+    },
+    {
       "id": 910,
       "name": "Hwei",
       "done": false
@@ -252,13 +342,28 @@
       "done": false
     },
     {
+      "id": 60040,
+      "name": "Janna",
+      "done": false
+    },
+    {
       "id": 40,
       "name": "Janna",
       "done": false
     },
     {
+      "id": 60059,
+      "name": "Jarvan IV",
+      "done": false
+    },
+    {
       "id": 59,
       "name": "Jarvan IV",
+      "done": false
+    },
+    {
+      "id": 60024,
+      "name": "Jax",
       "done": false
     },
     {
@@ -302,8 +407,18 @@
       "done": true
     },
     {
+      "id": 60030,
+      "name": "Karthus",
+      "done": false
+    },
+    {
       "id": 30,
       "name": "Karthus",
+      "done": false
+    },
+    {
+      "id": 60038,
+      "name": "Kassadin",
       "done": false
     },
     {
@@ -312,8 +427,18 @@
       "done": false
     },
     {
+      "id": 60055,
+      "name": "Katarina",
+      "done": false
+    },
+    {
       "id": 55,
       "name": "Katarina",
+      "done": false
+    },
+    {
+      "id": 60010,
+      "name": "Kayle",
       "done": false
     },
     {
@@ -347,6 +472,11 @@
       "done": false
     },
     {
+      "id": 60096,
+      "name": "Kog'Maw",
+      "done": false
+    },
+    {
       "id": 96,
       "name": "Kog'Maw",
       "done": true
@@ -357,8 +487,18 @@
       "done": false
     },
     {
+      "id": 60064,
+      "name": "Lee Sin",
+      "done": false
+    },
+    {
       "id": 64,
       "name": "Lee Sin",
+      "done": false
+    },
+    {
+      "id": 60089,
+      "name": "Leona",
       "done": false
     },
     {
@@ -387,8 +527,18 @@
       "done": false
     },
     {
+      "id": 60117,
+      "name": "Lulu",
+      "done": false
+    },
+    {
       "id": 117,
       "name": "Lulu",
+      "done": false
+    },
+    {
+      "id": 60099,
+      "name": "Lux",
       "done": false
     },
     {
@@ -397,9 +547,19 @@
       "done": false
     },
     {
+      "id": 60054,
+      "name": "Malphite",
+      "done": false
+    },
+    {
       "id": 54,
       "name": "Malphite",
       "done": true
+    },
+    {
+      "id": 60090,
+      "name": "Malzahar",
+      "done": false
     },
     {
       "id": 90,
@@ -409,6 +569,11 @@
     {
       "id": 57,
       "name": "Maokai",
+      "done": false
+    },
+    {
+      "id": 60011,
+      "name": "Master Yi",
       "done": false
     },
     {
@@ -427,6 +592,11 @@
       "done": false
     },
     {
+      "id": 60021,
+      "name": "Miss Fortune",
+      "done": false
+    },
+    {
       "id": 21,
       "name": "Miss Fortune",
       "done": false
@@ -434,6 +604,11 @@
     {
       "id": 82,
       "name": "Mordekaiser",
+      "done": false
+    },
+    {
+      "id": 60025,
+      "name": "Morgana",
       "done": false
     },
     {
@@ -452,6 +627,11 @@
       "done": true
     },
     {
+      "id": 60075,
+      "name": "Nasus",
+      "done": false
+    },
+    {
       "id": 75,
       "name": "Nasus",
       "done": true
@@ -464,6 +644,11 @@
     {
       "id": 518,
       "name": "Neeko",
+      "done": false
+    },
+    {
+      "id": 60076,
+      "name": "Nidalee",
       "done": false
     },
     {
@@ -482,9 +667,19 @@
       "done": false
     },
     {
+      "id": 60020,
+      "name": "Nunu & Willump",
+      "done": false
+    },
+    {
       "id": 20,
       "name": "Nunu & Willump",
       "done": true
+    },
+    {
+      "id": 60002,
+      "name": "Olaf",
+      "done": false
     },
     {
       "id": 2,
@@ -500,6 +695,11 @@
       "id": 516,
       "name": "Ornn",
       "done": true
+    },
+    {
+      "id": 60080,
+      "name": "Pantheon",
+      "done": false
     },
     {
       "id": 80,
@@ -529,6 +729,11 @@
     {
       "id": 497,
       "name": "Rakan",
+      "done": false
+    },
+    {
+      "id": 60033,
+      "name": "Rammus",
       "done": false
     },
     {
@@ -572,6 +777,11 @@
       "done": false
     },
     {
+      "id": 60013,
+      "name": "Ryze",
+      "done": false
+    },
+    {
       "id": 13,
       "name": "Ryze",
       "done": false
@@ -602,6 +812,11 @@
       "done": true
     },
     {
+      "id": 60035,
+      "name": "Shaco",
+      "done": false
+    },
+    {
       "id": 35,
       "name": "Shaco",
       "done": false
@@ -617,8 +832,18 @@
       "done": false
     },
     {
+      "id": 60027,
+      "name": "Singed",
+      "done": false
+    },
+    {
       "id": 27,
       "name": "Singed",
+      "done": false
+    },
+    {
+      "id": 60014,
+      "name": "Sion",
       "done": false
     },
     {
@@ -627,8 +852,18 @@
       "done": false
     },
     {
+      "id": 60015,
+      "name": "Sivir",
+      "done": false
+    },
+    {
       "id": 15,
       "name": "Sivir",
+      "done": false
+    },
+    {
+      "id": 60072,
+      "name": "Skarner",
       "done": false
     },
     {
@@ -642,9 +877,19 @@
       "done": true
     },
     {
+      "id": 60037,
+      "name": "Sona",
+      "done": false
+    },
+    {
       "id": 37,
       "name": "Sona",
       "done": true
+    },
+    {
+      "id": 60016,
+      "name": "Soraka",
+      "done": false
     },
     {
       "id": 16,
@@ -682,8 +927,18 @@
       "done": false
     },
     {
+      "id": 60044,
+      "name": "Taric",
+      "done": false
+    },
+    {
       "id": 44,
       "name": "Taric",
+      "done": false
+    },
+    {
+      "id": 60017,
+      "name": "Teemo",
       "done": false
     },
     {
@@ -697,6 +952,11 @@
       "done": false
     },
     {
+      "id": 60018,
+      "name": "Tristana",
+      "done": false
+    },
+    {
       "id": 18,
       "name": "Tristana",
       "done": false
@@ -707,13 +967,28 @@
       "done": true
     },
     {
+      "id": 60023,
+      "name": "Tryndamere",
+      "done": false
+    },
+    {
       "id": 23,
       "name": "Tryndamere",
       "done": false
     },
     {
+      "id": 60004,
+      "name": "Twisted Fate",
+      "done": false
+    },
+    {
       "id": 4,
       "name": "Twisted Fate",
+      "done": false
+    },
+    {
+      "id": 60029,
+      "name": "Twitch",
       "done": false
     },
     {
@@ -737,8 +1012,18 @@
       "done": false
     },
     {
+      "id": 60067,
+      "name": "Vayne",
+      "done": false
+    },
+    {
       "id": 67,
       "name": "Vayne",
+      "done": false
+    },
+    {
+      "id": 60045,
+      "name": "Veigar",
       "done": false
     },
     {
@@ -782,8 +1067,18 @@
       "done": false
     },
     {
+      "id": 60019,
+      "name": "Warwick",
+      "done": false
+    },
+    {
       "id": 19,
       "name": "Warwick",
+      "done": false
+    },
+    {
+      "id": 60062,
+      "name": "Wukong",
       "done": false
     },
     {
@@ -854,6 +1149,11 @@
     {
       "id": 115,
       "name": "Ziggs",
+      "done": false
+    },
+    {
+      "id": 60026,
+      "name": "Zilean",
       "done": false
     },
     {
