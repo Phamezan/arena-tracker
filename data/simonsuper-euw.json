@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-03T14:59:56.764Z",
+  "updatedAt": "2026-08-03T15:00:19.477Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 37,
+  "completedCount": 38,
   "totalChampions": 173,
   "champions": [
     {
@@ -279,7 +279,7 @@
     {
       "id": 222,
       "name": "Jinx",
-      "done": false
+      "done": true
     },
     {
       "id": 897,
