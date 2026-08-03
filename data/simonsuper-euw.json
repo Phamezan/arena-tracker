@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-03T15:00:19.477Z",
+  "updatedAt": "2026-08-03T15:56:02.894Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 38,
+  "completedCount": 40,
   "totalChampions": 173,
   "champions": [
     {
@@ -289,7 +289,7 @@
     {
       "id": 145,
       "name": "Kai'Sa",
-      "done": false
+      "done": true
     },
     {
       "id": 429,
@@ -419,7 +419,7 @@
     {
       "id": 800,
       "name": "Mel",
-      "done": false
+      "done": true
     },
     {
       "id": 902,
