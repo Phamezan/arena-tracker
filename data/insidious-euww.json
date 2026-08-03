@@ -1,9 +1,9 @@
 {
   "summoner": "Insidious#EUWW",
-  "updatedAt": "2026-07-30T01:00:44.689Z",
+  "updatedAt": "2026-08-03T16:08:50.355Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 83,
+  "completedCount": 84,
   "totalChampions": 173,
   "champions": [
     {
@@ -714,7 +714,7 @@
     {
       "id": 4,
       "name": "Twisted Fate",
-      "done": false
+      "done": true
     },
     {
       "id": 29,
