@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-03T14:59:58.803Z",
+  "updatedAt": "2026-08-03T15:00:21.256Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 65,
+  "completedCount": 66,
   "totalChampions": 173,
   "champions": [
     {
@@ -364,7 +364,7 @@
     {
       "id": 89,
       "name": "Leona",
-      "done": false
+      "done": true
     },
     {
       "id": 876,
