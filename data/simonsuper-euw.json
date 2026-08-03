@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-03T19:10:52.798Z",
+  "updatedAt": "2026-08-03T19:59:31.820Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 41,
+  "completedCount": 42,
   "totalChampions": 173,
   "champions": [
     {
@@ -184,7 +184,7 @@
     {
       "id": 105,
       "name": "Fizz",
-      "done": false
+      "done": true
     },
     {
       "id": 3,
