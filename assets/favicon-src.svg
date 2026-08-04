@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d060"/>
+      <stop offset="1" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#0b0e14"/>
+  <!-- crest blade -->
+  <path fill="url(#gold)" d="M32 3 C33.5 7 34.5 10 34.5 13 L29.5 13 C29.5 10 30.5 7 32 3 Z"/>
+  <!-- helmet dome and cheek guards -->
+  <path fill="url(#gold)" d="M32 10 C42 10 50 18 50 32 L50 45 C50 47 49 48 47 48 L45 48 C43 55 38 59 32 59 C26 59 21 55 19 48 L17 48 C15 48 14 47 14 45 L14 32 C14 18 22 10 32 10 Z"/>
+  <!-- T-shaped face opening -->
+  <path fill="#0b0e14" d="M22 25 L42 25 L42 30 L35 30 L35 50 L29 50 L29 30 L22 30 Z"/>
+</svg>
