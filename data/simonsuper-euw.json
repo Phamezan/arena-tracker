@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-03T19:59:31.820Z",
+  "updatedAt": "2026-08-04T12:43:56.966Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 42,
+  "completedCount": 43,
   "totalChampions": 173,
   "champions": [
     {
@@ -724,7 +724,7 @@
     {
       "id": 77,
       "name": "Udyr",
-      "done": false
+      "done": true
     },
     {
       "id": 6,
