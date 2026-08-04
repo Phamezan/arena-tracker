@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "matchId": "EUW1_7940151331",
+    "summoner": "Phamezan#DKK",
+    "championId": 25,
+    "gameEnd": 1785863692010,
+    "kda": {
+      "kills": 13,
+      "deaths": 2,
+      "assists": 28
+    },
+    "items": [
+      223107,
+      223157,
+      447118,
+      447109,
+      446667,
+      447104
+    ]
+  }
+]
