@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7940471490",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 54,
+    "gameEnd": 1785877116000,
+    "kda": {
+      "kills": 39,
+      "deaths": 4,
+      "assists": 25
+    },
+    "items": [
+      447122,
+      447111,
+      223084,
+      222502,
+      223089,
+      443056
+    ]
+  },
+  {
     "matchId": "EUW1_7940254958",
     "summoner": "duus#mvp",
     "championId": 429,
