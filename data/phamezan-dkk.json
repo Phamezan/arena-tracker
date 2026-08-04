@@ -1,9 +1,9 @@
 {
   "summoner": "Phamezan#DKK",
-  "updatedAt": "2026-08-04T14:07:27.357Z",
+  "updatedAt": "2026-08-04T17:15:29.955Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 113,
+  "completedCount": 114,
   "totalChampions": 173,
   "champions": [
     {
@@ -439,7 +439,7 @@
     {
       "id": 25,
       "name": "Morgana",
-      "done": false
+      "done": true
     },
     {
       "id": 950,
