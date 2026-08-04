@@ -46,9 +46,13 @@ function buildChampCard(champ, done) {
   card.appendChild(img);
 
   if (done) {
-    const check = document.createElement("div");
+    card.classList.add("done");
+    const check = document.createElement("img");
     check.className = "check-mark";
-    check.textContent = "✓";
+    check.src = "assets/em_rammus_ok.png";
+    check.alt = "won";
+    check.title = "Won";
+    check.loading = "lazy";
     card.appendChild(check);
   }
 

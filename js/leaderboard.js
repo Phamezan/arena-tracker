@@ -27,12 +27,23 @@ export function renderLeaderboard() {
     .sort((a, b) => b.wins - a.wins);
 
   ranked.forEach((entry, index) => {
-    const item = document.createElement("div");
+    const item = document.createElement("button");
+    item.type = "button";
     item.className = "leaderboard-item";
     if (entry.rankClass) item.classList.add(entry.rankClass);
+    item.title = `Grey the grid based on ${entry.summoner}`;
 
     const crown = index === 0 ? `<span class="leaderboard-crown">👑</span>` : "";
     item.innerHTML = `${crown}<span class="leaderboard-name">${entry.summoner}</span><span class="leaderboard-wins">${entry.wins}</span>`;
+
+    // Clicking a name switches the "Greyed based on" focus to that player.
+    item.addEventListener("click", () => {
+      const focusEl = document.getElementById("focusPlayer");
+      if (focusEl.value === entry.summoner) return;
+      focusEl.value = entry.summoner;
+      focusEl.dispatchEvent(new Event("input", { bubbles: true }));
+    });
+
     leaderboardEl.appendChild(item);
   });
 }
