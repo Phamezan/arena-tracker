@@ -13,11 +13,17 @@
  *
  * 2. Win event (from the ArenaWatcher bot, polling Riot's match API and
  *    firing this on every detected Arena win going forward):
- *      { summoner, championName }
+ *      { summoner, championName, matchId?, gameEnd?, kills?, deaths?,
+ *        assists?, items? }
  *    championName is Riot's internal champion id (participant.championName
  *    in the match API), not the display name. Bootstraps the player's file
  *    from Data Dragon (all champions done:false) if it doesn't exist yet,
  *    then flips just that one champion to done:true.
+ *    The optional fields feed data/recent-wins.json, the dashboard's
+ *    "recent wins" banner: matchId (e.g. "EUW1_123456") is used to dedupe
+ *    backfilled bursts, gameEnd is the match's real end time (epoch ms
+ *    from match-v5 info.gameEndTimestamp) so delayed deliveries keep their
+ *    true date, items is participant.item0..6 (zeros dropped).
  *
  * Required secrets/vars (set with `wrangler secret put <NAME>` for secrets,
  * or in wrangler.toml [vars] for the rest):
@@ -250,9 +256,53 @@ async function handleWin(body, env) {
 
   await ensureManifestHasFile(env, branch, filename);
 
+  await recordRecentWin(env, branch, body, champion);
+
   return new Response(
     JSON.stringify({ ok: true, filename, championName: champion.name, done: true }),
     { headers: { "Content-Type": "application/json" } }
+  );
+}
+
+/** How many win entries data/recent-wins.json retains (the dashboard only shows the last 24h). */
+const RECENT_WINS_CAP = 50;
+
+/**
+ * Appends the win to data/recent-wins.json, deduped by matchId so a backfill
+ * burst after a connectivity outage can't create duplicate cards. The file is
+ * kept sorted newest-first and capped at RECENT_WINS_CAP entries.
+ */
+async function recordRecentWin(env, branch, body, champion) {
+  const entry = {
+    matchId: typeof body.matchId === "string" && body.matchId ? body.matchId : null,
+    summoner: body.summoner,
+    championId: champion.id,
+    gameEnd: Number.isFinite(body.gameEnd) ? body.gameEnd : Date.now(),
+    ...(Number.isFinite(body.kills) && Number.isFinite(body.deaths) && Number.isFinite(body.assists)
+      ? { kda: { kills: body.kills, deaths: body.deaths, assists: body.assists } }
+      : {}),
+    ...(Array.isArray(body.items)
+      ? { items: body.items.filter((i) => Number.isInteger(i) && i > 0).slice(0, 7) }
+      : {}),
+  };
+
+  const path = "data/recent-wins.json";
+  const existingFile = await getFile(env, path, branch);
+  const wins = existingFile ? JSON.parse(base64ToUtf8(existingFile.content)) : [];
+
+  if (entry.matchId && wins.some((w) => w.matchId === entry.matchId)) return;
+
+  wins.push(entry);
+  wins.sort((a, b) => b.gameEnd - a.gameEnd);
+  const trimmed = wins.slice(0, RECENT_WINS_CAP);
+
+  await putFile(
+    env,
+    path,
+    branch,
+    JSON.stringify(trimmed, null, 2),
+    existingFile?.sha,
+    `sync: recent win ${body.summoner} on ${champion.name}`
   );
 }
 

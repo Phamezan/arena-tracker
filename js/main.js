@@ -2,6 +2,7 @@ import { loadData } from "./data.js";
 import { assignRankClasses, renderLeaderboard } from "./leaderboard.js";
 import { renderSummary } from "./summary.js";
 import { renderGrid } from "./grid.js";
+import { renderWinBanner } from "./winbanner.js";
 import { populateFocusOptions, STORAGE_KEYS } from "./controls.js";
 
 const statusEl = document.getElementById("status");
@@ -48,6 +49,7 @@ async function init() {
     assignRankClasses();
     populateFocusOptions();
     renderAll();
+    renderWinBanner();
   } catch (err) {
     statusEl.textContent = err.message;
     statusEl.classList.add("error");

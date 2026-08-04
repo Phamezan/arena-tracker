@@ -106,6 +106,36 @@ installer, the PyInstaller artifacts, and the LCU-based backfill
 legacy all-time format. The worker passes unknown fields through on
 snapshots and preserves manually-set fields (e.g. `avatar`).
 
+## 5a. Recent wins feed (`data/recent-wins.json`)
+
+The dashboard's win banner (top of the page, `#winBanner`) reads this
+file. The worker appends one entry per win event:
+
+```json
+{
+  "matchId": "EUW1_1234567890",
+  "summoner": "Name#Tag",
+  "championId": 523,
+  "gameEnd": 1754246400000,
+  "kda": { "kills": 14, "deaths": 2, "assists": 9 },
+  "items": [3031, 3094, 3036, 3072, 3006, 3026]
+}
+```
+
+- `gameEnd` is the match's real end time (match-v5
+  `info.gameEndTimestamp`, epoch ms), so backfilled bursts keep their
+  true dates instead of all looking "just now".
+- `matchId` dedupes repeats from backfills; entries without one are
+  always appended. `kda`/`items` are optional (item zeros dropped).
+- The file is kept sorted newest-first and capped at 50 entries.
+- The banner shows only wins from the last 24 hours, newest first, at
+  most 5 cards; it's hidden entirely when there's nothing to show.
+
+ArenaWatcher must send the extended win payload
+(`summoner, championName, matchId, gameEnd, kills, deaths, assists,
+items`) for cards to render with full detail; the worker stays
+backwards-compatible with the old two-field payload.
+
 ## 6. Season rollover procedure
 
 Everything lives in the ArenaWatcher — this repo carries no code besides

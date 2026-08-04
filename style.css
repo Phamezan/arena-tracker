@@ -352,3 +352,121 @@ main {
 #status.error {
   color: var(--miss);
 }
+
+/* Recent wins banner */
+#winBanner {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+#winBanner::-webkit-scrollbar {
+  height: 6px;
+}
+
+#winBanner::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+#winBanner::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.win-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 14px 8px 8px;
+  transition: border-color 0.15s ease;
+}
+
+.win-card:hover {
+  border-color: var(--accent);
+}
+
+.win-card .champ-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 6px;
+}
+
+.win-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.win-card-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.win-card-name .orb {
+  width: 18px;
+  height: 18px;
+}
+
+.win-card-player {
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.win-card-sub {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.72em;
+  color: var(--muted);
+}
+
+.win-card-sub .kda {
+  color: var(--text);
+  opacity: 0.75;
+  font-variant-numeric: tabular-nums;
+}
+
+.win-card-items {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-top: 3px;
+}
+
+.win-card-items .item-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.win-card-ribbon {
+  position: absolute;
+  top: 9px;
+  right: -26px;
+  transform: rotate(45deg);
+  background: linear-gradient(180deg, #e8c95c, #d4af37);
+  color: #0b0e14;
+  font-size: 0.52em;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  padding: 2px 30px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
