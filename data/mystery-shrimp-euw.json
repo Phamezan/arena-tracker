@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-08-04T14:07:30.095Z",
+  "updatedAt": "2026-08-04T17:15:32.737Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 14,
+  "completedCount": 15,
   "totalChampions": 173,
   "champions": [
     {
@@ -334,7 +334,7 @@
     {
       "id": 121,
       "name": "Kha'Zix",
-      "done": false
+      "done": true
     },
     {
       "id": 203,
