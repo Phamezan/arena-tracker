@@ -290,7 +290,9 @@ async function recordRecentWin(env, branch, body, champion) {
   const existingFile = await getFile(env, path, branch);
   const wins = existingFile ? JSON.parse(base64ToUtf8(existingFile.content)) : [];
 
-  if (entry.matchId && wins.some((w) => w.matchId === entry.matchId)) return;
+  // Dedupe on matchId + summoner, not matchId alone: duo teammates share a
+  // match but each earned their own card.
+  if (entry.matchId && wins.some((w) => w.matchId === entry.matchId && w.summoner === entry.summoner)) return;
 
   wins.push(entry);
   wins.sort((a, b) => b.gameEnd - a.gameEnd);

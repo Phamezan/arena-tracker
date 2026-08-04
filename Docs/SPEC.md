@@ -125,8 +125,10 @@ file. The worker appends one entry per win event:
 - `gameEnd` is the match's real end time (match-v5
   `info.gameEndTimestamp`, epoch ms), so backfilled bursts keep their
   true dates instead of all looking "just now".
-- `matchId` dedupes repeats from backfills; entries without one are
-  always appended. `kda`/`items` are optional (item zeros dropped).
+- `matchId` + `summoner` together dedupe repeats from backfills (teammates
+  share a `matchId` but each get their own entry); entries without a
+  `matchId` are always appended. `kda`/`items` are optional (item zeros
+  dropped).
 - The file is kept sorted newest-first and capped at 50 entries.
 - The banner shows only wins from the last 24 hours, newest first, at
   most 5 cards; it's hidden entirely when there's nothing to show.
