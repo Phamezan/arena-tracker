@@ -1,9 +1,9 @@
 {
   "summoner": "Insidious#EUWW",
-  "updatedAt": "2026-08-03T16:08:50.355Z",
+  "updatedAt": "2026-08-05T16:27:06.353Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 84,
+  "completedCount": 85,
   "totalChampions": 173,
   "champions": [
     {
@@ -349,7 +349,7 @@
     {
       "id": 96,
       "name": "Kog'Maw",
-      "done": false
+      "done": true
     },
     {
       "id": 7,
