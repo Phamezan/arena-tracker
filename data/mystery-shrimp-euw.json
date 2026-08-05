@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-08-04T17:15:32.737Z",
+  "updatedAt": "2026-08-05T16:27:09.155Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 15,
+  "completedCount": 16,
   "totalChampions": 173,
   "champions": [
     {
@@ -639,7 +639,7 @@
     {
       "id": 901,
       "name": "Smolder",
-      "done": false
+      "done": true
     },
     {
       "id": 37,
