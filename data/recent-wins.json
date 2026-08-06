@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7942240274",
+    "summoner": "SimonSuper#EUW",
+    "championId": 119,
+    "gameEnd": 1786037478043,
+    "kda": {
+      "kills": 12,
+      "deaths": 5,
+      "assists": 19
+    },
+    "items": [
+      443060,
+      446671,
+      223031,
+      447106,
+      446691,
+      447103
+    ]
+  },
+  {
     "matchId": "EUW1_7942180827",
     "summoner": "Phamezan#DKK",
     "championId": 5,
