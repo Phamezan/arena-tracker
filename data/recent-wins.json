@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7942700016",
+    "summoner": "Cifera#Swift",
+    "championId": 804,
+    "gameEnd": 1786059329205,
+    "kda": {
+      "kills": 6,
+      "deaths": 11,
+      "assists": 17
+    },
+    "items": [
+      226333,
+      223032,
+      226676,
+      223036,
+      223031,
+      223153
+    ]
+  },
+  {
     "matchId": "EUW1_7942664407",
     "summoner": "Mystery Shrimp#EUW",
     "championId": 101,
