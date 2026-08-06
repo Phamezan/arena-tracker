@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7942180827",
+    "summoner": "SimonSuper#EUW",
+    "championId": 59,
+    "gameEnd": 1786033788159,
+    "kda": {
+      "kills": 17,
+      "deaths": 2,
+      "assists": 20
+    },
+    "items": [
+      443081,
+      447119,
+      223084,
+      447111,
+      443055,
+      223068
+    ]
+  },
+  {
     "matchId": "EUW1_7941146891",
     "summoner": "Insidious#EUWW",
     "championId": 96,
