@@ -38,6 +38,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7942700016",
+    "summoner": "Nevermore#YBHG",
+    "championId": 166,
+    "gameEnd": 1786059329205,
+    "kda": {
+      "kills": 22,
+      "deaths": 6,
+      "assists": 9
+    },
+    "items": [
+      447107,
+      443060,
+      223031,
+      443090,
+      223033,
+      443069
+    ]
+  },
+  {
     "matchId": "EUW1_7942664407",
     "summoner": "Mystery Shrimp#EUW",
     "championId": 101,
