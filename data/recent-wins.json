@@ -15,6 +15,21 @@
     ]
   },
   {
+    "matchId": "EUW1_7942758018",
+    "summoner": "Nevermore#YBHG",
+    "championId": 432,
+    "gameEnd": 1786064962808,
+    "kda": {
+      "kills": 7,
+      "deaths": 5,
+      "assists": 21
+    },
+    "items": [
+      444636,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7942722015",
     "summoner": "Insidious#EUWW",
     "championId": 8,
