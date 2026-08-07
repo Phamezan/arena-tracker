@@ -1,9 +1,9 @@
 {
   "summoner": "Nevermore#YBHG",
-  "updatedAt": "2026-08-06T23:36:08.876Z",
+  "updatedAt": "2026-08-07T01:10:20.001Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 59,
+  "completedCount": 60,
   "totalChampions": 173,
   "champions": [
     {
@@ -79,7 +79,7 @@
     {
       "id": 432,
       "name": "Bard",
-      "done": false
+      "done": true
     },
     {
       "id": 200,
