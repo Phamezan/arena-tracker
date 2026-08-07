@@ -1,9 +1,9 @@
 {
   "summoner": "Drain CEO D9#GTBSG",
-  "updatedAt": "2026-08-06T23:04:22.664Z",
+  "updatedAt": "2026-08-07T00:10:59.690Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 36,
+  "completedCount": 37,
   "totalChampions": 173,
   "champions": [
     {
@@ -139,7 +139,7 @@
     {
       "id": 131,
       "name": "Diana",
-      "done": false
+      "done": true
     },
     {
       "id": 36,
