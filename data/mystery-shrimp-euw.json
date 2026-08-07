@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-08-07T00:10:57.163Z",
+  "updatedAt": "2026-08-07T18:42:00.117Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 19,
+  "completedCount": 20,
   "totalChampions": 173,
   "champions": [
     {
@@ -434,7 +434,7 @@
     {
       "id": 82,
       "name": "Mordekaiser",
-      "done": false
+      "done": true
     },
     {
       "id": 25,
