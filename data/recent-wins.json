@@ -15,6 +15,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7942722015",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 63,
+    "gameEnd": 1786061431672,
+    "kda": {
+      "kills": 6,
+      "deaths": 15,
+      "assists": 27
+    },
+    "items": [
+      447118,
+      447102,
+      226653,
+      444644,
+      447108,
+      444637
+    ]
+  },
+  {
     "matchId": "EUW1_7942700016",
     "summoner": "Poisom#UmU",
     "championId": 154,
