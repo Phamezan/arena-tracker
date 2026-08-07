@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-08-06T23:04:19.560Z",
+  "updatedAt": "2026-08-07T00:10:57.163Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 18,
+  "completedCount": 19,
   "totalChampions": 173,
   "champions": [
     {
@@ -94,7 +94,7 @@
     {
       "id": 63,
       "name": "Brand",
-      "done": false
+      "done": true
     },
     {
       "id": 201,
