@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7942892117",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 53,
+    "gameEnd": 1786097905401,
+    "kda": {
+      "kills": 11,
+      "deaths": 9,
+      "assists": 17
+    },
+    "items": [
+      228002,
+      443056,
+      223084,
+      223111,
+      447106,
+      447107
+    ]
+  },
+  {
     "matchId": "EUW1_7942758018",
     "summoner": "Insidious#EUWW",
     "championId": 150,
