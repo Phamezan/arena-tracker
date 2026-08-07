@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-04T20:58:51.194Z",
+  "updatedAt": "2026-08-07T10:18:52.597Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 70,
+  "completedCount": 71,
   "totalChampions": 173,
   "champions": [
     {
@@ -89,7 +89,7 @@
     {
       "id": 53,
       "name": "Blitzcrank",
-      "done": false
+      "done": true
     },
     {
       "id": 63,
