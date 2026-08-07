@@ -34,6 +34,20 @@
     ]
   },
   {
+    "matchId": "EUW1_7942722015",
+    "summoner": "Drain CEO D9#GTBSG",
+    "championId": 131,
+    "gameEnd": 1786061431672,
+    "kda": {
+      "kills": 11,
+      "deaths": 10,
+      "assists": 22
+    },
+    "items": [
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7942700016",
     "summoner": "Poisom#UmU",
     "championId": 154,
