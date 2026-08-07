@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-06T17:32:06.116Z",
+  "updatedAt": "2026-08-07T10:18:49.573Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 46,
+  "completedCount": 47,
   "totalChampions": 173,
   "champions": [
     {
@@ -369,7 +369,7 @@
     {
       "id": 876,
       "name": "Lillia",
-      "done": false
+      "done": true
     },
     {
       "id": 127,
