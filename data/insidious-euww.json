@@ -1,9 +1,9 @@
 {
   "summoner": "Insidious#EUWW",
-  "updatedAt": "2026-08-07T00:10:54.627Z",
+  "updatedAt": "2026-08-07T01:10:17.429Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 85,
+  "completedCount": 86,
   "totalChampions": 173,
   "champions": [
     {
@@ -204,7 +204,7 @@
     {
       "id": 150,
       "name": "Gnar",
-      "done": false
+      "done": true
     },
     {
       "id": 79,
