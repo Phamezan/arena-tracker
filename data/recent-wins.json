@@ -38,6 +38,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7944375792",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 157,
+    "gameEnd": 1786212558361,
+    "kda": {
+      "kills": 2,
+      "deaths": 12,
+      "assists": 15
+    },
+    "items": [
+      223031,
+      443069,
+      223072,
+      446632,
+      223153,
+      223124
+    ]
+  },
+  {
     "matchId": "EUW1_7944123215",
     "summoner": "SimonSuper#EUW",
     "championId": 166,
