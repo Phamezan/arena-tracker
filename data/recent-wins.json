@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7944375792",
+    "summoner": "Cifera#Swift",
+    "championId": 51,
+    "gameEnd": 1786212558361,
+    "kda": {
+      "kills": 23,
+      "deaths": 7,
+      "assists": 5
+    },
+    "items": [
+      223036,
+      443060,
+      447120,
+      223031,
+      222523,
+      447106
+    ]
+  },
+  {
     "matchId": "EUW1_7944123215",
     "summoner": "SimonSuper#EUW",
     "championId": 166,
