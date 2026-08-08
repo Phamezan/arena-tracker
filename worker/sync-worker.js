@@ -97,7 +97,11 @@ async function putFile(env, path, branch, contentStr, sha, message) {
   return resp.json();
 }
 
-/** Map Riot's internal champion id (e.g. "MonkeyKing") to { id: numericId, name: displayName }. */
+/**
+ * Map Riot's internal champion id (e.g. "MonkeyKing") to { id: numericId, name: displayName }.
+ * Keys are lowercased because the match API's casing sometimes differs from Data Dragon's
+ * (e.g. participant.championName is "FiddleSticks" while DDragon's id is "Fiddlesticks").
+ */
 async function fetchChampionMap() {
   const versions = await (await fetch(DDRAGON_VERSIONS_URL)).json();
   const latest = versions[0];
@@ -110,7 +114,7 @@ async function fetchChampionMap() {
     const numericId = Number(champ.key);
     // Skip the "classic" champions (ids offset by 60000) — Arena only uses the modern set.
     if (numericId >= CLASSIC_ID_OFFSET) continue;
-    map.set(champ.id, { id: numericId, name: champ.name });
+    map.set(champ.id.toLowerCase(), { id: numericId, name: champ.name });
   }
   return map;
 }
@@ -215,7 +219,7 @@ async function handleWin(body, env) {
   }
 
   const championMap = await fetchChampionMap();
-  const champion = championMap.get(body.championName);
+  const champion = championMap.get(body.championName.toLowerCase());
   if (!champion) {
     return new Response(`Unknown championName "${body.championName}"`, { status: 400 });
   }
