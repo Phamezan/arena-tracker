@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7944411676",
+    "summoner": "Cifera#Swift",
+    "championId": 133,
+    "gameEnd": 1786214452898,
+    "kda": {
+      "kills": 5,
+      "deaths": 5,
+      "assists": 15
+    },
+    "items": [
+      223302,
+      223006,
+      447106,
+      223124,
+      223153,
+      226672
+    ]
+  },
+  {
     "matchId": "EUW1_7944375792",
     "summoner": "Phamezan#DKK",
     "championId": 111,
