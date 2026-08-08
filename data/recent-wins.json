@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7944123215",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 56,
+    "gameEnd": 1786198124720,
+    "kda": {
+      "kills": 27,
+      "deaths": 7,
+      "assists": 13
+    },
+    "items": [
+      226693,
+      226698,
+      226676,
+      447106,
+      446691,
+      226699
+    ]
+  },
+  {
     "matchId": "EUW1_7944069486",
     "summoner": "SimonSuper#EUW",
     "championId": 360,
