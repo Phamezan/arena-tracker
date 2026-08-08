@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-08T13:03:09.448Z",
+  "updatedAt": "2026-08-08T14:09:10.634Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 48,
+  "completedCount": 49,
   "totalChampions": 173,
   "champions": [
     {
@@ -24,7 +24,7 @@
     {
       "id": 166,
       "name": "Akshan",
-      "done": false
+      "done": true
     },
     {
       "id": 12,
