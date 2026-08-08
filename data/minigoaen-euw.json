@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-08T13:03:12.140Z",
+  "updatedAt": "2026-08-08T14:09:13.220Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 72,
+  "completedCount": 73,
   "totalChampions": 173,
   "champions": [
     {
@@ -479,7 +479,7 @@
     {
       "id": 56,
       "name": "Nocturne",
-      "done": false
+      "done": true
     },
     {
       "id": 20,
