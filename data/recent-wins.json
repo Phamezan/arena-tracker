@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7945598332",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 804,
+    "gameEnd": 1786303854060,
+    "kda": {
+      "kills": 25,
+      "deaths": 8,
+      "assists": 10
+    },
+    "items": [
+      223146,
+      447114,
+      223031,
+      443090,
+      223085,
+      4015
+    ]
+  },
+  {
     "matchId": "EUW1_7945315735",
     "summoner": "Mystery Shrimp#EUW",
     "championId": 30,
