@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-08-08T23:59:16.186Z",
+  "updatedAt": "2026-08-09T14:55:26.465Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 24,
+  "completedCount": 25,
   "totalChampions": 173,
   "champions": [
     {
@@ -779,7 +779,7 @@
     {
       "id": 106,
       "name": "Volibear",
-      "done": false
+      "done": true
     },
     {
       "id": 19,
