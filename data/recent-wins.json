@@ -1,5 +1,341 @@
 [
   {
+    "matchId": "EUW1_7946038445",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 103,
+    "gameEnd": 1786350083374,
+    "kda": {
+      "kills": 14,
+      "deaths": 4,
+      "assists": 15
+    },
+    "items": [
+      223089,
+      447113,
+      223040,
+      223042,
+      226657,
+      223135
+    ]
+  },
+  {
+    "matchId": "EUW1_7946038445",
+    "summoner": "duus#mvp",
+    "championId": 157,
+    "gameEnd": 1786350083374,
+    "kda": {
+      "kills": 14,
+      "deaths": 5,
+      "assists": 11
+    },
+    "items": [
+      446671,
+      226676,
+      223031,
+      223153,
+      443069,
+      443090
+    ]
+  },
+  {
+    "matchId": "EUW1_7945598332",
+    "summoner": "SimonSuper#EUW",
+    "championId": 526,
+    "gameEnd": 1786303854060,
+    "kda": {
+      "kills": 6,
+      "deaths": 3,
+      "assists": 31
+    },
+    "items": [
+      443056,
+      447106,
+      223084,
+      223068,
+      222502,
+      223075
+    ]
+  },
+  {
+    "matchId": "EUW1_7945598332",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 804,
+    "gameEnd": 1786303854060,
+    "kda": {
+      "kills": 25,
+      "deaths": 8,
+      "assists": 10
+    },
+    "items": [
+      223146,
+      447114,
+      223031,
+      443090,
+      223085,
+      4015
+    ]
+  },
+  {
+    "matchId": "EUW1_7945315735",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 30,
+    "gameEnd": 1786289969259,
+    "kda": {
+      "kills": 7,
+      "deaths": 8,
+      "assists": 21
+    },
+    "items": [
+      224645,
+      444637,
+      444636,
+      226653,
+      223089,
+      223135
+    ]
+  },
+  {
+    "matchId": "EUW1_7945250828",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 106,
+    "gameEnd": 1786287286862,
+    "kda": {
+      "kills": 5,
+      "deaths": 11,
+      "assists": 14
+    },
+    "items": [
+      447121,
+      447103,
+      220012
+    ]
+  },
+  {
+    "matchId": "EUW1_7945250828",
+    "summoner": "Drain CEO D9#GTBSG",
+    "championId": 81,
+    "gameEnd": 1786287286862,
+    "kda": {
+      "kills": 17,
+      "deaths": 5,
+      "assists": 12
+    },
+    "items": [
+      446691,
+      446632,
+      220012
+    ]
+  },
+  {
+    "matchId": "EUW1_7945053006",
+    "summoner": "SimonSuper#EUW",
+    "championId": 84,
+    "gameEnd": 1786276174475,
+    "kda": {
+      "kills": 19,
+      "deaths": 6,
+      "assists": 14
+    },
+    "items": [
+      223089,
+      446656,
+      447108,
+      447116,
+      223100,
+      447106
+    ]
+  },
+  {
+    "matchId": "EUW1_7945053006",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 10,
+    "gameEnd": 1786276174475,
+    "kda": {
+      "kills": 12,
+      "deaths": 8,
+      "assists": 17
+    },
+    "items": [
+      223006,
+      447123,
+      447121,
+      223124,
+      223115,
+      223153
+    ]
+  },
+  {
+    "matchId": "EUW1_7945036847",
+    "summoner": "SimonSuper#EUW",
+    "championId": 75,
+    "gameEnd": 1786274302543,
+    "kda": {
+      "kills": 9,
+      "deaths": 6,
+      "assists": 20
+    },
+    "items": [
+      447111,
+      443193,
+      446667,
+      223084,
+      223065,
+      222502
+    ]
+  },
+  {
+    "matchId": "EUW1_7945036847",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 106,
+    "gameEnd": 1786274302543,
+    "kda": {
+      "kills": 13,
+      "deaths": 2,
+      "assists": 16
+    },
+    "items": [
+      224633,
+      444637,
+      446632,
+      223084,
+      223121,
+      223040
+    ]
+  },
+  {
+    "matchId": "EUW1_7944780862",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 5,
+    "gameEnd": 1786233507156,
+    "kda": {
+      "kills": 20,
+      "deaths": 1,
+      "assists": 20
+    },
+    "items": [
+      447121,
+      443054,
+      222510,
+      223124,
+      443090,
+      223153
+    ]
+  },
+  {
+    "matchId": "EUW1_7944411676",
+    "summoner": "Phamezan#DKK",
+    "championId": 24,
+    "gameEnd": 1786214452898,
+    "kda": {
+      "kills": 12,
+      "deaths": 7,
+      "assists": 10
+    },
+    "items": [
+      223091,
+      443054,
+      443090,
+      223153,
+      223124,
+      226665
+    ]
+  },
+  {
+    "matchId": "EUW1_7944411676",
+    "summoner": "Cifera#Swift",
+    "championId": 133,
+    "gameEnd": 1786214452898,
+    "kda": {
+      "kills": 5,
+      "deaths": 5,
+      "assists": 15
+    },
+    "items": [
+      223302,
+      223006,
+      447106,
+      223124,
+      223153,
+      226672
+    ]
+  },
+  {
+    "matchId": "EUW1_7944411676",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 235,
+    "gameEnd": 1786214452898,
+    "kda": {
+      "kills": 7,
+      "deaths": 7,
+      "assists": 16
+    },
+    "items": [
+      223033,
+      447120,
+      226676,
+      443060,
+      223031,
+      223153
+    ]
+  },
+  {
+    "matchId": "EUW1_7944375792",
+    "summoner": "Phamezan#DKK",
+    "championId": 111,
+    "gameEnd": 1786212558361,
+    "kda": {
+      "kills": 6,
+      "deaths": 5,
+      "assists": 22
+    },
+    "items": [
+      447109,
+      447122,
+      447112,
+      226665,
+      443056,
+      447106
+    ]
+  },
+  {
+    "matchId": "EUW1_7944375792",
+    "summoner": "Cifera#Swift",
+    "championId": 51,
+    "gameEnd": 1786212558361,
+    "kda": {
+      "kills": 23,
+      "deaths": 7,
+      "assists": 5
+    },
+    "items": [
+      223036,
+      443060,
+      447120,
+      223031,
+      222523,
+      447106
+    ]
+  },
+  {
+    "matchId": "EUW1_7944375792",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 157,
+    "gameEnd": 1786212558361,
+    "kda": {
+      "kills": 2,
+      "deaths": 12,
+      "assists": 15
+    },
+    "items": [
+      223031,
+      443069,
+      223072,
+      446632,
+      223153,
+      223124
+    ]
+  },
+  {
     "matchId": "EUW1_7944123215",
     "summoner": "SimonSuper#EUW",
     "championId": 166,

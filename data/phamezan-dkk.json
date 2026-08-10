@@ -1,9 +1,9 @@
 {
   "summoner": "Phamezan#DKK",
-  "updatedAt": "2026-08-06T17:32:03.485Z",
+  "updatedAt": "2026-08-08T18:41:30.955Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 116,
+  "completedCount": 117,
   "totalChampions": 173,
   "champions": [
     {
@@ -264,7 +264,7 @@
     {
       "id": 24,
       "name": "Jax",
-      "done": false
+      "done": true
     },
     {
       "id": 126,

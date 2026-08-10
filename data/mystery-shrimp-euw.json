@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-08-07T18:42:00.117Z",
+  "updatedAt": "2026-08-09T15:40:14.379Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 20,
+  "completedCount": 26,
   "totalChampions": 173,
   "champions": [
     {
@@ -174,7 +174,7 @@
     {
       "id": 9,
       "name": "Fiddlesticks",
-      "done": false
+      "done": true
     },
     {
       "id": 114,
@@ -304,7 +304,7 @@
     {
       "id": 30,
       "name": "Karthus",
-      "done": false
+      "done": true
     },
     {
       "id": 38,
@@ -589,7 +589,7 @@
     {
       "id": 235,
       "name": "Senna",
-      "done": false
+      "done": true
     },
     {
       "id": 147,
@@ -779,7 +779,7 @@
     {
       "id": 106,
       "name": "Volibear",
-      "done": false
+      "done": true
     },
     {
       "id": 19,
@@ -804,12 +804,12 @@
     {
       "id": 5,
       "name": "Xin Zhao",
-      "done": false
+      "done": true
     },
     {
       "id": 157,
       "name": "Yasuo",
-      "done": false
+      "done": true
     },
     {
       "id": 777,
