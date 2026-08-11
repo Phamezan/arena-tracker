@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "EUW1_7947797078",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 27,
+    "gameEnd": 1786484144722,
+    "kda": {
+      "kills": 14,
+      "deaths": 2,
+      "assists": 22
+    },
+    "items": [
+      447118,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7947721093",
     "summoner": "Mystery Shrimp#EUW",
     "championId": 154,
@@ -878,25 +893,6 @@
       223124,
       443054,
       223302
-    ]
-  },
-  {
-    "matchId": "EUW1_7941146891",
-    "summoner": "Mystery Shrimp#EUW",
-    "championId": 901,
-    "gameEnd": 1785947179361,
-    "kda": {
-      "kills": 4,
-      "deaths": 13,
-      "assists": 16
-    },
-    "items": [
-      447120,
-      223031,
-      443060,
-      223072,
-      223508,
-      223036
     ]
   }
 ]
