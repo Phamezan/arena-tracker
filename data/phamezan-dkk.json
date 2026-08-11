@@ -1,9 +1,9 @@
 {
   "summoner": "Phamezan#DKK",
-  "updatedAt": "2026-08-08T18:41:30.955Z",
+  "updatedAt": "2026-08-11T19:17:57.947Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 117,
+  "completedCount": 118,
   "totalChampions": 173,
   "champions": [
     {
@@ -324,7 +324,7 @@
     {
       "id": 141,
       "name": "Kayn",
-      "done": false
+      "done": true
     },
     {
       "id": 85,
