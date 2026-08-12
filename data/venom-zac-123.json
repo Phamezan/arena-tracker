@@ -1,9 +1,9 @@
 {
-  "summoner": "Phamezan#DKK",
-  "updatedAt": "2026-08-12T19:12:09.473Z",
+  "summoner": "VENOM ZAC#123",
+  "updatedAt": "2026-08-11T19:18:00.807Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 120,
+  "completedCount": 10,
   "totalChampions": 173,
   "champions": [
     {
@@ -14,7 +14,7 @@
     {
       "id": 103,
       "name": "Ahri",
-      "done": true
+      "done": false
     },
     {
       "id": 84,
@@ -24,7 +24,7 @@
     {
       "id": 166,
       "name": "Akshan",
-      "done": true
+      "done": false
     },
     {
       "id": 12,
@@ -34,17 +34,17 @@
     {
       "id": 799,
       "name": "Ambessa",
-      "done": true
+      "done": false
     },
     {
       "id": 32,
       "name": "Amumu",
-      "done": true
+      "done": false
     },
     {
       "id": 34,
       "name": "Anivia",
-      "done": true
+      "done": false
     },
     {
       "id": 1,
@@ -64,22 +64,22 @@
     {
       "id": 136,
       "name": "Aurelion Sol",
-      "done": true
+      "done": false
     },
     {
       "id": 893,
       "name": "Aurora",
-      "done": true
+      "done": false
     },
     {
       "id": 268,
       "name": "Azir",
-      "done": true
+      "done": false
     },
     {
       "id": 432,
       "name": "Bard",
-      "done": true
+      "done": false
     },
     {
       "id": 200,
@@ -89,22 +89,22 @@
     {
       "id": 53,
       "name": "Blitzcrank",
-      "done": true
+      "done": false
     },
     {
       "id": 63,
       "name": "Brand",
-      "done": true
+      "done": false
     },
     {
       "id": 201,
       "name": "Braum",
-      "done": true
+      "done": false
     },
     {
       "id": 233,
       "name": "Briar",
-      "done": true
+      "done": false
     },
     {
       "id": 51,
@@ -114,27 +114,27 @@
     {
       "id": 164,
       "name": "Camille",
-      "done": true
+      "done": false
     },
     {
       "id": 69,
       "name": "Cassiopeia",
-      "done": true
+      "done": false
     },
     {
       "id": 31,
       "name": "Cho'Gath",
-      "done": true
+      "done": false
     },
     {
       "id": 42,
       "name": "Corki",
-      "done": true
+      "done": false
     },
     {
       "id": 122,
       "name": "Darius",
-      "done": true
+      "done": false
     },
     {
       "id": 131,
@@ -149,17 +149,17 @@
     {
       "id": 119,
       "name": "Draven",
-      "done": true
+      "done": false
     },
     {
       "id": 245,
       "name": "Ekko",
-      "done": true
+      "done": false
     },
     {
       "id": 60,
       "name": "Elise",
-      "done": true
+      "done": false
     },
     {
       "id": 28,
@@ -169,32 +169,32 @@
     {
       "id": 81,
       "name": "Ezreal",
-      "done": true
+      "done": false
     },
     {
       "id": 9,
       "name": "Fiddlesticks",
-      "done": true
+      "done": false
     },
     {
       "id": 114,
       "name": "Fiora",
-      "done": true
+      "done": false
     },
     {
       "id": 105,
       "name": "Fizz",
-      "done": true
+      "done": false
     },
     {
       "id": 3,
       "name": "Galio",
-      "done": true
+      "done": false
     },
     {
       "id": 41,
       "name": "Gangplank",
-      "done": true
+      "done": false
     },
     {
       "id": 86,
@@ -204,17 +204,17 @@
     {
       "id": 150,
       "name": "Gnar",
-      "done": true
+      "done": false
     },
     {
       "id": 79,
       "name": "Gragas",
-      "done": true
+      "done": false
     },
     {
       "id": 104,
       "name": "Graves",
-      "done": true
+      "done": false
     },
     {
       "id": 887,
@@ -224,17 +224,17 @@
     {
       "id": 120,
       "name": "Hecarim",
-      "done": true
+      "done": false
     },
     {
       "id": 74,
       "name": "Heimerdinger",
-      "done": true
+      "done": false
     },
     {
       "id": 910,
       "name": "Hwei",
-      "done": true
+      "done": false
     },
     {
       "id": 420,
@@ -254,7 +254,7 @@
     {
       "id": 40,
       "name": "Janna",
-      "done": true
+      "done": false
     },
     {
       "id": 59,
@@ -264,7 +264,7 @@
     {
       "id": 24,
       "name": "Jax",
-      "done": true
+      "done": false
     },
     {
       "id": 126,
@@ -274,7 +274,7 @@
     {
       "id": 202,
       "name": "Jhin",
-      "done": true
+      "done": false
     },
     {
       "id": 222,
@@ -284,22 +284,22 @@
     {
       "id": 897,
       "name": "K'Sante",
-      "done": true
+      "done": false
     },
     {
       "id": 145,
       "name": "Kai'Sa",
-      "done": true
+      "done": false
     },
     {
       "id": 429,
       "name": "Kalista",
-      "done": true
+      "done": false
     },
     {
       "id": 43,
       "name": "Karma",
-      "done": true
+      "done": false
     },
     {
       "id": 30,
@@ -314,7 +314,7 @@
     {
       "id": 55,
       "name": "Katarina",
-      "done": true
+      "done": false
     },
     {
       "id": 10,
@@ -324,7 +324,7 @@
     {
       "id": 141,
       "name": "Kayn",
-      "done": true
+      "done": false
     },
     {
       "id": 85,
@@ -339,17 +339,17 @@
     {
       "id": 203,
       "name": "Kindred",
-      "done": true
+      "done": false
     },
     {
       "id": 240,
       "name": "Kled",
-      "done": true
+      "done": false
     },
     {
       "id": 96,
       "name": "Kog'Maw",
-      "done": true
+      "done": false
     },
     {
       "id": 7,
@@ -364,12 +364,12 @@
     {
       "id": 89,
       "name": "Leona",
-      "done": true
+      "done": false
     },
     {
       "id": 876,
       "name": "Lillia",
-      "done": true
+      "done": false
     },
     {
       "id": 127,
@@ -384,12 +384,12 @@
     {
       "id": 236,
       "name": "Lucian",
-      "done": true
+      "done": false
     },
     {
       "id": 117,
       "name": "Lulu",
-      "done": true
+      "done": false
     },
     {
       "id": 99,
@@ -399,7 +399,7 @@
     {
       "id": 54,
       "name": "Malphite",
-      "done": true
+      "done": false
     },
     {
       "id": 90,
@@ -409,17 +409,17 @@
     {
       "id": 57,
       "name": "Maokai",
-      "done": true
+      "done": false
     },
     {
       "id": 11,
       "name": "Master Yi",
-      "done": true
+      "done": false
     },
     {
       "id": 800,
       "name": "Mel",
-      "done": true
+      "done": false
     },
     {
       "id": 902,
@@ -429,17 +429,17 @@
     {
       "id": 21,
       "name": "Miss Fortune",
-      "done": true
+      "done": false
     },
     {
       "id": 82,
       "name": "Mordekaiser",
-      "done": true
+      "done": false
     },
     {
       "id": 25,
       "name": "Morgana",
-      "done": true
+      "done": false
     },
     {
       "id": 950,
@@ -449,37 +449,37 @@
     {
       "id": 267,
       "name": "Nami",
-      "done": true
+      "done": false
     },
     {
       "id": 75,
       "name": "Nasus",
-      "done": true
+      "done": false
     },
     {
       "id": 111,
       "name": "Nautilus",
-      "done": true
+      "done": false
     },
     {
       "id": 518,
       "name": "Neeko",
-      "done": true
+      "done": false
     },
     {
       "id": 76,
       "name": "Nidalee",
-      "done": true
+      "done": false
     },
     {
       "id": 895,
       "name": "Nilah",
-      "done": true
+      "done": false
     },
     {
       "id": 56,
       "name": "Nocturne",
-      "done": true
+      "done": false
     },
     {
       "id": 20,
@@ -489,27 +489,27 @@
     {
       "id": 2,
       "name": "Olaf",
-      "done": true
+      "done": false
     },
     {
       "id": 61,
       "name": "Orianna",
-      "done": true
+      "done": false
     },
     {
       "id": 516,
       "name": "Ornn",
-      "done": true
+      "done": false
     },
     {
       "id": 80,
       "name": "Pantheon",
-      "done": true
+      "done": false
     },
     {
       "id": 78,
       "name": "Poppy",
-      "done": true
+      "done": false
     },
     {
       "id": 555,
@@ -519,7 +519,7 @@
     {
       "id": 246,
       "name": "Qiyana",
-      "done": true
+      "done": false
     },
     {
       "id": 133,
@@ -549,7 +549,7 @@
     {
       "id": 888,
       "name": "Renata Glasc",
-      "done": true
+      "done": false
     },
     {
       "id": 58,
@@ -559,22 +559,22 @@
     {
       "id": 107,
       "name": "Rengar",
-      "done": true
+      "done": false
     },
     {
       "id": 92,
       "name": "Riven",
-      "done": true
+      "done": false
     },
     {
       "id": 68,
       "name": "Rumble",
-      "done": true
+      "done": false
     },
     {
       "id": 13,
       "name": "Ryze",
-      "done": true
+      "done": false
     },
     {
       "id": 360,
@@ -584,37 +584,37 @@
     {
       "id": 113,
       "name": "Sejuani",
-      "done": true
+      "done": false
     },
     {
       "id": 235,
       "name": "Senna",
-      "done": true
+      "done": false
     },
     {
       "id": 147,
       "name": "Seraphine",
-      "done": true
+      "done": false
     },
     {
       "id": 875,
       "name": "Sett",
-      "done": true
+      "done": false
     },
     {
       "id": 35,
       "name": "Shaco",
-      "done": false
+      "done": true
     },
     {
       "id": 98,
       "name": "Shen",
-      "done": true
+      "done": false
     },
     {
       "id": 102,
       "name": "Shyvana",
-      "done": true
+      "done": false
     },
     {
       "id": 27,
@@ -624,12 +624,12 @@
     {
       "id": 14,
       "name": "Sion",
-      "done": true
+      "done": false
     },
     {
       "id": 15,
       "name": "Sivir",
-      "done": true
+      "done": false
     },
     {
       "id": 72,
@@ -639,12 +639,12 @@
     {
       "id": 901,
       "name": "Smolder",
-      "done": true
+      "done": false
     },
     {
       "id": 37,
       "name": "Sona",
-      "done": true
+      "done": false
     },
     {
       "id": 16,
@@ -654,12 +654,12 @@
     {
       "id": 50,
       "name": "Swain",
-      "done": true
+      "done": false
     },
     {
       "id": 517,
       "name": "Sylas",
-      "done": true
+      "done": false
     },
     {
       "id": 134,
@@ -669,12 +669,12 @@
     {
       "id": 223,
       "name": "Tahm Kench",
-      "done": true
+      "done": false
     },
     {
       "id": 163,
       "name": "Taliyah",
-      "done": true
+      "done": false
     },
     {
       "id": 91,
@@ -684,7 +684,7 @@
     {
       "id": 44,
       "name": "Taric",
-      "done": true
+      "done": false
     },
     {
       "id": 17,
@@ -699,12 +699,12 @@
     {
       "id": 18,
       "name": "Tristana",
-      "done": true
+      "done": false
     },
     {
       "id": 48,
       "name": "Trundle",
-      "done": true
+      "done": false
     },
     {
       "id": 23,
@@ -714,17 +714,17 @@
     {
       "id": 4,
       "name": "Twisted Fate",
-      "done": true
+      "done": false
     },
     {
       "id": 29,
       "name": "Twitch",
-      "done": true
+      "done": false
     },
     {
       "id": 77,
       "name": "Udyr",
-      "done": true
+      "done": false
     },
     {
       "id": 6,
@@ -734,37 +734,37 @@
     {
       "id": 110,
       "name": "Varus",
-      "done": true
+      "done": false
     },
     {
       "id": 67,
       "name": "Vayne",
-      "done": true
+      "done": false
     },
     {
       "id": 45,
       "name": "Veigar",
-      "done": true
+      "done": false
     },
     {
       "id": 161,
       "name": "Vel'Koz",
-      "done": true
+      "done": false
     },
     {
       "id": 711,
       "name": "Vex",
-      "done": true
+      "done": false
     },
     {
       "id": 254,
       "name": "Vi",
-      "done": true
+      "done": false
     },
     {
       "id": 234,
       "name": "Viego",
-      "done": true
+      "done": false
     },
     {
       "id": 112,
@@ -774,22 +774,22 @@
     {
       "id": 8,
       "name": "Vladimir",
-      "done": false
+      "done": true
     },
     {
       "id": 106,
       "name": "Volibear",
-      "done": true
+      "done": false
     },
     {
       "id": 19,
       "name": "Warwick",
-      "done": true
+      "done": false
     },
     {
       "id": 62,
       "name": "Wukong",
-      "done": true
+      "done": false
     },
     {
       "id": 498,
@@ -804,7 +804,7 @@
     {
       "id": 5,
       "name": "Xin Zhao",
-      "done": true
+      "done": false
     },
     {
       "id": 157,
@@ -814,32 +814,32 @@
     {
       "id": 777,
       "name": "Yone",
-      "done": true
+      "done": false
     },
     {
       "id": 83,
       "name": "Yorick",
-      "done": true
+      "done": false
     },
     {
       "id": 804,
       "name": "Yunara",
-      "done": true
+      "done": false
     },
     {
       "id": 350,
       "name": "Yuumi",
-      "done": true
+      "done": false
     },
     {
       "id": 904,
       "name": "Zaahen",
-      "done": false
+      "done": true
     },
     {
       "id": 154,
       "name": "Zac",
-      "done": true
+      "done": false
     },
     {
       "id": 238,
@@ -849,17 +849,17 @@
     {
       "id": 221,
       "name": "Zeri",
-      "done": true
+      "done": false
     },
     {
       "id": 115,
       "name": "Ziggs",
-      "done": true
+      "done": false
     },
     {
       "id": 26,
       "name": "Zilean",
-      "done": true
+      "done": false
     },
     {
       "id": 142,
@@ -871,6 +871,5 @@
       "name": "Zyra",
       "done": false
     }
-  ],
-  "avatar": "michael.png"
+  ]
 }

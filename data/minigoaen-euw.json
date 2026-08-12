@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-10T08:21:48.694Z",
+  "updatedAt": "2026-08-12T15:19:14.464Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 76,
+  "completedCount": 78,
   "totalChampions": 173,
   "champions": [
     {
@@ -384,7 +384,7 @@
     {
       "id": 236,
       "name": "Lucian",
-      "done": false
+      "done": true
     },
     {
       "id": 117,
@@ -709,7 +709,7 @@
     {
       "id": 23,
       "name": "Tryndamere",
-      "done": false
+      "done": true
     },
     {
       "id": 4,

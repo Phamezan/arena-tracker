@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-08-09T15:40:14.379Z",
+  "updatedAt": "2026-08-11T21:36:29.763Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 26,
+  "completedCount": 28,
   "totalChampions": 173,
   "champions": [
     {
@@ -619,7 +619,7 @@
     {
       "id": 27,
       "name": "Singed",
-      "done": false
+      "done": true
     },
     {
       "id": 14,
@@ -839,7 +839,7 @@
     {
       "id": 154,
       "name": "Zac",
-      "done": false
+      "done": true
     },
     {
       "id": 238,
