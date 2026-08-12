@@ -1,9 +1,9 @@
 {
   "summoner": "Phamezan#DKK",
-  "updatedAt": "2026-08-12T17:41:21.367Z",
+  "updatedAt": "2026-08-12T19:12:09.473Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 119,
+  "completedCount": 120,
   "totalChampions": 173,
   "champions": [
     {
@@ -199,7 +199,7 @@
     {
       "id": 86,
       "name": "Garen",
-      "done": false
+      "done": true
     },
     {
       "id": 150,
