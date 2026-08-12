@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-12T15:19:11.541Z",
+  "updatedAt": "2026-08-12T17:41:24.333Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 54,
+  "completedCount": 55,
   "totalChampions": 173,
   "champions": [
     {
@@ -209,7 +209,7 @@
     {
       "id": 79,
       "name": "Gragas",
-      "done": false
+      "done": true
     },
     {
       "id": 104,
