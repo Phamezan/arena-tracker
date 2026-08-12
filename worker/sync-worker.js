@@ -260,7 +260,17 @@ async function handleWin(body, env) {
 
   await ensureManifestHasFile(env, branch, filename);
 
-  await recordRecentWin(env, branch, body, champion);
+  const recentWin = await recordRecentWin(env, branch, body, champion);
+
+  // A live-delivery problem should never turn a successfully saved win into
+  // a failed sync. GitHub remains the durable source of truth.
+  if (recentWin) {
+    try {
+      await publishLiveUpdate(env, { type: "win", champion, win: recentWin });
+    } catch (err) {
+      console.error("Could not publish live update", err);
+    }
+  }
 
   return new Response(
     JSON.stringify({ ok: true, filename, championName: champion.name, done: true }),
@@ -296,7 +306,7 @@ async function recordRecentWin(env, branch, body, champion) {
 
   // Dedupe on matchId + summoner, not matchId alone: duo teammates share a
   // match but each earned their own card.
-  if (entry.matchId && wins.some((w) => w.matchId === entry.matchId && w.summoner === entry.summoner)) return;
+  if (entry.matchId && wins.some((w) => w.matchId === entry.matchId && w.summoner === entry.summoner)) return null;
 
   wins.push(entry);
   wins.sort((a, b) => b.gameEnd - a.gameEnd);
@@ -310,6 +320,19 @@ async function recordRecentWin(env, branch, body, champion) {
     existingFile?.sha,
     `sync: recent win ${body.summoner} on ${champion.name}`
   );
+
+  return entry;
+}
+
+/** Send a best-effort real-time update to dashboards currently open. */
+async function publishLiveUpdate(env, update) {
+  const id = env.LIVE_UPDATES.idFromName("global");
+  const response = await env.LIVE_UPDATES.get(id).fetch("https://live.internal/broadcast", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(update),
+  });
+  if (!response.ok) throw new Error(`Live broadcast failed: ${response.status}`);
 }
 
 async function handleRequest(request, env) {
@@ -331,8 +354,54 @@ async function handleRequest(request, env) {
   return Array.isArray(body.champions) ? handleSnapshot(body, env) : handleWin(body, env);
 }
 
+/**
+ * One durable, hibernatable WebSocket room for every currently open dashboard.
+ * It has no persisted game state: GitHub data files remain authoritative.
+ */
+export class LiveUpdates {
+  constructor(ctx) {
+    this.ctx = ctx;
+  }
+
+  async fetch(request) {
+    const url = new URL(request.url);
+    if (url.pathname === "/broadcast") {
+      if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
+      const message = JSON.stringify(await request.json());
+      for (const socket of this.ctx.getWebSockets()) {
+        try {
+          socket.send(message);
+        } catch {
+          socket.close(1011, "Unable to deliver update");
+        }
+      }
+      return new Response(null, { status: 204 });
+    }
+
+    if (request.headers.get("Upgrade") !== "websocket") {
+      return new Response("Expected a WebSocket upgrade", { status: 426 });
+    }
+
+    const pair = new WebSocketPair();
+    const [client, server] = Object.values(pair);
+    this.ctx.acceptWebSocket(server);
+    return new Response(null, { status: 101, webSocket: client });
+  }
+
+  async webSocketMessage() {
+    // Dashboards only receive messages; ignoring client data keeps the room read-only.
+  }
+}
+
 export default {
   async fetch(request, env) {
+    const url = new URL(request.url);
+    if (url.pathname === "/live") {
+      if (request.method !== "GET") return new Response("Method not allowed", { status: 405 });
+      const id = env.LIVE_UPDATES.idFromName("global");
+      return env.LIVE_UPDATES.get(id).fetch(request);
+    }
+
     if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
     try {
       return await handleRequest(request, env);

@@ -18,6 +18,12 @@ vars in `wrangler.toml`. Note the Worker URL `wrangler deploy` prints (e.g.
 `https://arena-tracker-sync.<you>.workers.dev`) — you'll need it in the next
 two steps.
 
+Set the `arena-tracker-live-url` meta tag in `index.html` to that address with
+`https` changed to `wss` and `/live` appended (for example,
+`wss://arena-tracker-sync.<you>.workers.dev/live`). Open dashboards will then
+receive wins immediately, while the GitHub data files remain the source of
+truth.
+
 ## 2. Wire up ArenaWatcher (optional, Discord only)
 
 In your [ArenaWatcher](https://github.com/Phamezan/ArenaWatcher) deployment,

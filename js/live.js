@@ -1,0 +1,67 @@
+const LIVE_URL_META_NAME = "arena-tracker-live-url";
+const RECONNECT_MAX_MS = 30_000;
+
+function configuredLiveUrl() {
+  return document.querySelector(`meta[name="${LIVE_URL_META_NAME}"]`)?.content.trim();
+}
+
+/** Connect to the Worker-owned, read-only update stream. */
+export function startLiveUpdates({ onWin, onVisible }) {
+  const url = configuredLiveUrl();
+  if (!url) return () => {};
+
+  let socket;
+  let retryTimer;
+  let attempts = 0;
+  let stopped = false;
+
+  const reconnect = () => {
+    if (stopped || retryTimer) return;
+    const delay = Math.min(1_000 * 2 ** attempts, RECONNECT_MAX_MS);
+    attempts += 1;
+    retryTimer = window.setTimeout(() => {
+      retryTimer = undefined;
+      connect();
+    }, delay);
+  };
+
+  const connect = () => {
+    if (stopped || socket?.readyState === WebSocket.OPEN || socket?.readyState === WebSocket.CONNECTING) return;
+    try {
+      socket = new WebSocket(url);
+    } catch (err) {
+      console.warn("Could not open live updates", err);
+      reconnect();
+      return;
+    }
+
+    socket.addEventListener("open", () => { attempts = 0; });
+    socket.addEventListener("message", (event) => {
+      try {
+        const message = JSON.parse(event.data);
+        if (message?.type === "win" && message.win && message.champion) onWin(message);
+      } catch (err) {
+        console.warn("Ignored malformed live update", err);
+      }
+    });
+    socket.addEventListener("close", reconnect);
+    socket.addEventListener("error", () => socket.close());
+  };
+
+  const onVisibilityChange = () => {
+    if (document.visibilityState === "visible") {
+      onVisible();
+      connect();
+    }
+  };
+
+  document.addEventListener("visibilitychange", onVisibilityChange);
+  connect();
+
+  return () => {
+    stopped = true;
+    window.clearTimeout(retryTimer);
+    document.removeEventListener("visibilitychange", onVisibilityChange);
+    socket?.close();
+  };
+}

@@ -8,6 +8,14 @@ const WINDOW_MS = 24 * 60 * 60 * 1000;
 const DDRAGON_VERSIONS_URL = "https://ddragon.leagueoflegends.com/api/versions.json";
 
 let ddragonVersionPromise = null;
+let winsCache = null;
+
+function sameWin(a, b) {
+  if (a.matchId && b.matchId) {
+    return a.matchId === b.matchId && a.summoner === b.summoner;
+  }
+  return a.summoner === b.summoner && a.championId === b.championId && a.gameEnd === b.gameEnd;
+}
 
 function getDdragonVersion() {
   if (!ddragonVersionPromise) {
@@ -102,19 +110,23 @@ function buildCard(win, playerBySummoner, ddragonVersion, now) {
   return card;
 }
 
-export async function renderWinBanner() {
-  let wins;
-  try {
-    const resp = await fetch("data/recent-wins.json", { cache: "no-store" });
-    if (!resp.ok) return; // file not deployed yet — stay hidden
-    wins = await resp.json();
-  } catch {
-    return;
+export async function renderWinBanner(liveWin = null) {
+  if (liveWin) {
+    const existing = winsCache || [];
+    winsCache = [liveWin, ...existing.filter((win) => !sameWin(win, liveWin))].slice(0, 50);
+  } else {
+    try {
+      const resp = await fetch("data/recent-wins.json", { cache: "no-store" });
+      if (!resp.ok) return; // file not deployed yet — stay hidden
+      winsCache = await resp.json();
+    } catch {
+      return;
+    }
   }
-  if (!Array.isArray(wins) || !wins.length) return;
+  if (!Array.isArray(winsCache) || !winsCache.length) return;
 
   const now = Date.now();
-  const recent = wins
+  const recent = winsCache
     .filter((w) => Number.isFinite(w.gameEnd) && now - w.gameEnd <= WINDOW_MS)
     .sort((a, b) => b.gameEnd - a.gameEnd)
     .slice(0, MAX_CARDS);

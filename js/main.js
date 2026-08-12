@@ -4,6 +4,7 @@ import { renderSummary } from "./summary.js";
 import { renderGrid } from "./grid.js";
 import { renderWinBanner } from "./winbanner.js";
 import { populateFocusOptions, STORAGE_KEYS } from "./controls.js";
+import { startLiveUpdates } from "./live.js";
 
 const statusEl = document.getElementById("status");
 const leaderboardEl = document.getElementById("leaderboard");
@@ -20,6 +21,32 @@ function renderAll() {
   renderLeaderboard();
   renderSummary();
   renderGrid();
+}
+
+async function refreshData() {
+  await loadData();
+  assignRankClasses();
+  populateFocusOptions();
+  renderAll();
+  await renderWinBanner();
+}
+
+function applyLiveWin({ champion, win }) {
+  const player = state.players.find((entry) => entry.summoner === win.summoner);
+  if (!player) {
+    // A newly added player needs the complete static document, not just a win.
+    refreshData().catch((err) => console.warn("Could not refresh after live update", err));
+    return;
+  }
+
+  player.championsById.set(champion.id, true);
+  if (!state.champions.some((entry) => entry.id === champion.id)) {
+    state.champions.push(champion);
+    state.champions.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  assignRankClasses();
+  renderAll();
+  renderWinBanner(win);
 }
 
 [searchEl, hideIconsEl, onlyMissingEl, focusEl, groupByWinsEl].forEach((el) =>
@@ -49,7 +76,11 @@ async function init() {
     assignRankClasses();
     populateFocusOptions();
     renderAll();
-    renderWinBanner();
+    await renderWinBanner();
+    startLiveUpdates({
+      onWin: applyLiveWin,
+      onVisible: () => refreshData().catch((err) => console.warn("Could not refresh dashboard", err)),
+    });
   } catch (err) {
     statusEl.textContent = err.message;
     statusEl.classList.add("error");

@@ -7,6 +7,14 @@ GITHUB_OWNER = "Phamezan"
 GITHUB_REPO = "arena-tracker"
 GITHUB_BRANCH = "main"
 
+[[durable_objects.bindings]]
+name = "LIVE_UPDATES"
+class_name = "LiveUpdates"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["LiveUpdates"]
+
 # Secrets (do not put these here): set via
 #   wrangler secret put GITHUB_TOKEN
 #   wrangler secret put SYNC_KEY
