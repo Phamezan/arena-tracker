@@ -1,9 +1,9 @@
 {
   "summoner": "Phamezan#DKK",
-  "updatedAt": "2026-08-13T18:45:01.335Z",
+  "updatedAt": "2026-08-13T23:07:36.397Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 124,
+  "completedCount": 125,
   "totalChampions": 173,
   "champions": [
     {
@@ -259,7 +259,7 @@
     {
       "id": 59,
       "name": "Jarvan IV",
-      "done": false
+      "done": true
     },
     {
       "id": 24,
