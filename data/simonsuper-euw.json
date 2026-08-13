@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-13T18:12:18.956Z",
+  "updatedAt": "2026-08-13T18:45:04.607Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 60,
+  "completedCount": 61,
   "totalChampions": 173,
   "champions": [
     {
@@ -699,7 +699,7 @@
     {
       "id": 18,
       "name": "Tristana",
-      "done": false
+      "done": true
     },
     {
       "id": 48,
