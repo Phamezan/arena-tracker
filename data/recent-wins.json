@@ -1,5 +1,24 @@
 [
   {
+    "matchId": "EUW1_7949343174",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 80,
+    "gameEnd": 1786638406962,
+    "kda": {
+      "kills": 19,
+      "deaths": 8,
+      "assists": 9
+    },
+    "items": [
+      226333,
+      447103,
+      446691,
+      226676,
+      223031,
+      223072
+    ]
+  },
+  {
     "matchId": "EUW1_7949328575",
     "summoner": "Phamezan#DKK",
     "championId": 497,
@@ -871,25 +890,6 @@
     "items": [
       447104,
       220012
-    ]
-  },
-  {
-    "matchId": "EUW1_7942722015",
-    "summoner": "Mystery Shrimp#EUW",
-    "championId": 63,
-    "gameEnd": 1786061431672,
-    "kda": {
-      "kills": 6,
-      "deaths": 15,
-      "assists": 27
-    },
-    "items": [
-      447118,
-      447102,
-      226653,
-      444644,
-      447108,
-      444637
     ]
   }
 ]
