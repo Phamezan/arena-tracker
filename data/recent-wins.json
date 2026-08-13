@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "EUW1_7949770691",
+    "summoner": "Phamezan#DKK",
+    "championId": 59,
+    "gameEnd": 1786662396569,
+    "kda": {
+      "kills": 10,
+      "deaths": 11,
+      "assists": 16
+    },
+    "items": [
+      447115,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7949531230",
     "summoner": "duus#mvp",
     "championId": 235,
@@ -878,25 +893,6 @@
       446691,
       443069,
       223031
-    ]
-  },
-  {
-    "matchId": "EUW1_7944069486",
-    "summoner": "MiniGoaen#EUW",
-    "championId": 11,
-    "gameEnd": 1786194165921,
-    "kda": {
-      "kills": 9,
-      "deaths": 9,
-      "assists": 18
-    },
-    "items": [
-      223072,
-      443069,
-      223046,
-      223031,
-      223036,
-      223153
     ]
   }
 ]
