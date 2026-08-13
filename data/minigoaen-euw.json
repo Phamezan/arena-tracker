@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-13T18:12:22.142Z",
+  "updatedAt": "2026-08-13T18:45:07.415Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 79,
+  "completedCount": 80,
   "totalChampions": 173,
   "champions": [
     {
@@ -854,7 +854,7 @@
     {
       "id": 115,
       "name": "Ziggs",
-      "done": false
+      "done": true
     },
     {
       "id": 26,
