@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-13T18:45:04.607Z",
+  "updatedAt": "2026-08-14T10:33:21.457Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 61,
+  "completedCount": 62,
   "totalChampions": 173,
   "champions": [
     {
@@ -689,7 +689,7 @@
     {
       "id": 17,
       "name": "Teemo",
-      "done": false
+      "done": true
     },
     {
       "id": 412,
