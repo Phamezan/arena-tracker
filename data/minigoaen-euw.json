@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-15T10:56:42.400Z",
+  "updatedAt": "2026-08-15T15:37:41.837Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 82,
+  "completedCount": 83,
   "totalChampions": 173,
   "champions": [
     {
@@ -34,7 +34,7 @@
     {
       "id": 799,
       "name": "Ambessa",
-      "done": false
+      "done": true
     },
     {
       "id": 32,
