@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-15T10:56:39.153Z",
+  "updatedAt": "2026-08-15T12:05:00.921Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 63,
+  "completedCount": 64,
   "totalChampions": 173,
   "champions": [
     {
@@ -869,7 +869,7 @@
     {
       "id": 143,
       "name": "Zyra",
-      "done": false
+      "done": true
     }
   ]
 }
