@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-15T15:37:41.837Z",
+  "updatedAt": "2026-08-15T16:25:41.446Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 83,
+  "completedCount": 84,
   "totalChampions": 173,
   "champions": [
     {
@@ -539,7 +539,7 @@
     {
       "id": 421,
       "name": "Rek'Sai",
-      "done": false
+      "done": true
     },
     {
       "id": 526,
