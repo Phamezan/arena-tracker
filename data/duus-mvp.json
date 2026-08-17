@@ -1,9 +1,9 @@
 {
   "summoner": "duus#mvp",
-  "updatedAt": "2026-08-11T18:37:10.913Z",
+  "updatedAt": "2026-08-15T12:05:03.897Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 40,
+  "completedCount": 42,
   "totalChampions": 173,
   "champions": [
     {
@@ -349,7 +349,7 @@
     {
       "id": 96,
       "name": "Kog'Maw",
-      "done": false
+      "done": true
     },
     {
       "id": 7,
@@ -589,7 +589,7 @@
     {
       "id": 235,
       "name": "Senna",
-      "done": false
+      "done": true
     },
     {
       "id": 147,

@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-08-11T21:36:29.763Z",
+  "updatedAt": "2026-08-15T21:40:55.457Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 28,
+  "completedCount": 30,
   "totalChampions": 173,
   "champions": [
     {
@@ -504,7 +504,7 @@
     {
       "id": 80,
       "name": "Pantheon",
-      "done": false
+      "done": true
     },
     {
       "id": 78,
@@ -744,7 +744,7 @@
     {
       "id": 45,
       "name": "Veigar",
-      "done": false
+      "done": true
     },
     {
       "id": 161,
