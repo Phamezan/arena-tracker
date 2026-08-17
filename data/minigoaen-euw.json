@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-17T15:40:25.656Z",
+  "updatedAt": "2026-08-17T20:24:29.321Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 86,
+  "completedCount": 87,
   "totalChampions": 173,
   "champions": [
     {
@@ -694,7 +694,7 @@
     {
       "id": 412,
       "name": "Thresh",
-      "done": false
+      "done": true
     },
     {
       "id": 18,
