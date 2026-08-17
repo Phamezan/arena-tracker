@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-08-16T18:28:08.843Z",
+  "updatedAt": "2026-08-17T15:40:18.125Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 68,
+  "completedCount": 69,
   "totalChampions": 173,
   "champions": [
     {
@@ -794,7 +794,7 @@
     {
       "id": 498,
       "name": "Xayah",
-      "done": false
+      "done": true
     },
     {
       "id": 101,
