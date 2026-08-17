@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-16T18:28:12.009Z",
+  "updatedAt": "2026-08-17T15:40:25.656Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 85,
+  "completedCount": 86,
   "totalChampions": 173,
   "champions": [
     {
@@ -544,7 +544,7 @@
     {
       "id": 526,
       "name": "Rell",
-      "done": false
+      "done": true
     },
     {
       "id": 888,
