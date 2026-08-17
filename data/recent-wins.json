@@ -19,6 +19,21 @@
     ]
   },
   {
+    "matchId": "EUW1_7953766869",
+    "summoner": "SimonSuper#EUW",
+    "championId": 104,
+    "gameEnd": 1786998197612,
+    "kda": {
+      "kills": 15,
+      "deaths": 5,
+      "assists": 15
+    },
+    "items": [
+      220012,
+      446671
+    ]
+  },
+  {
     "matchId": "EUW1_7953400429",
     "summoner": "Phamezan#DKK",
     "championId": 10,
@@ -882,25 +897,6 @@
     "items": [
       446691,
       220012
-    ]
-  },
-  {
-    "matchId": "EUW1_7947615652",
-    "summoner": "VENOM ZAC#123",
-    "championId": 58,
-    "gameEnd": 1786475817382,
-    "kda": {
-      "kills": 1,
-      "deaths": 9,
-      "assists": 15
-    },
-    "items": [
-      223111,
-      223074,
-      447112,
-      223071,
-      223053,
-      447111
     ]
   }
 ]
