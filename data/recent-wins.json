@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "EUW1_7954635646",
+    "summoner": "duus#mvp",
+    "championId": 106,
+    "gameEnd": 1787078507492,
+    "kda": {
+      "kills": 17,
+      "deaths": 6,
+      "assists": 15
+    },
+    "items": [
+      447122,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7953766869",
     "summoner": "Phamezan#DKK",
     "championId": 150,
@@ -882,25 +897,6 @@
     "items": [
       447118,
       220012
-    ]
-  },
-  {
-    "matchId": "EUW1_7947721093",
-    "summoner": "Mystery Shrimp#EUW",
-    "championId": 154,
-    "gameEnd": 1786480710612,
-    "kda": {
-      "kills": 4,
-      "deaths": 3,
-      "assists": 28
-    },
-    "items": [
-      223075,
-      443083,
-      443061,
-      223084,
-      223068,
-      223065
     ]
   }
 ]
