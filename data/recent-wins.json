@@ -1,5 +1,24 @@
 [
   {
+    "matchId": "EUW1_7955401660",
+    "summoner": "duus#mvp",
+    "championId": 238,
+    "gameEnd": 1787150516807,
+    "kda": {
+      "kills": 10,
+      "deaths": 7,
+      "assists": 17
+    },
+    "items": [
+      446671,
+      447103,
+      223072,
+      226676,
+      226699,
+      4017
+    ]
+  },
+  {
     "matchId": "EUW1_7954910068",
     "summoner": "Mystery Shrimp#EUW",
     "championId": 233,
@@ -882,25 +901,6 @@
       447112,
       446671,
       220012
-    ]
-  },
-  {
-    "matchId": "EUW1_7948334204",
-    "summoner": "MiniGoaen#EUW",
-    "championId": 236,
-    "gameEnd": 1786547901144,
-    "kda": {
-      "kills": 18,
-      "deaths": 10,
-      "assists": 6
-    },
-    "items": [
-      226696,
-      447107,
-      446691,
-      223031,
-      223036,
-      224403
     ]
   }
 ]
