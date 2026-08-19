@@ -1,5 +1,21 @@
 [
   {
+    "matchId": "EUW1_7955432695",
+    "summoner": "Phamezan#DKK",
+    "championId": 39,
+    "gameEnd": 1787152663045,
+    "kda": {
+      "kills": 11,
+      "deaths": 4,
+      "assists": 14
+    },
+    "items": [
+      446632,
+      443054,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7955401660",
     "summoner": "duus#mvp",
     "championId": 238,
@@ -885,22 +901,6 @@
       224633,
       447108,
       447100
-    ]
-  },
-  {
-    "matchId": "EUW1_7948334204",
-    "summoner": "SimonSuper#EUW",
-    "championId": 555,
-    "gameEnd": 1786547901144,
-    "kda": {
-      "kills": 8,
-      "deaths": 7,
-      "assists": 12
-    },
-    "items": [
-      447112,
-      446671,
-      220012
     ]
   }
 ]
