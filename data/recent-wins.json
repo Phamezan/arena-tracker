@@ -1,5 +1,24 @@
 [
   {
+    "matchId": "EUW1_7956542784",
+    "summoner": "Phamezan#DKK",
+    "championId": 526,
+    "gameEnd": 1787245633376,
+    "kda": {
+      "kills": 1,
+      "deaths": 8,
+      "assists": 29
+    },
+    "items": [
+      223065,
+      446667,
+      223084,
+      223039,
+      443061,
+      223068
+    ]
+  },
+  {
     "matchId": "EUW1_7955432695",
     "summoner": "Phamezan#DKK",
     "championId": 39,
@@ -882,25 +901,6 @@
       226617,
       443063,
       223165
-    ]
-  },
-  {
-    "matchId": "EUW1_7948470292",
-    "summoner": "Phamezan#DKK",
-    "championId": 245,
-    "gameEnd": 1786556459395,
-    "kda": {
-      "kills": 13,
-      "deaths": 8,
-      "assists": 16
-    },
-    "items": [
-      447111,
-      447104,
-      224633,
-      223165,
-      444637,
-      223089
     ]
   }
 ]
