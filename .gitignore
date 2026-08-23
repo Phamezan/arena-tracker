@@ -4,3 +4,7 @@ __pycache__/
 node_modules/
 .wrangler/
 worker/dist/
+
+# Vite build output.
+dist/
+.svelte-kit/
