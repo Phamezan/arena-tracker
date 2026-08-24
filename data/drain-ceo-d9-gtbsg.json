@@ -1,9 +1,9 @@
 {
   "summoner": "Drain CEO D9#GTBSG",
-  "updatedAt": "2026-08-09T14:55:29.345Z",
+  "updatedAt": "2026-08-24T20:01:24.401Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 39,
+  "completedCount": 40,
   "totalChampions": 173,
   "champions": [
     {
@@ -444,7 +444,7 @@
     {
       "id": 950,
       "name": "Naafiri",
-      "done": false
+      "done": true
     },
     {
       "id": 267,
