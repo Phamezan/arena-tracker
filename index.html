@@ -10,6 +10,7 @@
   <link rel="shortcut icon" href="favicon.ico" />
   <link rel="stylesheet" href="style.css" />
   <meta name="arena-tracker-live-url" content="wss://arena-tracker-sync.phamezan.workers.dev/live" />
+  <meta name="arena-tracker-health-url" content="https://arena-tracker-sync.phamezan.workers.dev/health" />
 </head>
 
 <body>
@@ -18,6 +19,8 @@
   </header>
 
   <main>
+    <div id="healthBanner" class="hidden" role="status"></div>
+
     <div id="status">Loading data...</div>
 
     <div id="winBanner" class="hidden"></div>

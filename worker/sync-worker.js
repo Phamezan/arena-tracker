@@ -324,6 +324,8 @@ async function recordRecentWin(env, branch, body, champion) {
   return entry;
 }
 
+const HEALTH_STATUSES = new Set(["ok", "degraded", "down"]);
+
 /** Send a best-effort real-time update to dashboards currently open. */
 async function publishLiveUpdate(env, update) {
   const id = env.LIVE_UPDATES.idFromName("global");
@@ -333,6 +335,36 @@ async function publishLiveUpdate(env, update) {
     body: JSON.stringify(update),
   });
   if (!response.ok) throw new Error(`Live broadcast failed: ${response.status}`);
+}
+
+/** Records the watcher's latest poll result and tells open dashboards about it. */
+async function handleHeartbeat(request, env) {
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return new Response("Invalid JSON", { status: 400 });
+  }
+
+  const health = {
+    status: HEALTH_STATUSES.has(body?.status) ? body.status : "down",
+    error: typeof body?.error === "string" ? body.error.slice(0, 300) : null,
+    playersChecked: Number(body?.playersChecked) || 0,
+    playersFailed: Number(body?.playersFailed) || 0,
+    // Lets the dashboard decide how late a heartbeat has to be to count as missing.
+    pollIntervalSeconds: Number(body?.pollIntervalSeconds) || 0,
+    checkedAt: new Date().toISOString(),
+  };
+
+  const id = env.LIVE_UPDATES.idFromName("global");
+  const response = await env.LIVE_UPDATES.get(id).fetch("https://live.internal/heartbeat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(health),
+  });
+  if (!response.ok) throw new Error(`Heartbeat store failed: ${response.status}`);
+
+  return new Response(null, { status: 204 });
 }
 
 async function handleRequest(request, env) {
@@ -365,16 +397,24 @@ export class LiveUpdates {
 
   async fetch(request) {
     const url = new URL(request.url);
+    if (url.pathname === "/heartbeat") {
+      if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
+      const health = await request.json();
+      await this.ctx.storage.put("health", health);
+      this.broadcast({ type: "health", health });
+      return new Response(null, { status: 204 });
+    }
+
+    if (url.pathname === "/health") {
+      const health = (await this.ctx.storage.get("health")) ?? null;
+      return Response.json(health, {
+        headers: { "Cache-Control": "no-store", "Access-Control-Allow-Origin": "*" },
+      });
+    }
+
     if (url.pathname === "/broadcast") {
       if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
-      const message = JSON.stringify(await request.json());
-      for (const socket of this.ctx.getWebSockets()) {
-        try {
-          socket.send(message);
-        } catch {
-          socket.close(1011, "Unable to deliver update");
-        }
-      }
+      this.broadcast(await request.json());
       return new Response(null, { status: 204 });
     }
 
@@ -385,7 +425,28 @@ export class LiveUpdates {
     const pair = new WebSocketPair();
     const [client, server] = Object.values(pair);
     this.ctx.acceptWebSocket(server);
+
+    const health = await this.ctx.storage.get("health");
+    if (health) {
+      try {
+        server.send(JSON.stringify({ type: "health", health }));
+      } catch {
+        // A socket that cannot take the greeting will be cleaned up on its own.
+      }
+    }
+
     return new Response(null, { status: 101, webSocket: client });
+  }
+
+  broadcast(update) {
+    const message = JSON.stringify(update);
+    for (const socket of this.ctx.getWebSockets()) {
+      try {
+        socket.send(message);
+      } catch {
+        socket.close(1011, "Unable to deliver update");
+      }
+    }
   }
 
   async webSocketMessage() {
@@ -402,7 +463,26 @@ export default {
       return env.LIVE_UPDATES.get(id).fetch(request);
     }
 
+    // Public: the dashboard reads this to decide whether to show the stale banner.
+    if (url.pathname === "/health") {
+      if (request.method !== "GET") return new Response("Method not allowed", { status: 405 });
+      const id = env.LIVE_UPDATES.idFromName("global");
+      return env.LIVE_UPDATES.get(id).fetch("https://live.internal/health");
+    }
+
     if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
+
+    if (url.pathname === "/heartbeat") {
+      if (request.headers.get("X-Sync-Key") !== env.SYNC_KEY) {
+        return new Response("Unauthorized", { status: 401 });
+      }
+      try {
+        return await handleHeartbeat(request, env);
+      } catch (err) {
+        return new Response(`Heartbeat failed: ${err.message}`, { status: 500 });
+      }
+    }
+
     try {
       return await handleRequest(request, env);
     } catch (err) {

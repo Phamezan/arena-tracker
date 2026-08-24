@@ -1,3 +1,4 @@
+import { state } from "./state.js";
 import { loadData } from "./data.js";
 import { assignRankClasses, renderLeaderboard } from "./leaderboard.js";
 import { renderSummary } from "./summary.js";
@@ -5,6 +6,7 @@ import { renderGrid } from "./grid.js";
 import { renderWinBanner } from "./winbanner.js";
 import { populateFocusOptions, STORAGE_KEYS } from "./controls.js";
 import { startLiveUpdates } from "./live.js";
+import { startHealthWatch } from "./health.js";
 
 const statusEl = document.getElementById("status");
 const leaderboardEl = document.getElementById("leaderboard");
@@ -77,8 +79,10 @@ async function init() {
     populateFocusOptions();
     renderAll();
     await renderWinBanner();
+    const health = startHealthWatch();
     startLiveUpdates({
       onWin: applyLiveWin,
+      onHealth: health.applyHealth,
       onVisible: () => refreshData().catch((err) => console.warn("Could not refresh dashboard", err)),
     });
   } catch (err) {

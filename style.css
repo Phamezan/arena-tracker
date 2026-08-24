@@ -362,6 +362,35 @@ main {
   color: var(--miss);
 }
 
+#healthBanner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  border: 1px solid var(--miss);
+  border-left-width: 4px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--miss) 14%, var(--panel));
+  color: var(--text);
+  font-size: 0.95em;
+}
+
+#healthBanner.hidden { display: none; }
+
+#healthBanner::before {
+  content: "!";
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--miss);
+  color: var(--bg);
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
 /* Recent wins banner */
 #winBanner {
   display: flex;

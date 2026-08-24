@@ -6,7 +6,7 @@ function configuredLiveUrl() {
 }
 
 /** Connect to the Worker-owned, read-only update stream. */
-export function startLiveUpdates({ onWin, onVisible }) {
+export function startLiveUpdates({ onWin, onHealth, onVisible }) {
   const url = configuredLiveUrl();
   if (!url) return () => {};
 
@@ -40,6 +40,7 @@ export function startLiveUpdates({ onWin, onVisible }) {
       try {
         const message = JSON.parse(event.data);
         if (message?.type === "win" && message.win && message.champion) onWin(message);
+        if (message?.type === "health" && message.health) onHealth?.(message.health);
       } catch (err) {
         console.warn("Ignored malformed live update", err);
       }
