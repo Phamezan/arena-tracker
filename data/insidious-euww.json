@@ -1,9 +1,9 @@
 {
   "summoner": "Insidious#EUWW",
-  "updatedAt": "2026-08-13T23:07:39.484Z",
+  "updatedAt": "2026-08-24T17:40:59.331Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 87,
+  "completedCount": 88,
   "totalChampions": 173,
   "champions": [
     {
@@ -24,7 +24,7 @@
     {
       "id": 166,
       "name": "Akshan",
-      "done": false
+      "done": true
     },
     {
       "id": 12,
