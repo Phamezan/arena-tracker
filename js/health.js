@@ -18,13 +18,20 @@ function minutesSince(then, now) {
   return Math.max(0, Math.round((now - then) / 60_000));
 }
 
+export const UNREACHABLE = { unreachable: true };
+
 /**
  * Turns a heartbeat into the banner text, or null when everything is fine.
  * A missing heartbeat is itself a problem: the watcher reports on every cycle.
+ * Each branch names the component at fault, so the banner points somewhere.
  */
 export function describeHealth(health, now = Date.now()) {
+  if (health?.unreachable) {
+    return "Cannot reach the tracker's sync service, so its status is unknown. Recent wins may be missing.";
+  }
+
   if (!health?.checkedAt) {
-    return "The tracker has not reported in. Wins may be missing until it reconnects.";
+    return "The tracker has not reported in yet. Wins may be missing until it reconnects.";
   }
 
   const checkedAt = new Date(health.checkedAt).getTime();
@@ -34,6 +41,10 @@ export function describeHealth(health, now = Date.now()) {
 
   if (now - checkedAt > staleAfterMs(health)) {
     return `The tracker last checked in ${minutesSince(checkedAt, now)} min ago and looks stopped. Wins may be missing.`;
+  }
+
+  if (health.status === "startup-failed") {
+    return `The tracker failed to start, so no wins are being recorded.${health.error ? ` (${health.error})` : ""}`;
   }
 
   if (health.status === "down") {
@@ -75,7 +86,7 @@ export function startHealthWatch() {
       // Reaching the Worker is itself part of the signal, so surface the gap
       // rather than leaving a stale "all good" banner state on screen.
       console.warn("Could not read tracker health", err);
-      latest = null;
+      latest = UNREACHABLE;
     }
     render(bannerEl, latest);
   };

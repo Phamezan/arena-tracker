@@ -42,6 +42,7 @@
  */
 
 const GITHUB_API = "https://api.github.com";
+const GITHUB_MAX_ATTEMPTS = 4;
 const DDRAGON_VERSIONS_URL = "https://ddragon.leagueoflegends.com/api/versions.json";
 
 function slugify(name) {
@@ -63,8 +64,14 @@ function base64ToUtf8(str) {
   return decodeURIComponent(escape(atob(str)));
 }
 
+/**
+ * Retries 5xx and 429. The Cloudflare-to-GitHub hop intermittently returns a
+ * 520, and a backfill makes enough requests that losing the whole run to one
+ * blip is a matter of time. 4xx is our own fault and will not improve.
+ */
 async function githubRequest(env, path, options = {}) {
-  return fetch(`${GITHUB_API}/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}${path}`, {
+  const url = `${GITHUB_API}/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}${path}`;
+  const init = {
     ...options,
     headers: {
       Authorization: `Bearer ${env.GITHUB_TOKEN}`,
@@ -72,7 +79,20 @@ async function githubRequest(env, path, options = {}) {
       "User-Agent": "arena-tracker-sync-worker",
       ...(options.headers || {}),
     },
-  });
+  };
+
+  for (let attempt = 1; attempt <= GITHUB_MAX_ATTEMPTS; attempt++) {
+    const lastAttempt = attempt === GITHUB_MAX_ATTEMPTS;
+    try {
+      const resp = await fetch(url, init);
+      if (lastAttempt || (resp.status < 500 && resp.status !== 429)) return resp;
+      console.log(`GitHub ${path} returned ${resp.status}; retry ${attempt}/${GITHUB_MAX_ATTEMPTS - 1}.`);
+    } catch (err) {
+      if (lastAttempt) throw err;
+      console.log(`GitHub ${path} failed (${err.message}); retry ${attempt}/${GITHUB_MAX_ATTEMPTS - 1}.`);
+    }
+    await new Promise((resolve) => setTimeout(resolve, 250 * 2 ** attempt));
+  }
 }
 
 async function getFile(env, path, branch) {
@@ -324,7 +344,7 @@ async function recordRecentWin(env, branch, body, champion) {
   return entry;
 }
 
-const HEALTH_STATUSES = new Set(["ok", "degraded", "down"]);
+const HEALTH_STATUSES = new Set(["ok", "degraded", "down", "startup-failed"]);
 
 /** Send a best-effort real-time update to dashboards currently open. */
 async function publishLiveUpdate(env, update) {
