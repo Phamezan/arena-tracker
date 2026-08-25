@@ -1,9 +1,9 @@
 {
   "summoner": "Poisom#UmU",
-  "updatedAt": "2026-08-24T19:54:32.397Z",
+  "updatedAt": "2026-08-25T16:22:02.435Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 33,
+  "completedCount": 34,
   "totalChampions": 173,
   "champions": [
     {
@@ -529,7 +529,7 @@
     {
       "id": 497,
       "name": "Rakan",
-      "done": false
+      "done": true
     },
     {
       "id": 33,
