@@ -38,6 +38,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7961691001",
+    "summoner": "Drain CEO D9#GTBSG",
+    "championId": 498,
+    "gameEnd": 1787674865062,
+    "kda": {
+      "kills": 23,
+      "deaths": 6,
+      "assists": 11
+    },
+    "items": [
+      223006,
+      443069,
+      446671,
+      223031,
+      223033,
+      223087
+    ]
+  },
+  {
     "matchId": "EUW1_7960925002",
     "summoner": "SimonSuper#EUW",
     "championId": 36,
@@ -887,24 +906,6 @@
       443069,
       443090,
       443056
-    ]
-  },
-  {
-    "matchId": "EUW1_7949266871",
-    "summoner": "SimonSuper#EUW",
-    "championId": 114,
-    "gameEnd": 1786633244453,
-    "kda": {
-      "kills": 10,
-      "deaths": 2,
-      "assists": 22
-    },
-    "items": [
-      443055,
-      447116,
-      223078,
-      223161,
-      447112
     ]
   }
 ]
