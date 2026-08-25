@@ -28,7 +28,10 @@
 
 {#if recentWins().length}
   <div id="winBanner">
-    {#each recentWins() as win (win.matchId ?? `${win.summoner}:${win.championId}:${win.gameEnd}`)}
+    <!-- Arena is 2v2v2v2, so one match can have several tracked winners and
+         matchId is not unique. Key on the winner too, or Svelte throws
+         each_key_duplicate and the whole board fails to render. -->
+    {#each recentWins() as win (`${win.matchId ?? win.gameEnd}:${win.summoner}`)}
       {@const player = playerBySummoner(win.summoner)}
       <div class="win-card">
         <span class="win-card-ribbon">WIN</span>
