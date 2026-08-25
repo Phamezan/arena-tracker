@@ -10,6 +10,8 @@
   import Grid from "./lib/Grid.svelte";
   import WinBanner from "./lib/WinBanner.svelte";
   import Controls from "./lib/Controls.svelte";
+  import HealthBanner from "./lib/HealthBanner.svelte";
+  import { startHealthWatch, applyHealth } from "./lib/health.svelte";
   import type { LiveWinMessage } from "./lib/types";
 
   async function refreshData() {
@@ -34,8 +36,10 @@
       try {
         await Promise.all([refreshData(), fetchRecentWins()]);
         app.ready = true;
+        startHealthWatch();
         startLiveUpdates({
           onWin: handleLiveWin,
+          onHealth: (h) => applyHealth(h as Parameters<typeof applyHealth>[0]),
           onVisible: () => refreshData().catch((err) => console.warn("Could not refresh dashboard", err)),
         });
       } catch (err) {
@@ -51,6 +55,8 @@
 </header>
 
 <main>
+  <HealthBanner />
+
   {#if !app.ready && !app.error}
     <div id="status">Loading data...</div>
   {:else if app.error}
