@@ -8,41 +8,13 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
   <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="stylesheet" href="style.css" />
   <meta name="arena-tracker-live-url" content="wss://arena-tracker-sync.michaelsik12.workers.dev/live" />
   <meta name="arena-tracker-health-url" content="https://arena-tracker-sync.michaelsik12.workers.dev/health" />
 </head>
 
 <body>
-  <header>
-    <h1>Alabama Tracker</h1>
-  </header>
-
-  <main>
-    <div id="healthBanner" class="hidden" role="status"></div>
-
-    <div id="status">Loading data...</div>
-
-    <div id="winBanner" class="hidden"></div>
-
-    <div id="leaderboard" class="hidden"></div>
-
-    <div id="controls" class="hidden">
-      <input id="search" type="search" placeholder="Search champion..." />
-      <label>Greyed based on: <select id="focusPlayer"></select></label>
-      <label><input id="groupByWins" type="checkbox" /> Group by wins</label>
-      <label><input id="hideIcons" type="checkbox" /> Hide icons</label>
-      <label><input id="onlyMissing" type="checkbox" /> Only show champions nobody has</label>
-    </div>
-
-    <div id="summary" class="hidden"></div>
-
-    <div id="gridWrap" class="hidden">
-      <div id="grid"></div>
-    </div>
-  </main>
-
-  <script type="module" src="js/main.js"></script>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
 </body>
 
 </html>

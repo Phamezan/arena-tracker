@@ -1,0 +1,44 @@
+name: Deploy tracker to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    # The sync Worker commits a data JSON on every win; those pushes must
+    # rebuild too, or wins stop appearing on the site. Do not filter paths.
+
+permissions:
+  pages: write
+  id-token: write
+  contents: read
+
+# A win push landing mid-deploy must cancel the stale run, not queue behind
+# it and deploy out of order.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
