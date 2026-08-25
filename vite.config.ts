@@ -25,5 +25,8 @@ function copyRootStatic() {
 }
 
 export default defineConfig({
+  // Project Pages serves this under /arena-tracker/, not the domain root, so
+  // built asset URLs must carry that prefix or every request 404s.
+  base: "/arena-tracker/",
   plugins: [svelte(), copyRootStatic()],
 });
