@@ -26,13 +26,4 @@ function copyRootStatic() {
 
 export default defineConfig({
   plugins: [svelte(), copyRootStatic()],
-  build: {
-    rollupOptions: {
-      // Multi-page: the migrated tracker plus the not-yet-migrated ladder page.
-      input: {
-        main: resolve(root, "index.html"),
-        ladder: resolve(root, "ladder.html"),
-      },
-    },
-  },
 });
