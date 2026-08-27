@@ -1,9 +1,9 @@
 {
   "summoner": "duus#mvp",
-  "updatedAt": "2026-08-25T18:10:45.751Z",
+  "updatedAt": "2026-08-27T18:12:05.523Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 46,
+  "completedCount": 47,
   "totalChampions": 173,
   "champions": [
     {
@@ -434,7 +434,7 @@
     {
       "id": 82,
       "name": "Mordekaiser",
-      "done": false
+      "done": true
     },
     {
       "id": 25,
