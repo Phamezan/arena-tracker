@@ -508,3 +508,25 @@ main {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   pointer-events: none;
 }
+
+/*
+ * Riot's required fan-content notice.
+ *
+ * Their policy asks for it "conspicuously" displayed, so it is real page
+ * content in the footer rather than a hidden comment -- but it is legal
+ * boilerplate, not part of the product's voice, so it sits quiet and last.
+ */
+.legal {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 28px 32px 40px;
+  border-top: 1px solid var(--border);
+}
+
+.legal p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78em;
+  line-height: 1.5;
+  max-width: 70ch;
+}

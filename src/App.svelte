@@ -69,3 +69,15 @@
     <Grid />
   {/if}
 </main>
+
+<!--
+  Required by Riot's "Legal Jibber Jabber" fan-content policy, which is what
+  permits this site to use champion art, rank crests and match data at all.
+  The wording is Riot's, not ours -- do not paraphrase it.
+-->
+<footer class="legal">
+  <p>
+    Alabama Tracker was created under Riot Games' &ldquo;Legal Jibber Jabber&rdquo; policy using assets owned by
+    Riot Games. Riot Games does not endorse or sponsor this project.
+  </p>
+</footer>
