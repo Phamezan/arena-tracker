@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-29T16:35:53.563Z",
+  "updatedAt": "2026-08-30T12:39:25.790Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 88,
+  "completedCount": 89,
   "totalChampions": 173,
   "champions": [
     {
@@ -504,7 +504,7 @@
     {
       "id": 80,
       "name": "Pantheon",
-      "done": false
+      "done": true
     },
     {
       "id": 78,
