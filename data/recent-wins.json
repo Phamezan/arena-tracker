@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "EUW1_7967259305",
+    "summoner": "SimonSuper#EUW",
+    "championId": 245,
+    "gameEnd": 1788096939667,
+    "kda": {
+      "kills": 21,
+      "deaths": 4,
+      "assists": 14
+    },
+    "items": [
+      444644,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7967192029",
     "summoner": "SimonSuper#EUW",
     "championId": 12,
@@ -878,25 +893,6 @@
     "items": [
       447115,
       220012
-    ]
-  },
-  {
-    "matchId": "EUW1_7949770691",
-    "summoner": "Insidious#EUWW",
-    "championId": 76,
-    "gameEnd": 1786662396569,
-    "kda": {
-      "kills": 9,
-      "deaths": 7,
-      "assists": 16
-    },
-    "items": [
-      223146,
-      228002,
-      223040,
-      223042,
-      444637,
-      223135
     ]
   }
 ]
