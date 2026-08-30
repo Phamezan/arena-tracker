@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-30T13:36:44.095Z",
+  "updatedAt": "2026-08-30T14:05:27.151Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 90,
+  "completedCount": 91,
   "totalChampions": 173,
   "champions": [
     {
@@ -764,7 +764,7 @@
     {
       "id": 234,
       "name": "Viego",
-      "done": false
+      "done": true
     },
     {
       "id": 112,
