@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-08-30T14:05:27.151Z",
+  "updatedAt": "2026-08-30T18:36:16.570Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 91,
+  "completedCount": 92,
   "totalChampions": 173,
   "champions": [
     {
@@ -264,7 +264,7 @@
     {
       "id": 24,
       "name": "Jax",
-      "done": false
+      "done": true
     },
     {
       "id": 126,
