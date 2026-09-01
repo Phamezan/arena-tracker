@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-01T08:18:54.688Z",
+  "updatedAt": "2026-09-01T08:58:47.506Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 93,
+  "completedCount": 94,
   "totalChampions": 173,
   "champions": [
     {
@@ -729,7 +729,7 @@
     {
       "id": 6,
       "name": "Urgot",
-      "done": false
+      "done": true
     },
     {
       "id": 110,
