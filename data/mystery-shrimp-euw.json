@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-08-25T16:22:05.213Z",
+  "updatedAt": "2026-09-01T22:10:43.986Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 31,
+  "completedCount": 32,
   "totalChampions": 173,
   "champions": [
     {
@@ -454,7 +454,7 @@
     {
       "id": 75,
       "name": "Nasus",
-      "done": false
+      "done": true
     },
     {
       "id": 111,
