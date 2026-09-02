@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-01T12:19:04.398Z",
+  "updatedAt": "2026-09-02T10:03:12.955Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 96,
+  "completedCount": 97,
   "totalChampions": 173,
   "champions": [
     {
@@ -849,7 +849,7 @@
     {
       "id": 221,
       "name": "Zeri",
-      "done": false
+      "done": true
     },
     {
       "id": 115,
