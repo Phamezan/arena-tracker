@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-02T15:41:30.168Z",
+  "updatedAt": "2026-09-02T16:32:47.506Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 98,
+  "completedCount": 99,
   "totalChampions": 173,
   "champions": [
     {
@@ -469,7 +469,7 @@
     {
       "id": 76,
       "name": "Nidalee",
-      "done": false
+      "done": true
     },
     {
       "id": 895,
