@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-03T18:38:59.232Z",
+  "updatedAt": "2026-09-04T20:35:55.221Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 102,
+  "completedCount": 103,
   "totalChampions": 173,
   "champions": [
     {
@@ -859,7 +859,7 @@
     {
       "id": 26,
       "name": "Zilean",
-      "done": false
+      "done": true
     },
     {
       "id": 142,
