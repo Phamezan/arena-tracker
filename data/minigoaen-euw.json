@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-07T18:44:49.752Z",
+  "updatedAt": "2026-09-08T15:01:28.197Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 105,
+  "completedCount": 106,
   "totalChampions": 173,
   "champions": [
     {
@@ -209,7 +209,7 @@
     {
       "id": 79,
       "name": "Gragas",
-      "done": false
+      "done": true
     },
     {
       "id": 104,
