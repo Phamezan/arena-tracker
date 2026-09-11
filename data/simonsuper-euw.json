@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-09-11T14:49:47.837Z",
+  "updatedAt": "2026-09-11T17:46:39.821Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 99,
+  "completedCount": 100,
   "totalChampions": 173,
   "champions": [
     {
@@ -104,7 +104,7 @@
     {
       "id": 233,
       "name": "Briar",
-      "done": false
+      "done": true
     },
     {
       "id": 51,
