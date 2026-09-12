@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-12T09:49:09.942Z",
+  "updatedAt": "2026-09-12T10:47:22.996Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 111,
+  "completedCount": 112,
   "totalChampions": 173,
   "champions": [
     {
@@ -789,7 +789,7 @@
     {
       "id": 62,
       "name": "Wukong",
-      "done": false
+      "done": true
     },
     {
       "id": 498,
