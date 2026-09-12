@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-12T18:11:32.764Z",
+  "updatedAt": "2026-09-12T18:38:13.778Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 114,
+  "completedCount": 115,
   "totalChampions": 173,
   "champions": [
     {
@@ -194,7 +194,7 @@
     {
       "id": 41,
       "name": "Gangplank",
-      "done": false
+      "done": true
     },
     {
       "id": 86,
