@@ -1,9 +1,9 @@
 {
   "summoner": "Phamezan#DKK",
-  "updatedAt": "2026-09-11T14:49:44.815Z",
+  "updatedAt": "2026-09-13T14:34:22.120Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 136,
+  "completedCount": 137,
   "totalChampions": 173,
   "champions": [
     {
@@ -394,7 +394,7 @@
     {
       "id": 99,
       "name": "Lux",
-      "done": false
+      "done": true
     },
     {
       "id": 54,
