@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-09-12T18:38:10.804Z",
+  "updatedAt": "2026-09-13T13:32:53.700Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 105,
+  "completedCount": 106,
   "totalChampions": 173,
   "champions": [
     {
@@ -249,7 +249,7 @@
     {
       "id": 427,
       "name": "Ivern",
-      "done": false
+      "done": true
     },
     {
       "id": 40,
