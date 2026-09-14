@@ -15,6 +15,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7983544321",
+    "summoner": "duus#mvp",
+    "championId": 360,
+    "gameEnd": 1789393367851,
+    "kda": {
+      "kills": 22,
+      "deaths": 12,
+      "assists": 13
+    },
+    "items": [
+      446691,
+      226676,
+      223031,
+      223072,
+      443069,
+      223036
+    ]
+  },
+  {
     "matchId": "EUW1_7983484845",
     "summoner": "duus#mvp",
     "championId": 19,
@@ -874,25 +893,6 @@
       226664,
       224403,
       226665
-    ]
-  },
-  {
-    "matchId": "EUW1_7971110810",
-    "summoner": "duus#mvp",
-    "championId": 200,
-    "gameEnd": 1788379308982,
-    "kda": {
-      "kills": 22,
-      "deaths": 8,
-      "assists": 13
-    },
-    "items": [
-      447114,
-      443090,
-      443054,
-      223153,
-      223124,
-      226672
     ]
   }
 ]
