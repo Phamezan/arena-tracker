@@ -1,9 +1,9 @@
 {
   "summoner": "duus#mvp",
-  "updatedAt": "2026-09-13T19:14:08.559Z",
+  "updatedAt": "2026-09-14T12:09:16.636Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 57,
+  "completedCount": 58,
   "totalChampions": 173,
   "champions": [
     {
@@ -784,7 +784,7 @@
     {
       "id": 19,
       "name": "Warwick",
-      "done": false
+      "done": true
     },
     {
       "id": 62,
