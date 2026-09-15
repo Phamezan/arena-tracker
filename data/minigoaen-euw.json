@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-15T09:30:58.747Z",
+  "updatedAt": "2026-09-15T15:51:17.338Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 121,
+  "completedCount": 122,
   "totalChampions": 173,
   "champions": [
     {
@@ -109,7 +109,7 @@
     {
       "id": 51,
       "name": "Caitlyn",
-      "done": false
+      "done": true
     },
     {
       "id": 164,
