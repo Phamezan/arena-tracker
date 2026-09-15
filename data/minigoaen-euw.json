@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-15T15:51:17.338Z",
+  "updatedAt": "2026-09-15T18:36:14.262Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 122,
+  "completedCount": 123,
   "totalChampions": 173,
   "champions": [
     {
@@ -334,7 +334,7 @@
     {
       "id": 121,
       "name": "Kha'Zix",
-      "done": false
+      "done": true
     },
     {
       "id": 203,
