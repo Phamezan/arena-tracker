@@ -1,9 +1,9 @@
 {
   "summoner": "Phamezan#DKK",
-  "updatedAt": "2026-09-13T14:34:22.120Z",
+  "updatedAt": "2026-09-16T02:55:58.915Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 137,
+  "completedCount": 138,
   "totalChampions": 173,
   "champions": [
     {
@@ -304,7 +304,7 @@
     {
       "id": 30,
       "name": "Karthus",
-      "done": false
+      "done": true
     },
     {
       "id": 38,
