@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-15T18:36:14.262Z",
+  "updatedAt": "2026-09-16T14:54:52.638Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 123,
+  "completedCount": 124,
   "totalChampions": 173,
   "champions": [
     {
@@ -634,7 +634,7 @@
     {
       "id": 72,
       "name": "Skarner",
-      "done": false
+      "done": true
     },
     {
       "id": 901,
