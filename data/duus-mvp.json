@@ -1,9 +1,9 @@
 {
   "summoner": "duus#mvp",
-  "updatedAt": "2026-09-15T15:51:22.074Z",
+  "updatedAt": "2026-09-16T14:54:55.743Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 62,
+  "completedCount": 63,
   "totalChampions": 173,
   "champions": [
     {
@@ -629,7 +629,7 @@
     {
       "id": 15,
       "name": "Sivir",
-      "done": false
+      "done": true
     },
     {
       "id": 72,
