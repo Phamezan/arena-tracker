@@ -1,9 +1,9 @@
 {
   "summoner": "duus#mvp",
-  "updatedAt": "2026-09-17T18:56:45.398Z",
+  "updatedAt": "2026-09-17T19:24:57.229Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 64,
+  "completedCount": 65,
   "totalChampions": 173,
   "champions": [
     {
@@ -99,7 +99,7 @@
     {
       "id": 201,
       "name": "Braum",
-      "done": false
+      "done": true
     },
     {
       "id": 233,
