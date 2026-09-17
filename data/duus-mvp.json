@@ -1,9 +1,9 @@
 {
   "summoner": "duus#mvp",
-  "updatedAt": "2026-09-16T14:54:55.743Z",
+  "updatedAt": "2026-09-17T18:56:45.398Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 63,
+  "completedCount": 64,
   "totalChampions": 173,
   "champions": [
     {
@@ -529,7 +529,7 @@
     {
       "id": 497,
       "name": "Rakan",
-      "done": false
+      "done": true
     },
     {
       "id": 33,
