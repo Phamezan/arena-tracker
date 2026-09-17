@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-09-17T18:56:36.343Z",
+  "updatedAt": "2026-09-17T19:24:46.991Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 112,
+  "completedCount": 113,
   "totalChampions": 173,
   "champions": [
     {
@@ -734,7 +734,7 @@
     {
       "id": 110,
       "name": "Varus",
-      "done": false
+      "done": true
     },
     {
       "id": 67,
