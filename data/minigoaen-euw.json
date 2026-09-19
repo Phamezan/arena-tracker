@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-19T13:42:32.495Z",
+  "updatedAt": "2026-09-19T15:12:33.171Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 131,
+  "completedCount": 132,
   "totalChampions": 173,
   "champions": [
     {
@@ -184,7 +184,7 @@
     {
       "id": 105,
       "name": "Fizz",
-      "done": false
+      "done": true
     },
     {
       "id": 3,
