@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-19T09:31:05.184Z",
+  "updatedAt": "2026-09-19T13:42:32.495Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 130,
+  "completedCount": 131,
   "totalChampions": 173,
   "champions": [
     {
@@ -424,7 +424,7 @@
     {
       "id": 902,
       "name": "Milio",
-      "done": false
+      "done": true
     },
     {
       "id": 21,
