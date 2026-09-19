@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-17T19:24:51.593Z",
+  "updatedAt": "2026-09-19T09:31:05.184Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 129,
+  "completedCount": 130,
   "totalChampions": 173,
   "champions": [
     {
@@ -459,7 +459,7 @@
     {
       "id": 111,
       "name": "Nautilus",
-      "done": false
+      "done": true
     },
     {
       "id": 518,
