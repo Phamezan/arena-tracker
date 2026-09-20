@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7989671972",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 114,
+    "gameEnd": 1789914226101,
+    "kda": {
+      "kills": 14,
+      "deaths": 9,
+      "assists": 19
+    },
+    "items": [
+      226630,
+      223074,
+      223078,
+      443056,
+      226333,
+      226609
+    ]
+  },
+  {
     "matchId": "EUW1_7989406134",
     "summoner": "SimonSuper#EUW",
     "championId": 101,
@@ -873,21 +892,6 @@
     "items": [
       220012,
       446671
-    ]
-  },
-  {
-    "matchId": "EUW1_7981659019",
-    "summoner": "MiniGoaen#EUW",
-    "championId": 41,
-    "gameEnd": 1789238255924,
-    "kda": {
-      "kills": 4,
-      "deaths": 9,
-      "assists": 16
-    },
-    "items": [
-      226693,
-      220012
     ]
   }
 ]
