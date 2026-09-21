@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-09-20T14:24:22.841Z",
+  "updatedAt": "2026-09-21T14:51:00.792Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 116,
+  "completedCount": 117,
   "totalChampions": 173,
   "champions": [
     {
@@ -14,7 +14,7 @@
     {
       "id": 103,
       "name": "Ahri",
-      "done": false
+      "done": true
     },
     {
       "id": 84,
