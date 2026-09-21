@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-21T14:51:05.772Z",
+  "updatedAt": "2026-09-21T19:46:21.769Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 135,
+  "completedCount": 136,
   "totalChampions": 173,
   "champions": [
     {
@@ -104,7 +104,7 @@
     {
       "id": 233,
       "name": "Briar",
-      "done": false
+      "done": true
     },
     {
       "id": 51,
