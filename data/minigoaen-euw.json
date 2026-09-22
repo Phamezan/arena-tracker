@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-21T19:46:21.769Z",
+  "updatedAt": "2026-09-22T15:39:12.637Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 136,
+  "completedCount": 137,
   "totalChampions": 173,
   "champions": [
     {
@@ -134,7 +134,7 @@
     {
       "id": 122,
       "name": "Darius",
-      "done": false
+      "done": true
     },
     {
       "id": 131,
