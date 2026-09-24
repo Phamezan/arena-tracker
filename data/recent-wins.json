@@ -15,6 +15,22 @@
     ]
   },
   {
+    "matchId": "EUW1_7994141249",
+    "summoner": "Nevermore#YBHG",
+    "championId": 101,
+    "gameEnd": 1790293239345,
+    "kda": {
+      "kills": 14,
+      "deaths": 5,
+      "assists": 17
+    },
+    "items": [
+      447108,
+      447120,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7993979269",
     "summoner": "Poisom#UmU",
     "championId": 45,
@@ -878,25 +894,6 @@
       223089,
       444636,
       223135
-    ]
-  },
-  {
-    "matchId": "EUW1_7984391006",
-    "summoner": "MiniGoaen#EUW",
-    "championId": 104,
-    "gameEnd": 1789464595639,
-    "kda": {
-      "kills": 11,
-      "deaths": 3,
-      "assists": 20
-    },
-    "items": [
-      226676,
-      223031,
-      446632,
-      223036,
-      226609,
-      223072
     ]
   }
 ]
