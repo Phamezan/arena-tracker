@@ -1,9 +1,9 @@
 {
   "summoner": "Nevermore#YBHG",
-  "updatedAt": "2026-08-24T19:58:49.078Z",
+  "updatedAt": "2026-09-24T20:58:46.959Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 61,
+  "completedCount": 62,
   "totalChampions": 173,
   "champions": [
     {
@@ -354,7 +354,7 @@
     {
       "id": 7,
       "name": "LeBlanc",
-      "done": false
+      "done": true
     },
     {
       "id": 64,
