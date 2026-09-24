@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "EUW1_7994141249",
+    "summoner": "Cifera#Swift",
+    "championId": 82,
+    "gameEnd": 1790293239345,
+    "kda": {
+      "kills": 7,
+      "deaths": 9,
+      "assists": 17
+    },
+    "items": [
+      447118,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7993979269",
     "summoner": "Poisom#UmU",
     "championId": 45,
@@ -882,25 +897,6 @@
       223036,
       226609,
       223072
-    ]
-  },
-  {
-    "matchId": "EUW1_7984391006",
-    "summoner": "duus#mvp",
-    "championId": 804,
-    "gameEnd": 1789464595639,
-    "kda": {
-      "kills": 10,
-      "deaths": 8,
-      "assists": 17
-    },
-    "items": [
-      223085,
-      443060,
-      223031,
-      223046,
-      223036,
-      226673
     ]
   }
 ]
