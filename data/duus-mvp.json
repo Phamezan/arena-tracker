@@ -1,9 +1,9 @@
 {
   "summoner": "duus#mvp",
-  "updatedAt": "2026-09-24T18:36:52.619Z",
+  "updatedAt": "2026-09-27T14:43:48.352Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 75,
+  "completedCount": 76,
   "totalChampions": 173,
   "champions": [
     {
@@ -169,7 +169,7 @@
     {
       "id": 81,
       "name": "Ezreal",
-      "done": false
+      "done": true
     },
     {
       "id": 9,
