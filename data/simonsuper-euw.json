@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-09-27T14:43:45.515Z",
+  "updatedAt": "2026-09-27T18:26:11.378Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 119,
+  "completedCount": 120,
   "totalChampions": 173,
   "champions": [
     {
@@ -669,7 +669,7 @@
     {
       "id": 223,
       "name": "Tahm Kench",
-      "done": false
+      "done": true
     },
     {
       "id": 163,
