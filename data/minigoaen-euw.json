@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-29T19:08:26.948Z",
+  "updatedAt": "2026-09-29T19:40:14.151Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 141,
+  "completedCount": 142,
   "totalChampions": 173,
   "champions": [
     {
@@ -79,7 +79,7 @@
     {
       "id": 432,
       "name": "Bard",
-      "done": false
+      "done": true
     },
     {
       "id": 200,
