@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-09-29T11:09:53.614Z",
+  "updatedAt": "2026-09-29T19:08:26.948Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 140,
+  "completedCount": 141,
   "totalChampions": 173,
   "champions": [
     {
@@ -559,7 +559,7 @@
     {
       "id": 107,
       "name": "Rengar",
-      "done": false
+      "done": true
     },
     {
       "id": 92,
