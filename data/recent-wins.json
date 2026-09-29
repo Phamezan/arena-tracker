@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "EUW1_7998951441",
+    "summoner": "SimonSuper#EUW",
+    "championId": 3,
+    "gameEnd": 1790710766660,
+    "kda": {
+      "kills": 15,
+      "deaths": 10,
+      "assists": 22
+    },
+    "items": [
+      447108,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_7998919913",
     "summoner": "SimonSuper#EUW",
     "championId": 238,
@@ -896,25 +911,6 @@
       223135,
       223040,
       223089
-    ]
-  },
-  {
-    "matchId": "EUW1_7986856181",
-    "summoner": "duus#mvp",
-    "championId": 201,
-    "gameEnd": 1789673048858,
-    "kda": {
-      "kills": 6,
-      "deaths": 6,
-      "assists": 26
-    },
-    "items": [
-      447114,
-      443055,
-      223084,
-      443054,
-      443069,
-      223153
     ]
   }
 ]
