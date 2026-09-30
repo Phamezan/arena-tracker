@@ -38,6 +38,25 @@
     ]
   },
   {
+    "matchId": "EUW1_7999633240",
+    "summoner": "Drain CEO D9#GTBSG",
+    "championId": 37,
+    "gameEnd": 1790783777629,
+    "kda": {
+      "kills": 14,
+      "deaths": 13,
+      "assists": 22
+    },
+    "items": [
+      447118,
+      443062,
+      223107,
+      447123,
+      226621,
+      223504
+    ]
+  },
+  {
     "matchId": "EUW1_7999605350",
     "summoner": "Poisom#UmU",
     "championId": 36,
@@ -887,21 +906,6 @@
     },
     "items": [
       447108,
-      220012
-    ]
-  },
-  {
-    "matchId": "EUW1_7988804117",
-    "summoner": "duus#mvp",
-    "championId": 41,
-    "gameEnd": 1789841098481,
-    "kda": {
-      "kills": 13,
-      "deaths": 5,
-      "assists": 11
-    },
-    "items": [
-      447101,
       220012
     ]
   }
