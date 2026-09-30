@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-09-25T18:02:18.098Z",
+  "updatedAt": "2026-09-30T15:26:51.758Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 34,
+  "completedCount": 35,
   "totalChampions": 173,
   "champions": [
     {
@@ -729,7 +729,7 @@
     {
       "id": 6,
       "name": "Urgot",
-      "done": false
+      "done": true
     },
     {
       "id": 110,
