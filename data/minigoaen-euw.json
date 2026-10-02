@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-10-02T10:31:34.232Z",
+  "updatedAt": "2026-10-02T11:53:13.419Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 145,
+  "completedCount": 146,
   "totalChampions": 173,
   "champions": [
     {
@@ -574,7 +574,7 @@
     {
       "id": 13,
       "name": "Ryze",
-      "done": false
+      "done": true
     },
     {
       "id": 360,
