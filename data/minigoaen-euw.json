@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-10-02T11:53:13.419Z",
+  "updatedAt": "2026-10-03T09:12:35.529Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 146,
+  "completedCount": 147,
   "totalChampions": 173,
   "champions": [
     {
@@ -759,7 +759,7 @@
     {
       "id": 254,
       "name": "Vi",
-      "done": false
+      "done": true
     },
     {
       "id": 234,
