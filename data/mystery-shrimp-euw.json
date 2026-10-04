@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-09-30T15:56:48.100Z",
+  "updatedAt": "2026-10-04T15:30:01.385Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 36,
+  "completedCount": 37,
   "totalChampions": 173,
   "champions": [
     {
@@ -459,7 +459,7 @@
     {
       "id": 111,
       "name": "Nautilus",
-      "done": false
+      "done": true
     },
     {
       "id": 518,
