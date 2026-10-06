@@ -49,6 +49,15 @@ Full setup walkthrough in [`Docs/SETUP.md`](Docs/SETUP.md).
 
 ## Notes
 
-- Champion names/icons come from Riot's public Data Dragon / Community
-  Dragon CDNs.
+- Champion icons are stored in `assets/champions/` and served with the site,
+  so visitors do not depend on CommunityDragon being available. Keep these
+  files in version control so deployments reuse them too.
+- Run `npm run cache:champions` to download missing icons from
+  `https://cdn.communitydragon.org/latest/champion/{id}/square`. The script
+  falls back to Riot's Data Dragon if that endpoint fails,
+  reads the player manifests and recent wins, skips valid cached icons, and
+  also runs before builds to cover newly added champions.
+- Run `npm run cache:champions -- --refresh` to deliberately update existing
+  icons. Failed downloads preserve previously cached images.
+- Item icons still come from Riot's Data Dragon CDN.
 - Not affiliated with Riot Games.

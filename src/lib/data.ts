@@ -77,7 +77,7 @@ export function assignRankClasses(players: Player[]) {
 }
 
 export function championIconUrl(id: number): string {
-  return `https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/${id}.png`;
+  return `${import.meta.env.BASE_URL}assets/champions/${id}.png`;
 }
 
 export function winCount(player: Player): number {
