@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-10-07T12:44:00.941Z",
+  "updatedAt": "2026-10-07T21:49:12.810Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 38,
+  "completedCount": 39,
   "totalChampions": 173,
   "champions": [
     {
@@ -489,7 +489,7 @@
     {
       "id": 2,
       "name": "Olaf",
-      "done": false
+      "done": true
     },
     {
       "id": 61,
