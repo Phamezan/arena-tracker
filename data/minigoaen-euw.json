@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-10-08T10:08:09.580Z",
+  "updatedAt": "2026-10-08T19:25:25.094Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 157,
+  "completedCount": 158,
   "totalChampions": 173,
   "champions": [
     {
@@ -474,7 +474,7 @@
     {
       "id": 895,
       "name": "Nilah",
-      "done": false
+      "done": true
     },
     {
       "id": 56,
