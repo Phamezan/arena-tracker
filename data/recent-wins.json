@@ -1,5 +1,24 @@
 [
   {
+    "matchId": "EUW1_8007031586",
+    "summoner": "duus#mvp",
+    "championId": 1,
+    "gameEnd": 1791443694582,
+    "kda": {
+      "kills": 14,
+      "deaths": 5,
+      "assists": 21
+    },
+    "items": [
+      228002,
+      447104,
+      223040,
+      223042,
+      224645,
+      223137
+    ]
+  },
+  {
     "matchId": "EUW1_8007017296",
     "summoner": "duus#mvp",
     "championId": 127,
@@ -897,24 +916,6 @@
       443060,
       223031,
       223036
-    ]
-  },
-  {
-    "matchId": "EUW1_7998465445",
-    "summoner": "MiniGoaen#EUW",
-    "championId": 75,
-    "gameEnd": 1790680153156,
-    "kda": {
-      "kills": 4,
-      "deaths": 4,
-      "assists": 27
-    },
-    "items": [
-      223069,
-      443079,
-      222502,
-      223084,
-      447111
     ]
   }
 ]
