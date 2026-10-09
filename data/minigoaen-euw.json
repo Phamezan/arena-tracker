@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-10-09T11:18:42.132Z",
+  "updatedAt": "2026-10-09T11:51:24.188Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 160,
+  "completedCount": 161,
   "totalChampions": 173,
   "champions": [
     {
@@ -359,7 +359,7 @@
     {
       "id": 64,
       "name": "Lee Sin",
-      "done": false
+      "done": true
     },
     {
       "id": 89,
