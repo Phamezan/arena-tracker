@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-09T10:28:38.608Z",
+  "updatedAt": "2026-10-09T11:18:39.008Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 139,
+  "completedCount": 140,
   "totalChampions": 173,
   "champions": [
     {
@@ -529,7 +529,7 @@
     {
       "id": 497,
       "name": "Rakan",
-      "done": false
+      "done": true
     },
     {
       "id": 33,
