@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-10-08T19:25:25.094Z",
+  "updatedAt": "2026-10-09T10:28:41.794Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 158,
+  "completedCount": 159,
   "totalChampions": 173,
   "champions": [
     {
@@ -174,7 +174,7 @@
     {
       "id": 9,
       "name": "Fiddlesticks",
-      "done": false
+      "done": true
     },
     {
       "id": 114,
