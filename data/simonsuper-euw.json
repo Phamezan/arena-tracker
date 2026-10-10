@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-09T11:51:20.832Z",
+  "updatedAt": "2026-10-10T14:40:34.611Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 141,
+  "completedCount": 142,
   "totalChampions": 173,
   "champions": [
     {
@@ -439,7 +439,7 @@
     {
       "id": 25,
       "name": "Morgana",
-      "done": false
+      "done": true
     },
     {
       "id": 950,
