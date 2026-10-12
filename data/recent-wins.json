@@ -15,6 +15,21 @@
     ]
   },
   {
+    "matchId": "EUW1_8012020971",
+    "summoner": "Nevermore#YBHG",
+    "championId": 107,
+    "gameEnd": 1791848887660,
+    "kda": {
+      "kills": 22,
+      "deaths": 10,
+      "assists": 7
+    },
+    "items": [
+      447115,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_8012002133",
     "summoner": "Cifera#Swift",
     "championId": 77,
@@ -874,25 +889,6 @@
       223504,
       226621,
       226665
-    ]
-  },
-  {
-    "matchId": "EUW1_8005245934",
-    "summoner": "MiniGoaen#EUW",
-    "championId": 143,
-    "gameEnd": 1791271980740,
-    "kda": {
-      "kills": 19,
-      "deaths": 5,
-      "assists": 17
-    },
-    "items": [
-      447118,
-      226653,
-      223042,
-      223040,
-      223089,
-      223137
     ]
   }
 ]
