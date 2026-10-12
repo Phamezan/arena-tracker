@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "EUW1_8012020971",
+    "summoner": "Cifera#Swift",
+    "championId": 37,
+    "gameEnd": 1791848887660,
+    "kda": {
+      "kills": 1,
+      "deaths": 7,
+      "assists": 27
+    },
+    "items": [
+      443064,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_8012002133",
     "summoner": "Cifera#Swift",
     "championId": 77,
@@ -878,25 +893,6 @@
       223040,
       223089,
       223137
-    ]
-  },
-  {
-    "matchId": "EUW1_8003681160",
-    "summoner": "Mystery Shrimp#EUW",
-    "championId": 106,
-    "gameEnd": 1791129475483,
-    "kda": {
-      "kills": 0,
-      "deaths": 8,
-      "assists": 27
-    },
-    "items": [
-      223084,
-      447122,
-      447111,
-      443054,
-      224633,
-      223065
     ]
   }
 ]
