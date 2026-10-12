@@ -1,5 +1,24 @@
 [
   {
+    "matchId": "EUW1_8011977281",
+    "summoner": "Cifera#Swift",
+    "championId": 888,
+    "gameEnd": 1791845248246,
+    "kda": {
+      "kills": 7,
+      "deaths": 3,
+      "assists": 33
+    },
+    "items": [
+      443061,
+      223158,
+      3430,
+      223040,
+      4016,
+      224005
+    ]
+  },
+  {
     "matchId": "EUW1_8011955696",
     "summoner": "Cifera#Swift",
     "championId": 75,
@@ -883,24 +902,6 @@
       447111,
       443056,
       224633
-    ]
-  },
-  {
-    "matchId": "EUW1_8003299856",
-    "summoner": "MiniGoaen#EUW",
-    "championId": 40,
-    "gameEnd": 1791105509867,
-    "kda": {
-      "kills": 7,
-      "deaths": 2,
-      "assists": 28
-    },
-    "items": [
-      447105,
-      4011,
-      447123,
-      447114,
-      223085
     ]
   }
 ]
