@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-14T11:29:52.850Z",
+  "updatedAt": "2026-10-14T12:56:30.451Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 148,
+  "completedCount": 149,
   "totalChampions": 173,
   "champions": [
     {
@@ -854,7 +854,7 @@
     {
       "id": 115,
       "name": "Ziggs",
-      "done": false
+      "done": true
     },
     {
       "id": 26,
