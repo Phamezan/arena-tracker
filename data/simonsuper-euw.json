@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-14T12:56:30.451Z",
+  "updatedAt": "2026-10-15T10:27:32.599Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 149,
+  "completedCount": 150,
   "totalChampions": 173,
   "champions": [
     {
@@ -634,7 +634,7 @@
     {
       "id": 72,
       "name": "Skarner",
-      "done": false
+      "done": true
     },
     {
       "id": 901,
