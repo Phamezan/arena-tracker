@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "EUW1_8014758468",
+    "summoner": "Mystery Shrimp#EUW",
+    "championId": 99,
+    "gameEnd": 1792103683952,
+    "kda": {
+      "kills": 5,
+      "deaths": 5,
+      "assists": 18
+    },
+    "items": [
+      447113,
+      220012
+    ]
+  },
+  {
     "matchId": "EUW1_8014286408",
     "summoner": "SimonSuper#EUW",
     "championId": 221,
@@ -872,22 +887,6 @@
       443064,
       223031,
       4011
-    ]
-  },
-  {
-    "matchId": "EUW1_8006661413",
-    "summoner": "MiniGoaen#EUW",
-    "championId": 91,
-    "gameEnd": 1791402432997,
-    "kda": {
-      "kills": 13,
-      "deaths": 6,
-      "assists": 10
-    },
-    "items": [
-      446691,
-      447115,
-      220012
     ]
   }
 ]
