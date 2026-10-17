@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-17T12:38:47.296Z",
+  "updatedAt": "2026-10-17T18:29:15.386Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 154,
+  "completedCount": 155,
   "totalChampions": 173,
   "champions": [
     {
@@ -174,7 +174,7 @@
     {
       "id": 9,
       "name": "Fiddlesticks",
-      "done": false
+      "done": true
     },
     {
       "id": 114,
