@@ -1,5 +1,24 @@
 [
   {
+    "matchId": "EUW1_8015990258",
+    "summoner": "SimonSuper#EUW",
+    "championId": 55,
+    "gameEnd": 1792232641091,
+    "kda": {
+      "kills": 19,
+      "deaths": 6,
+      "assists": 8
+    },
+    "items": [
+      447108,
+      226676,
+      447121,
+      447107,
+      223031,
+      3430
+    ]
+  },
+  {
     "matchId": "EUW1_8015306650",
     "summoner": "Cifera#Swift",
     "championId": 82,
@@ -868,25 +887,6 @@
       223153,
       223073,
       447111
-    ]
-  },
-  {
-    "matchId": "EUW1_8006699402",
-    "summoner": "SimonSuper#EUW",
-    "championId": 904,
-    "gameEnd": 1791404086789,
-    "kda": {
-      "kills": 14,
-      "deaths": 6,
-      "assists": 15
-    },
-    "items": [
-      447103,
-      226630,
-      223078,
-      446691,
-      226609,
-      223072
     ]
   }
 ]
