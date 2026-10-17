@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-15T16:14:52.069Z",
+  "updatedAt": "2026-10-17T10:24:19.380Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 151,
+  "completedCount": 152,
   "totalChampions": 173,
   "champions": [
     {
@@ -314,7 +314,7 @@
     {
       "id": 55,
       "name": "Katarina",
-      "done": false
+      "done": true
     },
     {
       "id": 10,
