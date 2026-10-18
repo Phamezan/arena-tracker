@@ -1,9 +1,9 @@
 {
   "summoner": "Cifera#Swift",
-  "updatedAt": "2026-10-18T22:28:43.726Z",
+  "updatedAt": "2026-10-18T23:52:35.182Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 39,
+  "completedCount": 40,
   "totalChampions": 173,
   "champions": [
     {
@@ -44,7 +44,7 @@
     {
       "id": 34,
       "name": "Anivia",
-      "done": false
+      "done": true
     },
     {
       "id": 1,
