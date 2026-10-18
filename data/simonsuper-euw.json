@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-17T20:45:55.357Z",
+  "updatedAt": "2026-10-18T11:10:18.375Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 156,
+  "completedCount": 157,
   "totalChampions": 173,
   "champions": [
     {
@@ -54,7 +54,7 @@
     {
       "id": 523,
       "name": "Aphelios",
-      "done": false
+      "done": true
     },
     {
       "id": 22,
