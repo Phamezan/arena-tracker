@@ -38,6 +38,25 @@
     ]
   },
   {
+    "matchId": "EUW1_8018102618",
+    "summoner": "Drain CEO D9#GTBSG",
+    "championId": 910,
+    "gameEnd": 1792367517071,
+    "kda": {
+      "kills": 15,
+      "deaths": 6,
+      "assists": 14
+    },
+    "items": [
+      224646,
+      4016,
+      446656,
+      223089,
+      223137,
+      222503
+    ]
+  },
+  {
     "matchId": "EUW1_8018039580",
     "summoner": "Cifera#Swift",
     "championId": 114,
@@ -866,21 +885,6 @@
     },
     "items": [
       446691,
-      220012
-    ]
-  },
-  {
-    "matchId": "EUW1_8009398877",
-    "summoner": "SimonSuper#EUW",
-    "championId": 142,
-    "gameEnd": 1791648887232,
-    "kda": {
-      "kills": 19,
-      "deaths": 3,
-      "assists": 8
-    },
-    "items": [
-      447108,
       220012
     ]
   }
