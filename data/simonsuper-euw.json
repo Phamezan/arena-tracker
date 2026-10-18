@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-18T11:10:18.375Z",
+  "updatedAt": "2026-10-18T11:37:53.997Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 157,
+  "completedCount": 158,
   "totalChampions": 173,
   "champions": [
     {
@@ -709,7 +709,7 @@
     {
       "id": 23,
       "name": "Tryndamere",
-      "done": false
+      "done": true
     },
     {
       "id": 4,
