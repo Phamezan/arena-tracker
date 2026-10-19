@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-18T19:03:45.762Z",
+  "updatedAt": "2026-10-19T15:46:43.173Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 161,
+  "completedCount": 162,
   "totalChampions": 173,
   "champions": [
     {
@@ -344,7 +344,7 @@
     {
       "id": 240,
       "name": "Kled",
-      "done": false
+      "done": true
     },
     {
       "id": 96,
