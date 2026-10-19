@@ -1,9 +1,9 @@
 {
   "summoner": "duus#mvp",
-  "updatedAt": "2026-10-19T07:46:40.485Z",
+  "updatedAt": "2026-10-19T15:46:46.999Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 99,
+  "completedCount": 100,
   "totalChampions": 173,
   "champions": [
     {
@@ -524,7 +524,7 @@
     {
       "id": 133,
       "name": "Quinn",
-      "done": false
+      "done": true
     },
     {
       "id": 497,
