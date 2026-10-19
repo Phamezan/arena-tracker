@@ -38,6 +38,25 @@
     ]
   },
   {
+    "matchId": "EUW1_8019044777",
+    "summoner": "Drain CEO D9#GTBSG",
+    "championId": 34,
+    "gameEnd": 1792450420591,
+    "kda": {
+      "kills": 16,
+      "deaths": 4,
+      "assists": 17
+    },
+    "items": [
+      226657,
+      223137,
+      223118,
+      223040,
+      223042,
+      223089
+    ]
+  },
+  {
     "matchId": "EUW1_8018609106",
     "summoner": "duus#mvp",
     "championId": 11,
@@ -871,25 +890,6 @@
       223124,
       223153,
       223302
-    ]
-  },
-  {
-    "matchId": "EUW1_8010787070",
-    "summoner": "Phamezan#DKK",
-    "championId": 1,
-    "gameEnd": 1791747753919,
-    "kda": {
-      "kills": 10,
-      "deaths": 13,
-      "assists": 13
-    },
-    "items": [
-      447119,
-      223158,
-      223118,
-      222503,
-      447108,
-      223089
     ]
   }
 ]
