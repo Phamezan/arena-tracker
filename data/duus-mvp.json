@@ -1,9 +1,9 @@
 {
   "summoner": "duus#mvp",
-  "updatedAt": "2026-10-19T17:49:10.877Z",
+  "updatedAt": "2026-10-20T14:59:07.080Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 101,
+  "completedCount": 102,
   "totalChampions": 173,
   "champions": [
     {
@@ -259,7 +259,7 @@
     {
       "id": 59,
       "name": "Jarvan IV",
-      "done": false
+      "done": true
     },
     {
       "id": 24,
