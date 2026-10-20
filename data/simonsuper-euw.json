@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-20T17:46:20.193Z",
+  "updatedAt": "2026-10-20T18:28:16.210Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 163,
+  "completedCount": 164,
   "totalChampions": 173,
   "champions": [
     {
@@ -559,7 +559,7 @@
     {
       "id": 107,
       "name": "Rengar",
-      "done": false
+      "done": true
     },
     {
       "id": 92,
