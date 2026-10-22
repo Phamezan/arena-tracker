@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-10-21T09:06:25.735Z",
+  "updatedAt": "2026-10-22T08:16:03.657Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 163,
+  "completedCount": 164,
   "totalChampions": 173,
   "champions": [
     {
@@ -704,7 +704,7 @@
     {
       "id": 48,
       "name": "Trundle",
-      "done": false
+      "done": true
     },
     {
       "id": 23,
