@@ -15,6 +15,25 @@
     ]
   },
   {
+    "matchId": "EUW1_8021186598",
+    "summoner": "duus#mvp",
+    "championId": 904,
+    "gameEnd": 1792656923069,
+    "kda": {
+      "kills": 13,
+      "deaths": 2,
+      "assists": 14
+    },
+    "items": [
+      447106,
+      443090,
+      223078,
+      226676,
+      226333,
+      447111
+    ]
+  },
+  {
     "matchId": "EUW1_8020164622",
     "summoner": "MiniGoaen#EUW",
     "championId": 35,
@@ -874,21 +893,6 @@
       226617,
       223115,
       223085
-    ]
-  },
-  {
-    "matchId": "EUW1_8012020971",
-    "summoner": "Cifera#Swift",
-    "championId": 37,
-    "gameEnd": 1791848887660,
-    "kda": {
-      "kills": 1,
-      "deaths": 7,
-      "assists": 27
-    },
-    "items": [
-      443064,
-      220012
     ]
   }
 ]
