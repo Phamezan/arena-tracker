@@ -1,9 +1,9 @@
 {
   "summoner": "MiniGoaen#EUW",
-  "updatedAt": "2026-10-24T16:17:45.655Z",
+  "updatedAt": "2026-10-24T17:25:16.883Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 170,
+  "completedCount": 171,
   "totalChampions": 173,
   "champions": [
     {
@@ -829,7 +829,7 @@
     {
       "id": 350,
       "name": "Yuumi",
-      "done": false
+      "done": true
     },
     {
       "id": 904,
