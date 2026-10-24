@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-24T15:47:58.173Z",
+  "updatedAt": "2026-10-24T16:17:42.228Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 165,
+  "completedCount": 166,
   "totalChampions": 173,
   "champions": [
     {
@@ -569,7 +569,7 @@
     {
       "id": 68,
       "name": "Rumble",
-      "done": false
+      "done": true
     },
     {
       "id": 13,
