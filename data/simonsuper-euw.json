@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-24T16:17:42.228Z",
+  "updatedAt": "2026-10-24T17:25:13.306Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 166,
+  "completedCount": 167,
   "totalChampions": 173,
   "champions": [
     {
@@ -704,7 +704,7 @@
     {
       "id": 48,
       "name": "Trundle",
-      "done": false
+      "done": true
     },
     {
       "id": 23,
