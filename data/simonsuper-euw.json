@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-24T17:25:13.306Z",
+  "updatedAt": "2026-10-24T20:47:22.708Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 167,
+  "completedCount": 168,
   "totalChampions": 173,
   "champions": [
     {
@@ -254,7 +254,7 @@
     {
       "id": 40,
       "name": "Janna",
-      "done": false
+      "done": true
     },
     {
       "id": 59,
