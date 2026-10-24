@@ -1,5 +1,24 @@
 [
   {
+    "matchId": "EUW1_8023426779",
+    "summoner": "MiniGoaen#EUW",
+    "championId": 92,
+    "gameEnd": 1792837874786,
+    "kda": {
+      "kills": 8,
+      "deaths": 7,
+      "assists": 10
+    },
+    "items": [
+      223146,
+      447109,
+      447115,
+      226694,
+      226676,
+      226699
+    ]
+  },
+  {
     "matchId": "EUW1_8023370731",
     "summoner": "MiniGoaen#EUW",
     "championId": 238,
@@ -879,25 +898,6 @@
       224633,
       223115,
       4011
-    ]
-  },
-  {
-    "matchId": "EUW1_8015306650",
-    "summoner": "Drain CEO D9#GTBSG",
-    "championId": 266,
-    "gameEnd": 1792170619344,
-    "kda": {
-      "kills": 9,
-      "deaths": 5,
-      "assists": 24
-    },
-    "items": [
-      223039,
-      447112,
-      226630,
-      223084,
-      447111,
-      223161
     ]
   }
 ]
