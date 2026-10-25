@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-25T13:17:11.913Z",
+  "updatedAt": "2026-10-25T19:50:32.845Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 169,
+  "completedCount": 170,
   "totalChampions": 173,
   "champions": [
     {
@@ -234,7 +234,7 @@
     {
       "id": 910,
       "name": "Hwei",
-      "done": false
+      "done": true
     },
     {
       "id": 420,
