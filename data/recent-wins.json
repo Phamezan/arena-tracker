@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_8025689675",
+    "summoner": "Nevermore#YBHG",
+    "championId": 86,
+    "gameEnd": 1792974284465,
+    "kda": {
+      "kills": 23,
+      "deaths": 5,
+      "assists": 15
+    },
+    "items": [
+      226631,
+      446691,
+      223161,
+      447111,
+      224403,
+      223071
+    ]
+  },
+  {
     "matchId": "EUW1_8025328176",
     "summoner": "SimonSuper#EUW",
     "championId": 910,
@@ -892,22 +911,6 @@
     "items": [
       226630,
       443054,
-      220012
-    ]
-  },
-  {
-    "matchId": "EUW1_8018039580",
-    "summoner": "Drain CEO D9#GTBSG",
-    "championId": 131,
-    "gameEnd": 1792362485680,
-    "kda": {
-      "kills": 9,
-      "deaths": 7,
-      "assists": 26
-    },
-    "items": [
-      447119,
-      447104,
       220012
     ]
   }
