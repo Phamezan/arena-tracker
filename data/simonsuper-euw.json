@@ -1,9 +1,9 @@
 {
   "summoner": "SimonSuper#EUW",
-  "updatedAt": "2026-10-26T16:46:58.259Z",
+  "updatedAt": "2026-10-26T20:11:30.083Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 171,
+  "completedCount": 172,
   "totalChampions": 173,
   "champions": [
     {
@@ -134,7 +134,7 @@
     {
       "id": 122,
       "name": "Darius",
-      "done": false
+      "done": true
     },
     {
       "id": 131,
