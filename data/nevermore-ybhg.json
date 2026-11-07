@@ -1,9 +1,9 @@
 {
   "summoner": "Nevermore#YBHG",
-  "updatedAt": "2026-10-26T00:25:22.046Z",
+  "updatedAt": "2026-11-07T01:32:04.268Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 67,
+  "completedCount": 68,
   "totalChampions": 173,
   "champions": [
     {
@@ -179,7 +179,7 @@
     {
       "id": 114,
       "name": "Fiora",
-      "done": false
+      "done": true
     },
     {
       "id": 105,
