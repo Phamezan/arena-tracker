@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_8038382999",
+    "summoner": "Drain CEO D9#GTBSG",
+    "championId": 25,
+    "gameEnd": 1794015121034,
+    "kda": {
+      "kills": 6,
+      "deaths": 3,
+      "assists": 20
+    },
+    "items": [
+      226653,
+      447118,
+      222503,
+      447120,
+      447109,
+      447108
+    ]
+  },
+  {
     "matchId": "EUW1_8037660560",
     "summoner": "Mystery Shrimp#EUW",
     "championId": 222,
@@ -898,25 +917,6 @@
     "items": [
       226693,
       220012
-    ]
-  },
-  {
-    "matchId": "EUW1_8019425750",
-    "summoner": "duus#mvp",
-    "championId": 59,
-    "gameEnd": 1792508292950,
-    "kda": {
-      "kills": 12,
-      "deaths": 8,
-      "assists": 25
-    },
-    "items": [
-      447115,
-      226676,
-      443060,
-      226699,
-      4017,
-      226696
     ]
   }
 ]
