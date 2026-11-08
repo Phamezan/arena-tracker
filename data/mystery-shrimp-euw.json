@@ -1,9 +1,9 @@
 {
   "summoner": "Mystery Shrimp#EUW",
-  "updatedAt": "2026-11-08T21:13:27.215Z",
+  "updatedAt": "2026-11-08T22:24:02.677Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 44,
+  "completedCount": 45,
   "totalChampions": 173,
   "champions": [
     {
@@ -354,7 +354,7 @@
     {
       "id": 7,
       "name": "LeBlanc",
-      "done": false
+      "done": true
     },
     {
       "id": 64,
