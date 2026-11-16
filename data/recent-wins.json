@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_8047871066",
+    "summoner": "Insidious#EUWW",
+    "championId": 36,
+    "gameEnd": 1794791222022,
+    "kda": {
+      "kills": 18,
+      "deaths": 2,
+      "assists": 22
+    },
+    "items": [
+      223084,
+      223748,
+      446667,
+      222502,
+      447111,
+      223065
+    ]
+  },
+  {
     "matchId": "EUW1_8045647353",
     "summoner": "Mystery Shrimp#EUW",
     "championId": 526,
@@ -902,25 +921,6 @@
       226693,
       443060,
       220012
-    ]
-  },
-  {
-    "matchId": "EUW1_8020164622",
-    "summoner": "duus#mvp",
-    "championId": 56,
-    "gameEnd": 1792573568474,
-    "kda": {
-      "kills": 7,
-      "deaths": 16,
-      "assists": 17
-    },
-    "items": [
-      443054,
-      447106,
-      223153,
-      223124,
-      223046,
-      223091
     ]
   }
 ]
