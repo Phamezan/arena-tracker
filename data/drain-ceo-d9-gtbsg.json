@@ -1,9 +1,9 @@
 {
   "summoner": "Drain CEO D9#GTBSG",
-  "updatedAt": "2026-11-08T01:57:51.398Z",
+  "updatedAt": "2026-11-16T01:08:01.032Z",
   "seasonStart": "2026-01-08T00:00:00.000Z",
   "source": "match-v5-season",
-  "completedCount": 57,
+  "completedCount": 58,
   "totalChampions": 173,
   "champions": [
     {
@@ -764,7 +764,7 @@
     {
       "id": 234,
       "name": "Viego",
-      "done": false
+      "done": true
     },
     {
       "id": 112,
