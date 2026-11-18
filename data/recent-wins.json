@@ -19,6 +19,25 @@
     ]
   },
   {
+    "matchId": "EUW1_8049910568",
+    "summoner": "Insidious#EUWW",
+    "championId": 246,
+    "gameEnd": 1794975560110,
+    "kda": {
+      "kills": 7,
+      "deaths": 5,
+      "assists": 24
+    },
+    "items": [
+      226698,
+      226630,
+      226696,
+      226694,
+      226701,
+      226699
+    ]
+  },
+  {
     "matchId": "EUW1_8048865975",
     "summoner": "Phamezan#DKK",
     "championId": 887,
@@ -909,25 +928,6 @@
       226609,
       4017,
       447112
-    ]
-  },
-  {
-    "matchId": "EUW1_8021338375",
-    "summoner": "duus#mvp",
-    "championId": 523,
-    "gameEnd": 1792674726571,
-    "kda": {
-      "kills": 11,
-      "deaths": 8,
-      "assists": 13
-    },
-    "items": [
-      443069,
-      226676,
-      443090,
-      223031,
-      223072,
-      447114
     ]
   }
 ]
